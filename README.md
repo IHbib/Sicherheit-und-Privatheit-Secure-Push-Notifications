@@ -25,7 +25,7 @@
 | ⬜     | Überschlag zum Prototyp                                          | 25.12.2021 |
 | ⬜     | Arbeit in LaTeX übersetzen                                       | 30.12.2021 |
 
-## Wisschenschafltiche Präsentation
+## Wisschenschaftliche Präsentation
 
 | Status | Ziel       | Deadline   |
 | ------ | ---------- | ---------- |
