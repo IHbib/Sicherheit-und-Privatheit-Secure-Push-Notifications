@@ -1,0 +1,100 @@
+from gpapi.googleplay import GooglePlayAPI
+import csv
+import os
+import subprocess
+import logging
+import sys
+mail = "hbrsprojektinf@gmail.com"
+#passwd = "Hbrs1234%"
+passwd = "zislspevpxgaopwj"
+api = GooglePlayAPI(locale="en_US", timezone="UTC", device_codename="hero2lte")
+#api.login(email=mail, password=passwd)
+api.login(authSubToken='EQjMEjypOgX4K33SyGryyeE5avHyTw07u29s3nziJf7jcF8oQJ8ZFUTIFMGwlx8vwrUHDg.', gsfId=4036456074274167828)
+
+###Logger
+logger = logging.getLogger()
+logger.setLevel(logging.INFO)
+formatter = logging.Formatter('%(asctime)s | %(levelname)s | %(message)s')
+
+stdout_handler = logging.StreamHandler(sys.stdout)
+stdout_handler.setLevel(logging.DEBUG)
+stdout_handler.setFormatter(formatter)
+
+file_handler = logging.FileHandler('Health.log')
+file_handler.setLevel(logging.DEBUG)
+file_handler.setFormatter(formatter)
+
+logger.addHandler(file_handler)
+logger.addHandler(stdout_handler)
+
+completeNumber = 0
+withCapillary = 0
+withoutCapillary = 0
+iteration = 0
+
+###Analyzer
+with open("seminar/analyzer/Health.csv", "r") as file:
+    reader = csv.reader(file)
+    for idx,line in enumerate(reader):
+        iteration+=1
+
+        print("Iteration: "+str(iteration))
+        docid = line[0]
+        try:
+            download = api.download(docid, expansion_files=True)
+            with open('Health/'+download['docId'] + '.apk', 'wb') as first:
+                for chunk in download.get('file').get('data'):
+                    first.write(chunk)
+        except:
+            logger.error("Failed to download "+download['docId'])
+            continue
+
+        if(download['docId'] + '.apk' in os.listdir('Health')):
+            process = subprocess.Popen("unzip -o /home/kali/Desktop/Health/"+download['docId'] + '.apk'+" -d /home/kali/Desktop/Health/"+download['docId'], shell=True)
+            process.wait()
+            if(process.returncode == -1 or not download['docId'] in os.listdir('Health/')):
+                logger.error("Failed to unzip: "+download['docId']+'.apk')
+                continue
+            else:
+                pathToUse = "'/home/kali/Desktop/Health/{}'".format(download['docId'])
+                process = subprocess.Popen("grep -rnw "+pathToUse+" -e 'NotificationCompat'", shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+                process.wait()
+                out, err = process.communicate()
+                out+=err
+                try:
+                    process.kill()
+                except OSError:
+                    # can't kill a dead proc
+                    pass
+                #Wenn NotificationCompat vorhanden ist, kann die App Push Notifications erstellen und zählt somit zu der gesamten Anzahl
+                if b'NotificationCompat' in out or b'matches' in out:
+                    completeNumber+=1
+                    process = subprocess.Popen("grep -rnw "+pathToUse+" -e 'Capillary' -e 'capillary' -e 'mqtt' -e 'MQTT' -e 'xmpp' -e 'XMPP'", shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+                    process.wait()
+                    out, err = process.communicate()
+                    out+=err
+                    try:
+                        process.kill()
+                    except OSError:
+                        # can't kill a dead proc
+                        pass
+                    if b'Capillary' in out or b'capillary' in out or b'mqtt' in out or b'MQTT' in out or b'matches' in out or b'xmpp' in out or b'XMPP' in out:
+                        withCapillary+=1
+                        logger.info(download['docId']+" might have encrypted Push Potifications")
+                    else:
+                        withoutCapillary+=1
+                        logger.info(download['docId']+" has not encrypted Push Notification")
+                #Dieser Command ist gefährlich
+                process = subprocess.Popen("rm -rf "+pathToUse+"*", shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+                process.wait()
+                try:
+                    process.kill()
+                except OSError:
+                    # can't kill a dead proc
+                    pass
+        else:
+            logger.error("Download failed for: "+download['docId'] + '.apk')
+        
+logger.info("completeNumber: "+completeNumber+" withCapillary: "+withCapillary+ " withoutCapillary:"+withoutCapillary)
+
+
