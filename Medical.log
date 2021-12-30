@@ -1,0 +1,584 @@
+2021-12-30 15:51:19,290 | INFO | Iteration: 1 completeNumber: 1 withCapillary: 0 withMqtt: 0 withXmpp: 0
+2021-12-30 15:51:19,915 | ERROR | Failed to download com.phonegap.rxpal
+2021-12-30 15:51:20,595 | ERROR | Failed to download com.aranoah.healthkart.plus
+2021-12-30 15:51:25,308 | INFO | Iteration: 4 completeNumber: 2 withCapillary: 0 withMqtt: 0 withXmpp: 0
+2021-12-30 15:51:25,918 | ERROR | Failed to download com.medlife.customer
+2021-12-30 15:51:29,538 | INFO | Iteration: 6 completeNumber: 3 withCapillary: 0 withMqtt: 0 withXmpp: 0
+2021-12-30 15:51:34,544 | INFO | com.linkdokter.halodoc.android has mqtt
+2021-12-30 15:51:34,726 | INFO | Iteration: 7 completeNumber: 4 withCapillary: 0 withMqtt: 1 withXmpp: 0
+2021-12-30 15:51:39,025 | INFO | Iteration: 8 completeNumber: 5 withCapillary: 0 withMqtt: 1 withXmpp: 0
+2021-12-30 15:51:46,918 | INFO | app.bpjs.mobile has mqtt
+2021-12-30 15:51:47,125 | INFO | Iteration: 9 completeNumber: 6 withCapillary: 0 withMqtt: 2 withXmpp: 0
+2021-12-30 15:51:51,200 | INFO | com.ada.app has xmpp
+2021-12-30 15:51:51,215 | INFO | Iteration: 10 completeNumber: 7 withCapillary: 0 withMqtt: 2 withXmpp: 1
+2021-12-30 15:51:54,915 | INFO | Iteration: 11 completeNumber: 8 withCapillary: 0 withMqtt: 2 withXmpp: 1
+2021-12-30 15:52:14,439 | INFO | fr.doctolib.www has xmpp
+2021-12-30 15:52:14,481 | INFO | Iteration: 12 completeNumber: 9 withCapillary: 0 withMqtt: 2 withXmpp: 2
+2021-12-30 15:52:30,556 | INFO | ru.mobiledimension.kbr has mqtt
+2021-12-30 15:52:30,838 | INFO | ru.mobiledimension.kbr has xmpp
+2021-12-30 15:52:30,923 | INFO | Iteration: 13 completeNumber: 10 withCapillary: 0 withMqtt: 3 withXmpp: 3
+2021-12-30 15:52:31,581 | ERROR | Failed to download com.goodrx
+2021-12-30 15:52:36,483 | INFO | Iteration: 15 completeNumber: 11 withCapillary: 0 withMqtt: 3 withXmpp: 3
+2021-12-30 15:52:41,598 | INFO | Iteration: 16 completeNumber: 12 withCapillary: 0 withMqtt: 3 withXmpp: 3
+2021-12-30 15:52:44,666 | INFO | Iteration: 17 completeNumber: 13 withCapillary: 0 withMqtt: 3 withXmpp: 3
+2021-12-30 15:52:48,276 | INFO | Iteration: 18 completeNumber: 14 withCapillary: 0 withMqtt: 3 withXmpp: 3
+2021-12-30 15:53:04,167 | INFO | br.com.amil.beneficiarios has mqtt
+2021-12-30 15:53:04,567 | INFO | Iteration: 19 completeNumber: 15 withCapillary: 0 withMqtt: 4 withXmpp: 3
+2021-12-30 15:53:05,160 | ERROR | Failed to download com.jardogs.fmhmobile
+2021-12-30 15:53:09,518 | INFO | Iteration: 21 completeNumber: 16 withCapillary: 0 withMqtt: 4 withXmpp: 3
+2021-12-30 15:53:13,942 | INFO | Iteration: 22 completeNumber: 17 withCapillary: 0 withMqtt: 4 withXmpp: 3
+2021-12-30 15:53:20,977 | INFO | in.medibuddy has mqtt
+2021-12-30 15:53:21,184 | INFO | in.medibuddy has xmpp
+2021-12-30 15:53:21,248 | INFO | Iteration: 23 completeNumber: 18 withCapillary: 0 withMqtt: 5 withXmpp: 4
+2021-12-30 15:53:24,046 | INFO | Iteration: 24 completeNumber: 19 withCapillary: 0 withMqtt: 5 withXmpp: 4
+2021-12-30 15:53:43,306 | INFO | Iteration: 25 completeNumber: 20 withCapillary: 0 withMqtt: 5 withXmpp: 4
+2021-12-30 15:53:47,340 | INFO | Iteration: 26 completeNumber: 21 withCapillary: 0 withMqtt: 5 withXmpp: 4
+2021-12-30 15:53:47,932 | ERROR | Failed to download com.apollo.patientapp
+2021-12-30 15:53:48,544 | ERROR | Failed to download uk.co.patient.patientaccess
+2021-12-30 15:54:04,721 | INFO | Iteration: 29 completeNumber: 21 withCapillary: 0 withMqtt: 5 withXmpp: 4
+2021-12-30 15:54:05,397 | ERROR | Failed to download com.docsapp.patients
+2021-12-30 15:54:09,672 | INFO | Iteration: 31 completeNumber: 22 withCapillary: 0 withMqtt: 5 withXmpp: 4
+2021-12-30 15:54:14,047 | INFO | Iteration: 32 completeNumber: 23 withCapillary: 0 withMqtt: 5 withXmpp: 4
+2021-12-30 15:54:16,557 | INFO | Iteration: 33 completeNumber: 24 withCapillary: 0 withMqtt: 5 withXmpp: 4
+2021-12-30 15:54:19,228 | INFO | Iteration: 34 completeNumber: 25 withCapillary: 0 withMqtt: 5 withXmpp: 4
+2021-12-30 15:54:19,862 | ERROR | Failed to download com.mhbl.sastasundar
+2021-12-30 15:54:28,880 | INFO | Iteration: 36 completeNumber: 26 withCapillary: 0 withMqtt: 5 withXmpp: 4
+2021-12-30 15:54:32,958 | INFO | Iteration: 37 completeNumber: 27 withCapillary: 0 withMqtt: 5 withXmpp: 4
+2021-12-30 15:54:41,974 | INFO | br.gov.datasus.cnsdigital has xmpp
+2021-12-30 15:54:42,023 | INFO | Iteration: 38 completeNumber: 28 withCapillary: 0 withMqtt: 5 withXmpp: 5
+2021-12-30 15:54:47,540 | INFO | Iteration: 39 completeNumber: 29 withCapillary: 0 withMqtt: 5 withXmpp: 5
+2021-12-30 15:54:59,116 | INFO | br.com.sulamerica.sam.saude has xmpp
+2021-12-30 15:54:59,166 | INFO | Iteration: 40 completeNumber: 30 withCapillary: 0 withMqtt: 5 withXmpp: 6
+2021-12-30 15:54:59,831 | ERROR | Failed to download com.mohviettel.sskdt
+2021-12-30 15:55:03,700 | INFO | Iteration: 42 completeNumber: 31 withCapillary: 0 withMqtt: 5 withXmpp: 6
+2021-12-30 15:55:09,524 | INFO | Iteration: 43 completeNumber: 32 withCapillary: 0 withMqtt: 5 withXmpp: 6
+2021-12-30 15:55:20,536 | INFO | Iteration: 44 completeNumber: 33 withCapillary: 0 withMqtt: 5 withXmpp: 6
+2021-12-30 15:55:21,150 | ERROR | Failed to download com.mfine
+2021-12-30 15:55:24,736 | INFO | com.lybrate.phoenix has capillary
+2021-12-30 15:55:24,878 | INFO | com.lybrate.phoenix has xmpp
+2021-12-30 15:55:24,916 | INFO | Iteration: 46 completeNumber: 34 withCapillary: 1 withMqtt: 5 withXmpp: 7
+2021-12-30 15:55:29,382 | INFO | Iteration: 47 completeNumber: 35 withCapillary: 1 withMqtt: 5 withXmpp: 7
+2021-12-30 15:55:29,983 | ERROR | Failed to download com.webmd.android
+2021-12-30 15:55:33,015 | INFO | Iteration: 49 completeNumber: 36 withCapillary: 1 withMqtt: 5 withXmpp: 7
+2021-12-30 15:55:42,196 | INFO | Iteration: 50 completeNumber: 37 withCapillary: 1 withMqtt: 5 withXmpp: 7
+2021-12-30 15:55:48,997 | INFO | com.medscape.android has capillary
+2021-12-30 15:55:49,405 | INFO | Iteration: 51 completeNumber: 38 withCapillary: 2 withMqtt: 5 withXmpp: 7
+2021-12-30 15:55:51,198 | INFO | Iteration: 52 completeNumber: 39 withCapillary: 2 withMqtt: 5 withXmpp: 7
+2021-12-30 15:55:55,222 | INFO | Iteration: 53 completeNumber: 40 withCapillary: 2 withMqtt: 5 withXmpp: 7
+2021-12-30 15:55:58,478 | INFO | Iteration: 54 completeNumber: 41 withCapillary: 2 withMqtt: 5 withXmpp: 7
+2021-12-30 15:56:07,924 | INFO | Iteration: 55 completeNumber: 42 withCapillary: 2 withMqtt: 5 withXmpp: 7
+2021-12-30 15:56:13,644 | INFO | Iteration: 56 completeNumber: 43 withCapillary: 2 withMqtt: 5 withXmpp: 7
+2021-12-30 15:56:17,428 | INFO | Iteration: 57 completeNumber: 44 withCapillary: 2 withMqtt: 5 withXmpp: 7
+2021-12-30 15:56:21,702 | INFO | Iteration: 58 completeNumber: 45 withCapillary: 2 withMqtt: 5 withXmpp: 7
+2021-12-30 15:56:22,307 | ERROR | Failed to download com.teladoc.members
+2021-12-30 15:56:32,846 | INFO | Iteration: 60 completeNumber: 46 withCapillary: 2 withMqtt: 5 withXmpp: 7
+2021-12-30 15:56:38,781 | INFO | Iteration: 61 completeNumber: 47 withCapillary: 2 withMqtt: 5 withXmpp: 7
+2021-12-30 15:56:45,051 | INFO | com.ufo.disease has capillary
+2021-12-30 15:56:45,188 | INFO | Iteration: 62 completeNumber: 48 withCapillary: 3 withMqtt: 5 withXmpp: 7
+2021-12-30 15:56:59,757 | INFO | com.healint.migraineapp has mqtt
+2021-12-30 15:57:00,152 | INFO | com.healint.migraineapp has xmpp
+2021-12-30 15:57:00,247 | INFO | Iteration: 63 completeNumber: 49 withCapillary: 3 withMqtt: 6 withXmpp: 8
+2021-12-30 15:57:00,862 | ERROR | Failed to download com.marrow
+2021-12-30 15:57:04,379 | INFO | Iteration: 65 completeNumber: 50 withCapillary: 3 withMqtt: 6 withXmpp: 8
+2021-12-30 15:57:06,976 | INFO | Iteration: 66 completeNumber: 50 withCapillary: 3 withMqtt: 6 withXmpp: 8
+2021-12-30 15:57:13,949 | INFO | Iteration: 67 completeNumber: 51 withCapillary: 3 withMqtt: 6 withXmpp: 8
+2021-12-30 15:57:18,911 | INFO | de.comventure.medpex has xmpp
+2021-12-30 15:57:18,931 | INFO | Iteration: 68 completeNumber: 52 withCapillary: 3 withMqtt: 6 withXmpp: 9
+2021-12-30 15:57:22,843 | INFO | de.moodpath.android has capillary
+2021-12-30 15:57:22,984 | INFO | Iteration: 69 completeNumber: 53 withCapillary: 4 withMqtt: 6 withXmpp: 9
+2021-12-30 15:57:32,192 | INFO | com.twgbd.dims has capillary
+2021-12-30 15:57:32,688 | INFO | Iteration: 70 completeNumber: 54 withCapillary: 5 withMqtt: 6 withXmpp: 9
+2021-12-30 15:57:44,059 | INFO | Iteration: 71 completeNumber: 55 withCapillary: 5 withMqtt: 6 withXmpp: 9
+2021-12-30 15:57:44,675 | ERROR | Failed to download com.ldf.grossesse.view
+2021-12-30 15:57:48,432 | INFO | Iteration: 73 completeNumber: 56 withCapillary: 5 withMqtt: 6 withXmpp: 9
+2021-12-30 15:57:52,901 | INFO | Iteration: 74 completeNumber: 57 withCapillary: 5 withMqtt: 6 withXmpp: 9
+2021-12-30 15:57:57,985 | INFO | Iteration: 75 completeNumber: 58 withCapillary: 5 withMqtt: 6 withXmpp: 9
+2021-12-30 15:58:01,862 | INFO | helsi.me has xmpp
+2021-12-30 15:58:01,877 | INFO | Iteration: 76 completeNumber: 59 withCapillary: 5 withMqtt: 6 withXmpp: 10
+2021-12-30 15:58:02,568 | ERROR | Failed to download com.contacts1800.ecomapp
+2021-12-30 15:58:05,736 | INFO | Iteration: 78 completeNumber: 60 withCapillary: 5 withMqtt: 6 withXmpp: 10
+2021-12-30 15:58:06,374 | ERROR | Failed to download mx.com.fahorro2
+2021-12-30 15:58:07,082 | ERROR | Failed to download com.atomic.apps.medical.disease.condition.dictionary
+2021-12-30 15:58:12,751 | INFO | Iteration: 81 completeNumber: 61 withCapillary: 5 withMqtt: 6 withXmpp: 10
+2021-12-30 15:58:13,365 | ERROR | Failed to download com.drugscom.app
+2021-12-30 15:58:14,048 | ERROR | Failed to download com.epocrates
+2021-12-30 15:58:34,981 | INFO | Iteration: 84 completeNumber: 62 withCapillary: 5 withMqtt: 6 withXmpp: 10
+2021-12-30 15:58:39,597 | INFO | Iteration: 85 completeNumber: 63 withCapillary: 5 withMqtt: 6 withXmpp: 10
+2021-12-30 15:58:40,256 | ERROR | Failed to download ru.mobile.jivika
+2021-12-30 15:58:43,138 | INFO | Iteration: 87 completeNumber: 64 withCapillary: 5 withMqtt: 6 withXmpp: 10
+2021-12-30 15:58:43,756 | ERROR | Failed to download com.intellihealth.truemeds
+2021-12-30 15:58:47,302 | INFO | Iteration: 89 completeNumber: 65 withCapillary: 5 withMqtt: 6 withXmpp: 10
+2021-12-30 15:58:47,926 | ERROR | Failed to download ru.swan.kvrachu
+2021-12-30 15:58:53,193 | INFO | Iteration: 91 completeNumber: 66 withCapillary: 5 withMqtt: 6 withXmpp: 10
+2021-12-30 15:58:53,812 | ERROR | Failed to download net.medcard24.patient
+2021-12-30 15:59:04,697 | INFO | Iteration: 93 completeNumber: 67 withCapillary: 5 withMqtt: 6 withXmpp: 10
+2021-12-30 15:59:07,827 | INFO | com.binops.pharma.pk has capillary
+2021-12-30 15:59:07,913 | INFO | Iteration: 94 completeNumber: 68 withCapillary: 6 withMqtt: 6 withXmpp: 10
+2021-12-30 15:59:10,639 | INFO | Iteration: 95 completeNumber: 69 withCapillary: 6 withMqtt: 6 withXmpp: 10
+2021-12-30 15:59:11,295 | ERROR | Failed to download com.ceksaldobpjsketenagakerjaan.online
+2021-12-30 15:59:11,920 | ERROR | Failed to download echo.co.uk
+2021-12-30 15:59:25,792 | INFO | Iteration: 98 completeNumber: 70 withCapillary: 6 withMqtt: 6 withXmpp: 10
+2021-12-30 15:59:31,322 | INFO | Iteration: 99 completeNumber: 71 withCapillary: 6 withMqtt: 6 withXmpp: 10
+2021-12-30 15:59:48,542 | INFO | Iteration: 100 completeNumber: 72 withCapillary: 6 withMqtt: 6 withXmpp: 10
+2021-12-30 15:59:53,763 | INFO | Iteration: 101 completeNumber: 73 withCapillary: 6 withMqtt: 6 withXmpp: 10
+2021-12-30 16:00:07,069 | INFO | Iteration: 102 completeNumber: 74 withCapillary: 6 withMqtt: 6 withXmpp: 10
+2021-12-30 16:00:10,303 | INFO | Iteration: 103 completeNumber: 75 withCapillary: 6 withMqtt: 6 withXmpp: 10
+2021-12-30 16:00:12,613 | INFO | Iteration: 104 completeNumber: 76 withCapillary: 6 withMqtt: 6 withXmpp: 10
+2021-12-30 16:00:13,055 | ERROR | Failed to download com.lifescan.reveal
+2021-12-30 16:00:16,740 | INFO | Iteration: 106 completeNumber: 77 withCapillary: 6 withMqtt: 6 withXmpp: 10
+2021-12-30 16:00:21,116 | INFO | Iteration: 107 completeNumber: 78 withCapillary: 6 withMqtt: 6 withXmpp: 10
+2021-12-30 16:00:27,092 | INFO | Iteration: 108 completeNumber: 78 withCapillary: 6 withMqtt: 6 withXmpp: 10
+2021-12-30 16:00:31,721 | INFO | Iteration: 109 completeNumber: 79 withCapillary: 6 withMqtt: 6 withXmpp: 10
+2021-12-30 16:00:34,445 | INFO | Iteration: 110 completeNumber: 80 withCapillary: 6 withMqtt: 6 withXmpp: 10
+2021-12-30 16:00:36,997 | INFO | Iteration: 111 completeNumber: 80 withCapillary: 6 withMqtt: 6 withXmpp: 10
+2021-12-30 16:00:37,629 | ERROR | Failed to download com.clearcare.clearcareconnect
+2021-12-30 16:00:44,358 | INFO | com.hssn.anatomy3dlite has capillary
+2021-12-30 16:00:44,548 | INFO | Iteration: 113 completeNumber: 81 withCapillary: 7 withMqtt: 6 withXmpp: 10
+2021-12-30 16:00:56,534 | INFO | com.metarain.mom has xmpp
+2021-12-30 16:00:56,556 | INFO | Iteration: 114 completeNumber: 82 withCapillary: 7 withMqtt: 6 withXmpp: 11
+2021-12-30 16:00:59,040 | INFO | Iteration: 115 completeNumber: 82 withCapillary: 7 withMqtt: 6 withXmpp: 11
+2021-12-30 16:01:07,219 | INFO | Iteration: 116 completeNumber: 82 withCapillary: 7 withMqtt: 6 withXmpp: 11
+2021-12-30 16:01:15,182 | INFO | com.healthtap.userhtexpress has mqtt
+2021-12-30 16:01:15,327 | INFO | Iteration: 117 completeNumber: 83 withCapillary: 7 withMqtt: 7 withXmpp: 11
+2021-12-30 16:01:18,539 | INFO | Iteration: 118 completeNumber: 84 withCapillary: 7 withMqtt: 7 withXmpp: 11
+2021-12-30 16:01:20,783 | INFO | Iteration: 119 completeNumber: 84 withCapillary: 7 withMqtt: 7 withXmpp: 11
+2021-12-30 16:01:21,514 | ERROR | Failed to download com.nhs.online.nhsonline
+2021-12-30 16:01:26,618 | INFO | Iteration: 121 completeNumber: 84 withCapillary: 7 withMqtt: 7 withXmpp: 11
+2021-12-30 16:01:30,323 | INFO | Iteration: 122 completeNumber: 85 withCapillary: 7 withMqtt: 7 withXmpp: 11
+2021-12-30 16:01:58,967 | INFO | com.tremend.reginamaria has xmpp
+2021-12-30 16:01:59,039 | INFO | Iteration: 123 completeNumber: 86 withCapillary: 7 withMqtt: 7 withXmpp: 12
+2021-12-30 16:01:59,637 | ERROR | Failed to download ai.kanghealth
+2021-12-30 16:02:04,357 | INFO | Iteration: 125 completeNumber: 87 withCapillary: 7 withMqtt: 7 withXmpp: 12
+2021-12-30 16:02:06,279 | INFO | Iteration: 126 completeNumber: 88 withCapillary: 7 withMqtt: 7 withXmpp: 12
+2021-12-30 16:02:12,203 | INFO | Iteration: 127 completeNumber: 89 withCapillary: 7 withMqtt: 7 withXmpp: 12
+2021-12-30 16:03:10,791 | INFO | Iteration: 128 completeNumber: 90 withCapillary: 7 withMqtt: 7 withXmpp: 12
+2021-12-30 16:03:11,435 | ERROR | Failed to download com.medengage.clinical
+2021-12-30 16:03:12,027 | ERROR | Failed to download com.shire.biolife
+2021-12-30 16:03:17,674 | INFO | br.com.conexasaude has xmpp
+2021-12-30 16:03:17,713 | INFO | Iteration: 131 completeNumber: 91 withCapillary: 7 withMqtt: 7 withXmpp: 13
+2021-12-30 16:03:18,372 | ERROR | Failed to download com.yesdok.mobile.app
+2021-12-30 16:03:18,991 | ERROR | Failed to download com.atomic.apps.medical.drug.dictionary
+2021-12-30 16:03:25,476 | INFO | Iteration: 134 completeNumber: 92 withCapillary: 7 withMqtt: 7 withXmpp: 13
+2021-12-30 16:03:26,058 | ERROR | Failed to download com.kimiafarma.online
+2021-12-30 16:03:28,154 | INFO | Iteration: 136 completeNumber: 92 withCapillary: 7 withMqtt: 7 withXmpp: 13
+2021-12-30 16:03:28,785 | ERROR | Failed to download com.baritastic.view
+2021-12-30 16:03:32,324 | INFO | Iteration: 138 completeNumber: 93 withCapillary: 7 withMqtt: 7 withXmpp: 13
+2021-12-30 16:03:33,093 | ERROR | Failed to download health.livi.android
+2021-12-30 16:03:42,691 | INFO | br.com.duosystem.avancasaude.sp.prod has xmpp
+2021-12-30 16:03:42,740 | INFO | Iteration: 140 completeNumber: 94 withCapillary: 7 withMqtt: 7 withXmpp: 14
+2021-12-30 16:03:48,650 | INFO | Iteration: 141 completeNumber: 95 withCapillary: 7 withMqtt: 7 withXmpp: 14
+2021-12-30 16:04:02,050 | INFO | Iteration: 142 completeNumber: 96 withCapillary: 7 withMqtt: 7 withXmpp: 14
+2021-12-30 16:04:07,441 | INFO | com.medex.yodawy has xmpp
+2021-12-30 16:04:07,471 | INFO | Iteration: 143 completeNumber: 97 withCapillary: 7 withMqtt: 7 withXmpp: 15
+2021-12-30 16:04:19,476 | INFO | Iteration: 144 completeNumber: 98 withCapillary: 7 withMqtt: 7 withXmpp: 15
+2021-12-30 16:04:22,235 | INFO | Iteration: 145 completeNumber: 99 withCapillary: 7 withMqtt: 7 withXmpp: 15
+2021-12-30 16:04:27,155 | INFO | Iteration: 146 completeNumber: 100 withCapillary: 7 withMqtt: 7 withXmpp: 15
+2021-12-30 16:04:32,917 | INFO | com.virinchi.mychat has xmpp
+2021-12-30 16:04:32,955 | INFO | Iteration: 147 completeNumber: 101 withCapillary: 7 withMqtt: 7 withXmpp: 16
+2021-12-30 16:04:33,558 | ERROR | Failed to download com.pg.pampers.primakulubu
+2021-12-30 16:04:34,137 | ERROR | Failed to download com.kwiboo.p2urepeatsapp.android
+2021-12-30 16:04:34,750 | ERROR | Failed to download com.omada.prevent
+2021-12-30 16:04:37,924 | INFO | Iteration: 151 completeNumber: 102 withCapillary: 7 withMqtt: 7 withXmpp: 16
+2021-12-30 16:04:40,971 | INFO | Iteration: 152 completeNumber: 103 withCapillary: 7 withMqtt: 7 withXmpp: 16
+2021-12-30 16:04:48,585 | INFO | com.figure1.android has xmpp
+2021-12-30 16:04:48,614 | INFO | Iteration: 153 completeNumber: 104 withCapillary: 7 withMqtt: 7 withXmpp: 17
+2021-12-30 16:04:53,382 | INFO | Iteration: 154 completeNumber: 105 withCapillary: 7 withMqtt: 7 withXmpp: 17
+2021-12-30 16:04:59,352 | INFO | Iteration: 155 completeNumber: 106 withCapillary: 7 withMqtt: 7 withXmpp: 17
+2021-12-30 16:05:27,668 | INFO | Iteration: 156 completeNumber: 107 withCapillary: 7 withMqtt: 7 withXmpp: 17
+2021-12-30 16:05:28,311 | ERROR | Failed to download br.com.doctoralia
+2021-12-30 16:05:34,676 | INFO | com.qxmd.calculate has capillary
+2021-12-30 16:05:34,882 | INFO | Iteration: 158 completeNumber: 108 withCapillary: 8 withMqtt: 7 withXmpp: 17
+2021-12-30 16:05:35,568 | ERROR | Failed to download ru.mos.socmon
+2021-12-30 16:05:47,501 | INFO | Iteration: 160 completeNumber: 108 withCapillary: 8 withMqtt: 7 withXmpp: 17
+2021-12-30 16:06:02,871 | INFO | com.h2sync.android.h2syncapp has capillary
+2021-12-30 16:06:03,521 | INFO | Iteration: 161 completeNumber: 109 withCapillary: 9 withMqtt: 7 withXmpp: 17
+2021-12-30 16:06:13,155 | INFO | Iteration: 162 completeNumber: 110 withCapillary: 9 withMqtt: 7 withXmpp: 17
+2021-12-30 16:06:13,777 | ERROR | Failed to download com.getvisitapp.android
+2021-12-30 16:06:37,418 | INFO | Iteration: 164 completeNumber: 111 withCapillary: 9 withMqtt: 7 withXmpp: 17
+2021-12-30 16:06:45,029 | INFO | Iteration: 165 completeNumber: 112 withCapillary: 9 withMqtt: 7 withXmpp: 17
+2021-12-30 16:06:59,904 | INFO | Iteration: 166 completeNumber: 113 withCapillary: 9 withMqtt: 7 withXmpp: 17
+2021-12-30 16:07:03,385 | INFO | Iteration: 167 completeNumber: 114 withCapillary: 9 withMqtt: 7 withXmpp: 17
+2021-12-30 16:07:07,634 | INFO | Iteration: 168 completeNumber: 115 withCapillary: 9 withMqtt: 7 withXmpp: 17
+2021-12-30 16:07:08,246 | ERROR | Failed to download com.main.drinsta
+2021-12-30 16:07:08,855 | ERROR | Failed to download ru.uteka.app
+2021-12-30 16:07:11,074 | INFO | Iteration: 171 completeNumber: 116 withCapillary: 9 withMqtt: 7 withXmpp: 17
+2021-12-30 16:07:15,282 | INFO | Iteration: 172 completeNumber: 116 withCapillary: 9 withMqtt: 7 withXmpp: 17
+2021-12-30 16:07:15,949 | ERROR | Failed to download com.resmed.myair
+2021-12-30 16:07:18,038 | INFO | Iteration: 174 completeNumber: 117 withCapillary: 9 withMqtt: 7 withXmpp: 17
+2021-12-30 16:07:21,934 | INFO | Iteration: 175 completeNumber: 117 withCapillary: 9 withMqtt: 7 withXmpp: 17
+2021-12-30 16:07:22,542 | ERROR | Failed to download ru.scid.minicen
+2021-12-30 16:07:27,087 | INFO | Iteration: 177 completeNumber: 118 withCapillary: 9 withMqtt: 7 withXmpp: 17
+2021-12-30 16:07:30,725 | INFO | Iteration: 178 completeNumber: 119 withCapillary: 9 withMqtt: 7 withXmpp: 17
+2021-12-30 16:07:38,352 | INFO | Iteration: 179 completeNumber: 119 withCapillary: 9 withMqtt: 7 withXmpp: 17
+2021-12-30 16:07:41,973 | INFO | Iteration: 180 completeNumber: 120 withCapillary: 9 withMqtt: 7 withXmpp: 17
+2021-12-30 16:07:42,615 | ERROR | Failed to download ru.budzdorov.client.android
+2021-12-30 16:07:50,331 | INFO | Iteration: 182 completeNumber: 121 withCapillary: 9 withMqtt: 7 withXmpp: 17
+2021-12-30 16:07:59,741 | INFO | Iteration: 183 completeNumber: 122 withCapillary: 9 withMqtt: 7 withXmpp: 17
+2021-12-30 16:08:04,339 | INFO | com.hh.healthhub has xmpp
+2021-12-30 16:08:04,376 | INFO | Iteration: 184 completeNumber: 123 withCapillary: 9 withMqtt: 7 withXmpp: 18
+2021-12-30 16:08:05,036 | ERROR | Failed to download net.iplato.mygp
+2021-12-30 16:08:13,563 | INFO | Iteration: 186 completeNumber: 124 withCapillary: 9 withMqtt: 7 withXmpp: 18
+2021-12-30 16:08:15,995 | INFO | Iteration: 187 completeNumber: 125 withCapillary: 9 withMqtt: 7 withXmpp: 18
+2021-12-30 16:08:16,639 | ERROR | Failed to download com.phablecare
+2021-12-30 16:08:24,637 | INFO | Iteration: 189 completeNumber: 126 withCapillary: 9 withMqtt: 7 withXmpp: 18
+2021-12-30 16:08:32,169 | INFO | Iteration: 190 completeNumber: 127 withCapillary: 9 withMqtt: 7 withXmpp: 18
+2021-12-30 16:08:32,811 | ERROR | Failed to download com.firstlinemedical.optum_flm_app
+2021-12-30 16:08:37,105 | INFO | Iteration: 192 completeNumber: 128 withCapillary: 9 withMqtt: 7 withXmpp: 18
+2021-12-30 16:08:40,957 | INFO | Iteration: 193 completeNumber: 129 withCapillary: 9 withMqtt: 7 withXmpp: 18
+2021-12-30 16:08:49,980 | INFO | Iteration: 194 completeNumber: 129 withCapillary: 9 withMqtt: 7 withXmpp: 18
+2021-12-30 16:08:54,638 | INFO | Iteration: 195 completeNumber: 130 withCapillary: 9 withMqtt: 7 withXmpp: 18
+2021-12-30 16:08:59,973 | INFO | Iteration: 196 completeNumber: 131 withCapillary: 9 withMqtt: 7 withXmpp: 18
+2021-12-30 16:09:02,482 | INFO | Iteration: 197 completeNumber: 131 withCapillary: 9 withMqtt: 7 withXmpp: 18
+2021-12-30 16:09:05,140 | INFO | Iteration: 198 completeNumber: 132 withCapillary: 9 withMqtt: 7 withXmpp: 18
+2021-12-30 16:09:08,359 | INFO | Iteration: 199 completeNumber: 133 withCapillary: 9 withMqtt: 7 withXmpp: 18
+2021-12-30 16:09:10,761 | INFO | Iteration: 200 completeNumber: 133 withCapillary: 9 withMqtt: 7 withXmpp: 18
+2021-12-30 16:09:17,043 | INFO | com.bookdoc.bookdoc has xmpp
+2021-12-30 16:09:17,079 | INFO | Iteration: 201 completeNumber: 134 withCapillary: 9 withMqtt: 7 withXmpp: 19
+2021-12-30 16:09:17,828 | ERROR | Failed to download com.blinkhealth.blinkandroid
+2021-12-30 16:09:18,433 | ERROR | Failed to download com.lexa.medicine
+2021-12-30 16:09:19,655 | INFO | Iteration: 204 completeNumber: 134 withCapillary: 9 withMqtt: 7 withXmpp: 19
+2021-12-30 16:09:21,892 | INFO | Iteration: 205 completeNumber: 135 withCapillary: 9 withMqtt: 7 withXmpp: 19
+2021-12-30 16:09:34,995 | INFO | Iteration: 206 completeNumber: 136 withCapillary: 9 withMqtt: 7 withXmpp: 19
+2021-12-30 16:09:37,841 | INFO | Iteration: 207 completeNumber: 137 withCapillary: 9 withMqtt: 7 withXmpp: 19
+2021-12-30 16:09:46,399 | INFO | Iteration: 208 completeNumber: 138 withCapillary: 9 withMqtt: 7 withXmpp: 19
+2021-12-30 16:09:51,414 | INFO | Iteration: 209 completeNumber: 139 withCapillary: 9 withMqtt: 7 withXmpp: 19
+2021-12-30 16:09:53,966 | INFO | Iteration: 210 completeNumber: 140 withCapillary: 9 withMqtt: 7 withXmpp: 19
+2021-12-30 16:09:54,641 | ERROR | Failed to download com.myupchar.user
+2021-12-30 16:10:03,049 | INFO | Iteration: 212 completeNumber: 141 withCapillary: 9 withMqtt: 7 withXmpp: 19
+2021-12-30 16:10:07,070 | INFO | Iteration: 213 completeNumber: 142 withCapillary: 9 withMqtt: 7 withXmpp: 19
+2021-12-30 16:10:07,683 | ERROR | Failed to download br.com.preventsenior.aplicativo
+2021-12-30 16:10:10,840 | INFO | Iteration: 215 completeNumber: 143 withCapillary: 9 withMqtt: 7 withXmpp: 19
+2021-12-30 16:10:13,590 | INFO | Iteration: 216 completeNumber: 144 withCapillary: 9 withMqtt: 7 withXmpp: 19
+2021-12-30 16:10:20,693 | INFO | Iteration: 217 completeNumber: 145 withCapillary: 9 withMqtt: 7 withXmpp: 19
+2021-12-30 16:10:21,372 | ERROR | Failed to download bajajfinserv.in.hrx.app
+2021-12-30 16:10:22,018 | ERROR | Failed to download com.zocdoc.android
+2021-12-30 16:10:22,143 | ERROR | Failed to download com.massroots.android
+2021-12-30 16:10:32,111 | INFO | com.babylon has xmpp
+2021-12-30 16:10:32,140 | INFO | Iteration: 221 completeNumber: 146 withCapillary: 9 withMqtt: 7 withXmpp: 20
+2021-12-30 16:10:32,744 | ERROR | Failed to download id.codigo.klikdokter
+2021-12-30 16:10:41,974 | INFO | com.ejada.hmg has capillary
+2021-12-30 16:10:42,327 | INFO | com.ejada.hmg has xmpp
+2021-12-30 16:10:42,386 | INFO | Iteration: 223 completeNumber: 147 withCapillary: 10 withMqtt: 7 withXmpp: 21
+2021-12-30 16:11:04,343 | INFO | com.medprescricao has capillary
+2021-12-30 16:11:04,934 | INFO | Iteration: 224 completeNumber: 148 withCapillary: 11 withMqtt: 7 withXmpp: 21
+2021-12-30 16:11:11,224 | INFO | Iteration: 225 completeNumber: 149 withCapillary: 11 withMqtt: 7 withXmpp: 21
+2021-12-30 16:11:15,821 | INFO | Iteration: 226 completeNumber: 150 withCapillary: 11 withMqtt: 7 withXmpp: 21
+2021-12-30 16:11:18,598 | INFO | Iteration: 227 completeNumber: 151 withCapillary: 11 withMqtt: 7 withXmpp: 21
+2021-12-30 16:11:19,041 | ERROR | Failed to download com.visiblebody.atlas
+2021-12-30 16:11:22,212 | INFO | com.szyk.diabetes has capillary
+2021-12-30 16:11:22,334 | INFO | Iteration: 229 completeNumber: 152 withCapillary: 12 withMqtt: 7 withXmpp: 21
+2021-12-30 16:11:27,081 | INFO | com.karmamobile has xmpp
+2021-12-30 16:11:27,103 | INFO | Iteration: 230 completeNumber: 153 withCapillary: 12 withMqtt: 7 withXmpp: 22
+2021-12-30 16:11:32,783 | INFO | id.go.jabarprov.pikobar has xmpp
+2021-12-30 16:11:32,800 | INFO | Iteration: 231 completeNumber: 154 withCapillary: 12 withMqtt: 7 withXmpp: 23
+2021-12-30 16:11:33,448 | ERROR | Failed to download com.cube.arc.blood
+2021-12-30 16:11:39,431 | INFO | Iteration: 233 completeNumber: 155 withCapillary: 12 withMqtt: 7 withXmpp: 23
+2021-12-30 16:11:43,643 | INFO | com.healthmug has xmpp
+2021-12-30 16:11:43,663 | INFO | Iteration: 234 completeNumber: 156 withCapillary: 12 withMqtt: 7 withXmpp: 24
+2021-12-30 16:11:46,835 | INFO | Iteration: 235 completeNumber: 157 withCapillary: 12 withMqtt: 7 withXmpp: 24
+2021-12-30 16:12:48,509 | ERROR | Failed to download com.mobisystems.msdict.embedded.wireless.oxford.concisemedical
+2021-12-30 16:12:52,646 | INFO | Iteration: 237 completeNumber: 158 withCapillary: 12 withMqtt: 7 withXmpp: 24
+2021-12-30 16:12:54,780 | INFO | Iteration: 238 completeNumber: 159 withCapillary: 12 withMqtt: 7 withXmpp: 24
+2021-12-30 16:12:57,058 | INFO | Iteration: 239 completeNumber: 160 withCapillary: 12 withMqtt: 7 withXmpp: 24
+2021-12-30 16:13:01,366 | INFO | Iteration: 240 completeNumber: 161 withCapillary: 12 withMqtt: 7 withXmpp: 24
+2021-12-30 16:13:04,431 | INFO | Iteration: 241 completeNumber: 162 withCapillary: 12 withMqtt: 7 withXmpp: 24
+2021-12-30 16:13:19,641 | INFO | com.aia.myaia has xmpp
+2021-12-30 16:13:19,691 | INFO | Iteration: 242 completeNumber: 163 withCapillary: 12 withMqtt: 7 withXmpp: 25
+2021-12-30 16:13:26,147 | INFO | Iteration: 243 completeNumber: 164 withCapillary: 12 withMqtt: 7 withXmpp: 25
+2021-12-30 16:13:26,794 | ERROR | Failed to download com.lowestmed.android
+2021-12-30 16:13:30,204 | INFO | Iteration: 245 completeNumber: 165 withCapillary: 12 withMqtt: 7 withXmpp: 25
+2021-12-30 16:13:36,338 | INFO | nl.focuscura.beeldbelapp has mqtt
+2021-12-30 16:13:36,428 | INFO | Iteration: 246 completeNumber: 166 withCapillary: 12 withMqtt: 8 withXmpp: 25
+2021-12-30 16:13:40,017 | INFO | Iteration: 247 completeNumber: 167 withCapillary: 12 withMqtt: 8 withXmpp: 25
+2021-12-30 16:13:43,685 | INFO | Iteration: 248 completeNumber: 168 withCapillary: 12 withMqtt: 8 withXmpp: 25
+2021-12-30 16:14:00,539 | INFO | Iteration: 249 completeNumber: 168 withCapillary: 12 withMqtt: 8 withXmpp: 25
+2021-12-30 16:14:01,207 | ERROR | Failed to download kr.or.nhis.longtermcare
+2021-12-30 16:14:01,331 | ERROR | Failed to download com.bouqt.mypill
+2021-12-30 16:14:03,364 | INFO | Iteration: 252 completeNumber: 169 withCapillary: 12 withMqtt: 8 withXmpp: 25
+2021-12-30 16:14:19,066 | INFO | hk.gov.ehealth.ehr has capillary
+2021-12-30 16:14:19,871 | INFO | Iteration: 253 completeNumber: 170 withCapillary: 13 withMqtt: 8 withXmpp: 25
+2021-12-30 16:14:27,549 | INFO | Iteration: 254 completeNumber: 171 withCapillary: 13 withMqtt: 8 withXmpp: 25
+2021-12-30 16:14:31,057 | INFO | Iteration: 255 completeNumber: 172 withCapillary: 13 withMqtt: 8 withXmpp: 25
+2021-12-30 16:14:44,880 | INFO | com.mdaware.mdcalc has capillary
+2021-12-30 16:14:45,742 | INFO | com.mdaware.mdcalc has xmpp
+2021-12-30 16:14:45,799 | INFO | Iteration: 256 completeNumber: 173 withCapillary: 14 withMqtt: 8 withXmpp: 26
+2021-12-30 16:14:46,448 | ERROR | Failed to download ru.petstory.androidapp
+2021-12-30 16:14:51,192 | INFO | Iteration: 258 completeNumber: 174 withCapillary: 14 withMqtt: 8 withXmpp: 26
+2021-12-30 16:15:01,854 | INFO | cz.pilulka.shop has mqtt
+2021-12-30 16:15:02,079 | INFO | cz.pilulka.shop has xmpp
+2021-12-30 16:15:02,115 | INFO | Iteration: 259 completeNumber: 175 withCapillary: 14 withMqtt: 9 withXmpp: 27
+2021-12-30 16:15:04,856 | INFO | Iteration: 260 completeNumber: 176 withCapillary: 14 withMqtt: 9 withXmpp: 27
+2021-12-30 16:15:05,677 | ERROR | Failed to download ru.vseapteki
+2021-12-30 16:15:06,296 | ERROR | Failed to download com.optum.rx
+2021-12-30 16:15:06,907 | ERROR | Failed to download mx.com.doctoralia
+2021-12-30 16:15:07,576 | ERROR | Failed to download jp.epark.medicinenote
+2021-12-30 16:15:08,184 | ERROR | Failed to download com.anthem.sydney
+2021-12-30 16:15:08,824 | ERROR | Failed to download com.americanwell.android.member.amwell
+2021-12-30 16:15:10,798 | INFO | Iteration: 267 completeNumber: 177 withCapillary: 14 withMqtt: 9 withXmpp: 27
+2021-12-30 16:15:11,594 | ERROR | Failed to download com.pushdr.application
+2021-12-30 16:15:14,797 | INFO | Iteration: 269 completeNumber: 178 withCapillary: 14 withMqtt: 9 withXmpp: 27
+2021-12-30 16:15:23,932 | INFO | Iteration: 270 completeNumber: 179 withCapillary: 14 withMqtt: 9 withXmpp: 27
+2021-12-30 16:15:26,645 | INFO | Iteration: 271 completeNumber: 180 withCapillary: 14 withMqtt: 9 withXmpp: 27
+2021-12-30 16:15:27,379 | ERROR | Failed to download com.pajk.idpersonaldoc
+2021-12-30 16:16:03,249 | INFO | Iteration: 273 completeNumber: 181 withCapillary: 14 withMqtt: 9 withXmpp: 27
+2021-12-30 16:16:06,701 | INFO | Iteration: 274 completeNumber: 182 withCapillary: 14 withMqtt: 9 withXmpp: 27
+2021-12-30 16:16:10,925 | INFO | Iteration: 275 completeNumber: 183 withCapillary: 14 withMqtt: 9 withXmpp: 27
+2021-12-30 16:16:11,619 | ERROR | Failed to download com.dexcom.g6
+2021-12-30 16:16:15,763 | INFO | Iteration: 277 completeNumber: 184 withCapillary: 14 withMqtt: 9 withXmpp: 27
+2021-12-30 16:16:27,451 | INFO | Iteration: 278 completeNumber: 185 withCapillary: 14 withMqtt: 9 withXmpp: 27
+2021-12-30 16:16:28,071 | ERROR | Failed to download jp.paa.park
+2021-12-30 16:16:28,687 | ERROR | Failed to download com.upmc.enterprises.myupmc
+2021-12-30 16:16:29,313 | ERROR | Failed to download dr.consulta
+2021-12-30 16:16:32,040 | INFO | Iteration: 282 completeNumber: 185 withCapillary: 14 withMqtt: 9 withXmpp: 27
+2021-12-30 16:16:32,459 | ERROR | Failed to download com.farlex.dictionary.medical
+2021-12-30 16:16:34,579 | INFO | Iteration: 284 completeNumber: 185 withCapillary: 14 withMqtt: 9 withXmpp: 27
+2021-12-30 16:16:35,191 | ERROR | Failed to download com.myquest
+2021-12-30 16:16:35,820 | ERROR | Failed to download com.mdlive.mobile
+2021-12-30 16:16:40,649 | INFO | com.rohiapps.bloodpressureRecorder has xmpp
+2021-12-30 16:16:40,676 | INFO | Iteration: 287 completeNumber: 186 withCapillary: 14 withMqtt: 9 withXmpp: 28
+2021-12-30 16:16:41,302 | ERROR | Failed to download com.famisanar.famimobile
+2021-12-30 16:16:52,875 | INFO | com.anatomyka.android has mqtt
+2021-12-30 16:16:53,288 | INFO | Iteration: 289 completeNumber: 187 withCapillary: 14 withMqtt: 10 withXmpp: 28
+2021-12-30 16:16:58,024 | INFO | Iteration: 290 completeNumber: 188 withCapillary: 14 withMqtt: 10 withXmpp: 28
+2021-12-30 16:17:02,250 | INFO | Iteration: 291 completeNumber: 189 withCapillary: 14 withMqtt: 10 withXmpp: 28
+2021-12-30 16:17:04,052 | INFO | Iteration: 292 completeNumber: 190 withCapillary: 14 withMqtt: 10 withXmpp: 28
+2021-12-30 16:17:08,404 | INFO | Iteration: 293 completeNumber: 191 withCapillary: 14 withMqtt: 10 withXmpp: 28
+2021-12-30 16:17:14,769 | INFO | Iteration: 294 completeNumber: 192 withCapillary: 14 withMqtt: 10 withXmpp: 28
+2021-12-30 16:17:15,368 | ERROR | Failed to download com.singlecare.scma
+2021-12-30 16:17:15,959 | ERROR | Failed to download com.spruce.messenger
+2021-12-30 16:17:16,597 | ERROR | Failed to download com.loblaw.shoppersdrugmart
+2021-12-30 16:17:24,910 | INFO | Iteration: 298 completeNumber: 192 withCapillary: 14 withMqtt: 10 withXmpp: 28
+2021-12-30 16:17:26,860 | INFO | Iteration: 299 completeNumber: 193 withCapillary: 14 withMqtt: 10 withXmpp: 28
+2021-12-30 16:17:26,987 | ERROR | Failed to download com.appslovers.modulomasagrovet
+2021-12-30 16:17:31,835 | INFO | Iteration: 301 completeNumber: 194 withCapillary: 14 withMqtt: 10 withXmpp: 28
+2021-12-30 16:17:37,229 | INFO | Iteration: 302 completeNumber: 194 withCapillary: 14 withMqtt: 10 withXmpp: 28
+2021-12-30 16:17:42,039 | INFO | Iteration: 303 completeNumber: 194 withCapillary: 14 withMqtt: 10 withXmpp: 28
+2021-12-30 16:17:44,958 | INFO | Iteration: 304 completeNumber: 195 withCapillary: 14 withMqtt: 10 withXmpp: 28
+2021-12-30 16:17:49,175 | INFO | Iteration: 305 completeNumber: 196 withCapillary: 14 withMqtt: 10 withXmpp: 28
+2021-12-30 16:17:49,779 | ERROR | Failed to download com.c2info.wellnessforever
+2021-12-30 16:17:50,425 | ERROR | Failed to download ca.medavie.mobile
+2021-12-30 16:17:54,066 | INFO | com.hds.homedoctor2 has xmpp
+2021-12-30 16:17:54,078 | INFO | Iteration: 308 completeNumber: 197 withCapillary: 14 withMqtt: 10 withXmpp: 29
+2021-12-30 16:17:54,820 | ERROR | Failed to download com.banfield.bpht
+2021-12-30 16:18:04,033 | INFO | Iteration: 310 completeNumber: 198 withCapillary: 14 withMqtt: 10 withXmpp: 29
+2021-12-30 16:18:10,325 | INFO | Iteration: 311 completeNumber: 199 withCapillary: 14 withMqtt: 10 withXmpp: 29
+2021-12-30 16:18:13,702 | INFO | Iteration: 312 completeNumber: 200 withCapillary: 14 withMqtt: 10 withXmpp: 29
+2021-12-30 16:18:14,307 | ERROR | Failed to download com.solutran.otc
+2021-12-30 16:18:23,579 | INFO | com.honestdocs.hd has xmpp
+2021-12-30 16:18:23,612 | INFO | Iteration: 314 completeNumber: 201 withCapillary: 14 withMqtt: 10 withXmpp: 30
+2021-12-30 16:18:23,739 | ERROR | Failed to download plants.com
+2021-12-30 16:18:24,361 | ERROR | Failed to download com.aconcagua.yapp
+2021-12-30 16:18:36,026 | INFO | Iteration: 317 completeNumber: 201 withCapillary: 14 withMqtt: 10 withXmpp: 30
+2021-12-30 16:18:36,652 | ERROR | Failed to download com.erkafarm.ozerki
+2021-12-30 16:18:51,495 | INFO | Iteration: 319 completeNumber: 202 withCapillary: 14 withMqtt: 10 withXmpp: 30
+2021-12-30 16:19:03,964 | INFO | com.ubieva.caas.userapp.droid has xmpp
+2021-12-30 16:19:04,015 | INFO | Iteration: 320 completeNumber: 203 withCapillary: 14 withMqtt: 10 withXmpp: 31
+2021-12-30 16:19:08,817 | INFO | Iteration: 321 completeNumber: 204 withCapillary: 14 withMqtt: 10 withXmpp: 31
+2021-12-30 16:19:12,401 | INFO | Iteration: 322 completeNumber: 205 withCapillary: 14 withMqtt: 10 withXmpp: 31
+2021-12-30 16:19:17,987 | INFO | Iteration: 323 completeNumber: 206 withCapillary: 14 withMqtt: 10 withXmpp: 31
+2021-12-30 16:19:18,611 | ERROR | Failed to download com.hw.health
+2021-12-30 16:19:24,494 | INFO | ae.gov.dha.covid19 has xmpp
+2021-12-30 16:19:24,523 | INFO | Iteration: 325 completeNumber: 207 withCapillary: 14 withMqtt: 10 withXmpp: 32
+2021-12-30 16:19:25,170 | ERROR | Failed to download ca.blood.giveblood
+2021-12-30 16:19:32,552 | INFO | Iteration: 327 completeNumber: 207 withCapillary: 14 withMqtt: 10 withXmpp: 32
+2021-12-30 16:20:34,208 | ERROR | Failed to download com.practo.droid
+2021-12-30 16:20:38,665 | INFO | Iteration: 329 completeNumber: 208 withCapillary: 14 withMqtt: 10 withXmpp: 32
+2021-12-30 16:20:42,497 | INFO | Iteration: 330 completeNumber: 209 withCapillary: 14 withMqtt: 10 withXmpp: 32
+2021-12-30 16:20:47,935 | INFO | Iteration: 331 completeNumber: 210 withCapillary: 14 withMqtt: 10 withXmpp: 32
+2021-12-30 16:20:48,600 | ERROR | Failed to download com.colombitrade.health.simplified
+2021-12-30 16:20:58,820 | INFO | com.sonova.phonak.dsapp has mqtt
+2021-12-30 16:20:59,092 | INFO | Iteration: 333 completeNumber: 211 withCapillary: 14 withMqtt: 11 withXmpp: 32
+2021-12-30 16:21:02,047 | INFO | Iteration: 334 completeNumber: 212 withCapillary: 14 withMqtt: 11 withXmpp: 32
+2021-12-30 16:21:18,015 | INFO | Iteration: 335 completeNumber: 213 withCapillary: 14 withMqtt: 11 withXmpp: 32
+2021-12-30 16:21:21,333 | INFO | Iteration: 336 completeNumber: 214 withCapillary: 14 withMqtt: 11 withXmpp: 32
+2021-12-30 16:21:22,061 | ERROR | Failed to download jp.summervacation.shiftna
+2021-12-30 16:21:22,732 | ERROR | Failed to download com.healthera.healtheraapp
+2021-12-30 16:21:27,994 | INFO | com.apollo.android has capillary
+2021-12-30 16:21:28,102 | INFO | com.apollo.android has mqtt
+2021-12-30 16:21:28,244 | INFO | Iteration: 339 completeNumber: 215 withCapillary: 15 withMqtt: 12 withXmpp: 32
+2021-12-30 16:21:28,876 | ERROR | Failed to download com.babylon.telushealth
+2021-12-30 16:21:29,056 | ERROR | Failed to download com.healthcarestudios.bloodpressure.checker.diary.bp.history.tracker.info.chart.log.app.journal.track.hypertension.spo2
+2021-12-30 16:21:29,711 | ERROR | Failed to download medadvisor.main
+2021-12-30 16:21:33,862 | INFO | Iteration: 343 completeNumber: 216 withCapillary: 15 withMqtt: 12 withXmpp: 32
+2021-12-30 16:22:00,306 | INFO | com.docon.patientapp has xmpp
+2021-12-30 16:22:00,326 | INFO | Iteration: 344 completeNumber: 217 withCapillary: 15 withMqtt: 12 withXmpp: 33
+2021-12-30 16:22:00,441 | ERROR | Failed to download app.avax.health
+2021-12-30 16:22:10,669 | INFO | Iteration: 346 completeNumber: 218 withCapillary: 15 withMqtt: 12 withXmpp: 33
+2021-12-30 16:22:13,183 | INFO | Iteration: 347 completeNumber: 219 withCapillary: 15 withMqtt: 12 withXmpp: 33
+2021-12-30 16:22:15,852 | INFO | Iteration: 348 completeNumber: 220 withCapillary: 15 withMqtt: 12 withXmpp: 33
+2021-12-30 16:22:21,975 | INFO | Iteration: 349 completeNumber: 221 withCapillary: 15 withMqtt: 12 withXmpp: 33
+2021-12-30 16:22:22,588 | ERROR | Failed to download com.americanwell.android.member.wellpoint
+2021-12-30 16:22:22,708 | ERROR | Failed to download medical.offline.Dictionary
+2021-12-30 16:22:23,348 | ERROR | Failed to download com.doximity.doximitydroid
+2021-12-30 16:22:35,719 | INFO | Iteration: 353 completeNumber: 222 withCapillary: 15 withMqtt: 12 withXmpp: 33
+2021-12-30 16:22:39,931 | INFO | Iteration: 354 completeNumber: 223 withCapillary: 15 withMqtt: 12 withXmpp: 33
+2021-12-30 16:22:43,069 | INFO | Iteration: 355 completeNumber: 224 withCapillary: 15 withMqtt: 12 withXmpp: 33
+2021-12-30 16:22:46,022 | INFO | Iteration: 356 completeNumber: 225 withCapillary: 15 withMqtt: 12 withXmpp: 33
+2021-12-30 16:22:46,646 | ERROR | Failed to download ru.medicine_it.medonline
+2021-12-30 16:22:49,378 | INFO | Iteration: 358 completeNumber: 226 withCapillary: 15 withMqtt: 12 withXmpp: 33
+2021-12-30 16:22:52,400 | INFO | Iteration: 359 completeNumber: 227 withCapillary: 15 withMqtt: 12 withXmpp: 33
+2021-12-30 16:22:54,597 | INFO | Iteration: 360 completeNumber: 228 withCapillary: 15 withMqtt: 12 withXmpp: 33
+2021-12-30 16:23:15,826 | INFO | Iteration: 361 completeNumber: 229 withCapillary: 15 withMqtt: 12 withXmpp: 33
+2021-12-30 16:23:19,465 | INFO | com.mediconnect.oladoc has xmpp
+2021-12-30 16:23:19,498 | INFO | Iteration: 362 completeNumber: 230 withCapillary: 15 withMqtt: 12 withXmpp: 34
+2021-12-30 16:23:24,100 | INFO | Iteration: 363 completeNumber: 230 withCapillary: 15 withMqtt: 12 withXmpp: 34
+2021-12-30 16:23:32,166 | INFO | Iteration: 364 completeNumber: 231 withCapillary: 15 withMqtt: 12 withXmpp: 34
+2021-12-30 16:23:37,074 | INFO | com.tigertext has xmpp
+2021-12-30 16:23:37,111 | INFO | Iteration: 365 completeNumber: 232 withCapillary: 15 withMqtt: 12 withXmpp: 35
+2021-12-30 16:23:47,874 | INFO | Iteration: 366 completeNumber: 233 withCapillary: 15 withMqtt: 12 withXmpp: 35
+2021-12-30 16:24:05,763 | INFO | leumit.mobile has xmpp
+2021-12-30 16:24:05,841 | INFO | Iteration: 367 completeNumber: 234 withCapillary: 15 withMqtt: 12 withXmpp: 36
+2021-12-30 16:24:05,969 | ERROR | Failed to download com.max.Anatomy
+2021-12-30 16:24:17,675 | INFO | Iteration: 369 completeNumber: 235 withCapillary: 15 withMqtt: 12 withXmpp: 36
+2021-12-30 16:24:18,323 | ERROR | Failed to download ru.rigla.client.android
+2021-12-30 16:24:20,647 | INFO | Iteration: 371 completeNumber: 235 withCapillary: 15 withMqtt: 12 withXmpp: 36
+2021-12-30 16:24:25,855 | INFO | Iteration: 372 completeNumber: 236 withCapillary: 15 withMqtt: 12 withXmpp: 36
+2021-12-30 16:24:26,523 | ERROR | Failed to download nic.hp.niv_reporting
+2021-12-30 16:24:27,129 | ERROR | Failed to download ar.com.omint.omint_mobileprepaga_android
+2021-12-30 16:24:30,357 | INFO | Iteration: 375 completeNumber: 237 withCapillary: 15 withMqtt: 12 withXmpp: 36
+2021-12-30 16:24:33,564 | INFO | Iteration: 376 completeNumber: 238 withCapillary: 15 withMqtt: 12 withXmpp: 36
+2021-12-30 16:24:37,062 | INFO | Iteration: 377 completeNumber: 239 withCapillary: 15 withMqtt: 12 withXmpp: 36
+2021-12-30 16:24:37,720 | ERROR | Failed to download se.mindoktor.android
+2021-12-30 16:24:41,498 | INFO | Iteration: 379 completeNumber: 240 withCapillary: 15 withMqtt: 12 withXmpp: 36
+2021-12-30 16:24:41,632 | ERROR | Failed to download cruzi.android
+2021-12-30 16:24:43,525 | INFO | Iteration: 381 completeNumber: 241 withCapillary: 15 withMqtt: 12 withXmpp: 36
+2021-12-30 16:24:44,147 | ERROR | Failed to download com.tatahealth.tatadhp
+2021-12-30 16:24:44,765 | ERROR | Failed to download com.aligntech.myinvisalign
+2021-12-30 16:24:44,906 | ERROR | Failed to download im.dev.pregnancy
+2021-12-30 16:24:47,883 | INFO | Iteration: 385 completeNumber: 242 withCapillary: 15 withMqtt: 12 withXmpp: 36
+2021-12-30 16:24:51,803 | INFO | dk.sundhed.minsundhed has xmpp
+2021-12-30 16:24:51,842 | INFO | Iteration: 386 completeNumber: 243 withCapillary: 15 withMqtt: 12 withXmpp: 37
+2021-12-30 16:25:06,219 | INFO | Iteration: 387 completeNumber: 244 withCapillary: 15 withMqtt: 12 withXmpp: 37
+2021-12-30 16:25:11,783 | INFO | Iteration: 388 completeNumber: 245 withCapillary: 15 withMqtt: 12 withXmpp: 37
+2021-12-30 16:25:16,305 | INFO | Iteration: 389 completeNumber: 246 withCapillary: 15 withMqtt: 12 withXmpp: 37
+2021-12-30 16:25:16,942 | ERROR | Failed to download com.saludtotal.saludtotaleps
+2021-12-30 16:25:24,135 | INFO | Iteration: 391 completeNumber: 246 withCapillary: 15 withMqtt: 12 withXmpp: 37
+2021-12-30 16:25:29,579 | INFO | care.telemed.patient has xmpp
+2021-12-30 16:25:29,603 | INFO | Iteration: 392 completeNumber: 247 withCapillary: 15 withMqtt: 12 withXmpp: 38
+2021-12-30 16:25:30,231 | ERROR | Failed to download com.medcords.rurallite
+2021-12-30 16:25:36,823 | INFO | Iteration: 394 completeNumber: 248 withCapillary: 15 withMqtt: 12 withXmpp: 38
+2021-12-30 16:25:37,620 | ERROR | Failed to download org.madrid.ztav.tarjetaSanitariaVirtual
+2021-12-30 16:25:38,254 | ERROR | Failed to download com.docdoc.docdoc
+2021-12-30 16:25:40,391 | INFO | net.klier.blutdruck has capillary
+2021-12-30 16:25:40,448 | INFO | Iteration: 397 completeNumber: 249 withCapillary: 16 withMqtt: 12 withXmpp: 38
+2021-12-30 16:25:44,602 | INFO | controllers.marham.marhammed has mqtt
+2021-12-30 16:25:44,714 | INFO | Iteration: 398 completeNumber: 250 withCapillary: 16 withMqtt: 13 withXmpp: 38
+2021-12-30 16:25:49,635 | INFO | de.docmorris.pharmacyapp has xmpp
+2021-12-30 16:25:49,655 | INFO | Iteration: 399 completeNumber: 251 withCapillary: 16 withMqtt: 13 withXmpp: 39
+2021-12-30 16:25:50,296 | ERROR | Failed to download com.savant.mobile.nhs.nhsgiveblood
+2021-12-30 16:25:54,471 | INFO | Iteration: 401 completeNumber: 252 withCapillary: 16 withMqtt: 13 withXmpp: 39
+2021-12-30 16:25:59,881 | INFO | Iteration: 402 completeNumber: 253 withCapillary: 16 withMqtt: 13 withXmpp: 39
+2021-12-30 16:26:02,348 | INFO | Iteration: 403 completeNumber: 254 withCapillary: 16 withMqtt: 13 withXmpp: 39
+2021-12-30 16:26:05,805 | INFO | com.mobisystems.msdict.embedded.wireless.elsevier.dorlandsmedical has capillary
+2021-12-30 16:26:05,887 | INFO | Iteration: 404 completeNumber: 255 withCapillary: 17 withMqtt: 13 withXmpp: 39
+2021-12-30 16:26:24,382 | INFO | dk.resound.smart3d has xmpp
+2021-12-30 16:26:24,440 | INFO | Iteration: 405 completeNumber: 256 withCapillary: 17 withMqtt: 13 withXmpp: 40
+2021-12-30 16:26:27,707 | INFO | Iteration: 406 completeNumber: 257 withCapillary: 17 withMqtt: 13 withXmpp: 40
+2021-12-30 16:26:31,488 | INFO | Iteration: 407 completeNumber: 258 withCapillary: 17 withMqtt: 13 withXmpp: 40
+2021-12-30 16:26:53,582 | INFO | Iteration: 408 completeNumber: 259 withCapillary: 17 withMqtt: 13 withXmpp: 40
+2021-12-30 16:26:54,218 | ERROR | Failed to download net.fhpl
+2021-12-30 16:26:54,855 | ERROR | Failed to download com.dumsco.stressscan
+2021-12-30 16:26:57,530 | INFO | Iteration: 411 completeNumber: 260 withCapillary: 17 withMqtt: 13 withXmpp: 40
+2021-12-30 16:27:08,490 | INFO | Iteration: 412 completeNumber: 261 withCapillary: 17 withMqtt: 13 withXmpp: 40
+2021-12-30 16:27:13,382 | INFO | Iteration: 413 completeNumber: 262 withCapillary: 17 withMqtt: 13 withXmpp: 40
+2021-12-30 16:27:33,017 | INFO | com.msd.professional has capillary
+2021-12-30 16:27:33,325 | INFO | Iteration: 414 completeNumber: 263 withCapillary: 18 withMqtt: 13 withXmpp: 40
+2021-12-30 16:27:35,850 | INFO | Iteration: 415 completeNumber: 264 withCapillary: 18 withMqtt: 13 withXmpp: 40
+2021-12-30 16:27:39,847 | INFO | Iteration: 416 completeNumber: 265 withCapillary: 18 withMqtt: 13 withXmpp: 40
+2021-12-30 16:27:47,836 | INFO | Iteration: 417 completeNumber: 266 withCapillary: 18 withMqtt: 13 withXmpp: 40
+2021-12-30 16:27:58,687 | INFO | Iteration: 418 completeNumber: 266 withCapillary: 18 withMqtt: 13 withXmpp: 40
+2021-12-30 16:28:07,311 | INFO | colsanitas.foonkiemonkey.com.co.eps has xmpp
+2021-12-30 16:28:07,346 | INFO | Iteration: 419 completeNumber: 267 withCapillary: 18 withMqtt: 13 withXmpp: 41
+2021-12-30 16:28:10,708 | INFO | Iteration: 420 completeNumber: 268 withCapillary: 18 withMqtt: 13 withXmpp: 41
+2021-12-30 16:28:18,144 | INFO | Iteration: 421 completeNumber: 269 withCapillary: 18 withMqtt: 13 withXmpp: 41
+2021-12-30 16:28:28,157 | INFO | Iteration: 422 completeNumber: 270 withCapillary: 18 withMqtt: 13 withXmpp: 41
+2021-12-30 16:29:21,072 | INFO | Iteration: 423 completeNumber: 271 withCapillary: 18 withMqtt: 13 withXmpp: 41
+2021-12-30 16:29:25,729 | INFO | Iteration: 424 completeNumber: 271 withCapillary: 18 withMqtt: 13 withXmpp: 41
+2021-12-30 16:29:27,689 | INFO | Iteration: 425 completeNumber: 272 withCapillary: 18 withMqtt: 13 withXmpp: 41
+2021-12-30 16:29:39,125 | INFO | Iteration: 426 completeNumber: 273 withCapillary: 18 withMqtt: 13 withXmpp: 41
+2021-12-30 16:29:39,750 | ERROR | Failed to download com.patientz.activity
+2021-12-30 16:29:43,158 | INFO | Iteration: 428 completeNumber: 274 withCapillary: 18 withMqtt: 13 withXmpp: 41
+2021-12-30 16:29:44,669 | INFO | Iteration: 429 completeNumber: 275 withCapillary: 18 withMqtt: 13 withXmpp: 41
+2021-12-30 16:29:47,386 | INFO | Iteration: 430 completeNumber: 276 withCapillary: 18 withMqtt: 13 withXmpp: 41
+2021-12-30 16:29:49,731 | INFO | Iteration: 431 completeNumber: 277 withCapillary: 18 withMqtt: 13 withXmpp: 41
+2021-12-30 16:29:52,639 | INFO | Iteration: 432 completeNumber: 278 withCapillary: 18 withMqtt: 13 withXmpp: 41
+2021-12-30 16:30:09,087 | INFO | com.visual3dscience.humananatomy has capillary
+2021-12-30 16:30:09,964 | INFO | Iteration: 433 completeNumber: 279 withCapillary: 19 withMqtt: 13 withXmpp: 41
+2021-12-30 16:30:14,593 | INFO | Iteration: 434 completeNumber: 280 withCapillary: 19 withMqtt: 13 withXmpp: 41
+2021-12-30 16:30:34,040 | INFO | Iteration: 435 completeNumber: 281 withCapillary: 19 withMqtt: 13 withXmpp: 41
+2021-12-30 16:30:34,674 | ERROR | Failed to download com.freestylelibre.app.fr
+2021-12-30 16:30:35,321 | ERROR | Failed to download es.jccm.sescam.cita
+2021-12-30 16:30:39,942 | INFO | Iteration: 438 completeNumber: 282 withCapillary: 19 withMqtt: 13 withXmpp: 41
+2021-12-30 16:30:44,771 | INFO | my.doctor2u.client has xmpp
+2021-12-30 16:30:44,800 | INFO | Iteration: 439 completeNumber: 283 withCapillary: 19 withMqtt: 13 withXmpp: 42
+2021-12-30 16:30:46,804 | INFO | Iteration: 440 completeNumber: 284 withCapillary: 19 withMqtt: 13 withXmpp: 42
+2021-12-30 16:30:59,793 | INFO | Iteration: 441 completeNumber: 285 withCapillary: 19 withMqtt: 13 withXmpp: 42
+2021-12-30 16:31:03,793 | INFO | Iteration: 442 completeNumber: 286 withCapillary: 19 withMqtt: 13 withXmpp: 42
+2021-12-30 16:31:19,954 | INFO | Iteration: 443 completeNumber: 287 withCapillary: 19 withMqtt: 13 withXmpp: 42
+2021-12-30 16:31:25,011 | INFO | Iteration: 444 completeNumber: 288 withCapillary: 19 withMqtt: 13 withXmpp: 42
+2021-12-30 16:31:30,927 | INFO | Iteration: 445 completeNumber: 289 withCapillary: 19 withMqtt: 13 withXmpp: 42
+2021-12-30 16:31:36,513 | INFO | Iteration: 446 completeNumber: 290 withCapillary: 19 withMqtt: 13 withXmpp: 42
+2021-12-30 16:31:37,121 | ERROR | Failed to download com.bs.ccc
+2021-12-30 16:31:37,725 | ERROR | Failed to download ch.rega.Rega
+2021-12-30 16:31:37,861 | ERROR | Failed to download com.Eha.covid_19
+2021-12-30 16:31:38,441 | ERROR | Failed to download com.pttdigital.cra.sinop
+2021-12-30 16:31:39,135 | ERROR | Failed to download br.com.sulamerica.odonto
+2021-12-30 16:31:42,677 | INFO | Iteration: 452 completeNumber: 291 withCapillary: 19 withMqtt: 13 withXmpp: 42
+2021-12-30 16:31:47,251 | INFO | Iteration: 453 completeNumber: 292 withCapillary: 19 withMqtt: 13 withXmpp: 42
+2021-12-30 16:31:47,928 | ERROR | Failed to download mx.com.farmaciasanpablo
+2021-12-30 16:31:48,522 | ERROR | Failed to download com.cslplasma.cslplasmadonorapplication
+2021-12-30 16:31:48,674 | ERROR | Failed to download com.deltadental.HealthApp
+2021-12-30 16:31:57,471 | INFO | hk.org.ha.hago has capillary
+2021-12-30 16:31:57,778 | INFO | hk.org.ha.hago has xmpp
+2021-12-30 16:31:57,834 | INFO | Iteration: 457 completeNumber: 293 withCapillary: 20 withMqtt: 13 withXmpp: 43
+2021-12-30 16:31:58,517 | ERROR | Failed to download it.naxe.soresa.ecovid
+2021-12-30 16:31:58,647 | ERROR | Failed to download appinventor.ai_fernando_ivan.como_esta_bebe_lite
+2021-12-30 16:32:01,436 | INFO | Iteration: 460 completeNumber: 294 withCapillary: 20 withMqtt: 13 withXmpp: 43
+2021-12-30 16:32:03,696 | INFO | Iteration: 461 completeNumber: 295 withCapillary: 20 withMqtt: 13 withXmpp: 43
+2021-12-30 16:32:05,465 | INFO | Iteration: 462 completeNumber: 296 withCapillary: 20 withMqtt: 13 withXmpp: 43
+2021-12-30 16:32:07,652 | INFO | Iteration: 463 completeNumber: 297 withCapillary: 20 withMqtt: 13 withXmpp: 43
+2021-12-30 16:32:24,037 | INFO | com.visual3dscience.organs has capillary
+2021-12-30 16:32:25,071 | INFO | Iteration: 464 completeNumber: 298 withCapillary: 21 withMqtt: 13 withXmpp: 43
+2021-12-30 16:32:26,372 | INFO | Iteration: 465 completeNumber: 299 withCapillary: 21 withMqtt: 13 withXmpp: 43
+2021-12-30 16:32:29,704 | INFO | com.anatomyapps3d.circulatory3d has capillary
+2021-12-30 16:32:29,911 | INFO | Iteration: 466 completeNumber: 300 withCapillary: 22 withMqtt: 13 withXmpp: 43
+2021-12-30 16:32:32,122 | INFO | Iteration: 467 completeNumber: 301 withCapillary: 22 withMqtt: 13 withXmpp: 43
+2021-12-30 16:32:35,201 | INFO | Iteration: 468 completeNumber: 302 withCapillary: 22 withMqtt: 13 withXmpp: 43
+2021-12-30 16:32:40,145 | INFO | Iteration: 469 completeNumber: 303 withCapillary: 22 withMqtt: 13 withXmpp: 43
+2021-12-30 16:32:49,042 | INFO | Iteration: 470 completeNumber: 304 withCapillary: 22 withMqtt: 13 withXmpp: 43
+2021-12-30 16:32:52,466 | INFO | Iteration: 471 completeNumber: 305 withCapillary: 22 withMqtt: 13 withXmpp: 43
+2021-12-30 16:32:55,510 | INFO | Iteration: 472 completeNumber: 306 withCapillary: 22 withMqtt: 13 withXmpp: 43
+2021-12-30 16:32:59,759 | INFO | Iteration: 473 completeNumber: 307 withCapillary: 22 withMqtt: 13 withXmpp: 43
+2021-12-30 16:33:00,408 | ERROR | Failed to download se.slso.app4us
+2021-12-30 16:33:01,008 | ERROR | Failed to download com.cerner.iris.play
+2021-12-30 16:33:08,705 | INFO | com.aia.rn.th.dp01 has xmpp
+2021-12-30 16:33:08,758 | INFO | Iteration: 476 completeNumber: 308 withCapillary: 22 withMqtt: 13 withXmpp: 44
+2021-12-30 16:33:11,240 | INFO | Iteration: 477 completeNumber: 309 withCapillary: 22 withMqtt: 13 withXmpp: 44
+2021-12-30 16:33:13,068 | INFO | com.berry_med.oxycare has capillary
+2021-12-30 16:33:13,112 | INFO | Iteration: 478 completeNumber: 310 withCapillary: 23 withMqtt: 13 withXmpp: 44
+2021-12-30 16:33:16,506 | INFO | Iteration: 479 completeNumber: 311 withCapillary: 23 withMqtt: 13 withXmpp: 44
+2021-12-30 16:33:22,162 | INFO | Iteration: 480 completeNumber: 312 withCapillary: 23 withMqtt: 13 withXmpp: 44
+2021-12-30 16:33:25,659 | INFO | Iteration: 481 completeNumber: 312 withCapillary: 23 withMqtt: 13 withXmpp: 44
+2021-12-30 16:33:42,350 | INFO | Iteration: 482 completeNumber: 313 withCapillary: 23 withMqtt: 13 withXmpp: 44
+2021-12-30 16:33:42,939 | ERROR | Failed to download jp.co.nicho.jpokusuri
+2021-12-30 16:33:43,565 | ERROR | Failed to download com.ccc.farmavalue
+2021-12-30 16:33:46,784 | INFO | Iteration: 485 completeNumber: 314 withCapillary: 23 withMqtt: 13 withXmpp: 44
+2021-12-30 16:33:50,628 | INFO | Iteration: 486 completeNumber: 315 withCapillary: 23 withMqtt: 13 withXmpp: 44
+2021-12-30 16:33:53,871 | INFO | Iteration: 487 completeNumber: 316 withCapillary: 23 withMqtt: 13 withXmpp: 44
+2021-12-30 16:33:58,646 | INFO | Iteration: 488 completeNumber: 317 withCapillary: 23 withMqtt: 13 withXmpp: 44
+2021-12-30 16:33:59,044 | ERROR | Failed to download com.labcorp.patientportal
+2021-12-30 16:34:06,228 | INFO | com.veeva.engage has xmpp
+2021-12-30 16:34:06,282 | INFO | Iteration: 490 completeNumber: 318 withCapillary: 23 withMqtt: 13 withXmpp: 45
+2021-12-30 16:34:06,401 | ERROR | Failed to download com.max.HumanBodyFacts
+2021-12-30 16:34:09,459 | INFO | Iteration: 492 completeNumber: 319 withCapillary: 23 withMqtt: 13 withXmpp: 45
+2021-12-30 16:34:11,343 | INFO | Iteration: 493 completeNumber: 320 withCapillary: 23 withMqtt: 13 withXmpp: 45
+2021-12-30 16:34:15,296 | INFO | Iteration: 494 completeNumber: 321 withCapillary: 23 withMqtt: 13 withXmpp: 45
+2021-12-30 16:34:19,352 | INFO | com.bimaryh.seiljhd has xmpp
+2021-12-30 16:34:19,376 | INFO | Iteration: 495 completeNumber: 322 withCapillary: 23 withMqtt: 13 withXmpp: 46
+2021-12-30 16:34:41,775 | INFO | Iteration: 496 completeNumber: 323 withCapillary: 23 withMqtt: 13 withXmpp: 46
+2021-12-30 16:34:48,635 | INFO | Iteration: 497 completeNumber: 324 withCapillary: 23 withMqtt: 13 withXmpp: 46
+2021-12-30 16:34:51,330 | INFO | Iteration: 498 completeNumber: 324 withCapillary: 23 withMqtt: 13 withXmpp: 46
+2021-12-30 16:34:54,574 | INFO | direktoratetforehelse.helsenorge.no has mqtt
+2021-12-30 16:34:54,632 | INFO | Iteration: 499 completeNumber: 325 withCapillary: 23 withMqtt: 14 withXmpp: 46
+2021-12-30 16:34:58,649 | INFO | com.innoplexus.patientapp has xmpp
+2021-12-30 16:34:58,665 | INFO | Iteration: 500 completeNumber: 326 withCapillary: 23 withMqtt: 14 withXmpp: 47
