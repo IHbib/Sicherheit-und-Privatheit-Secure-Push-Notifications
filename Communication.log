@@ -1,0 +1,615 @@
+2022-01-02 15:31:57,346 | INFO | com.whatsapp has xmpp
+2022-01-02 15:31:57,434 | INFO | Iteration: 1 downloadedApps: 1 appsWithPush: 1 withCapillary: 0 withXmpp: 1
+2022-01-02 15:32:08,029 | INFO | Iteration: 2 downloadedApps: 2 appsWithPush: 2 withCapillary: 0 withXmpp: 1
+2022-01-02 15:32:34,321 | INFO | com.android.chrome has xmpp
+2022-01-02 15:32:34,400 | INFO | Iteration: 3 downloadedApps: 3 appsWithPush: 3 withCapillary: 0 withXmpp: 2
+2022-01-02 15:32:46,223 | INFO | com.UCMobile.intl has xmpp
+2022-01-02 15:32:46,283 | INFO | Iteration: 4 downloadedApps: 4 appsWithPush: 4 withCapillary: 0 withXmpp: 3
+2022-01-02 15:33:01,254 | INFO | Iteration: 5 downloadedApps: 5 appsWithPush: 5 withCapillary: 0 withXmpp: 3
+2022-01-02 15:33:12,676 | INFO | Iteration: 6 downloadedApps: 6 appsWithPush: 6 withCapillary: 0 withXmpp: 3
+2022-01-02 15:33:31,958 | INFO | jp.naver.line.android has xmpp
+2022-01-02 15:33:32,090 | INFO | Iteration: 7 downloadedApps: 7 appsWithPush: 7 withCapillary: 0 withXmpp: 4
+2022-01-02 15:33:40,792 | INFO | com.skype.raider has xmpp
+2022-01-02 15:33:40,853 | INFO | Iteration: 8 downloadedApps: 8 appsWithPush: 8 withCapillary: 0 withXmpp: 5
+2022-01-02 15:33:47,498 | INFO | Iteration: 9 downloadedApps: 9 appsWithPush: 9 withCapillary: 0 withXmpp: 5
+2022-01-02 15:33:57,825 | INFO | Iteration: 10 downloadedApps: 10 appsWithPush: 10 withCapillary: 0 withXmpp: 5
+2022-01-02 15:34:01,888 | INFO | Iteration: 11 downloadedApps: 11 appsWithPush: 11 withCapillary: 0 withXmpp: 5
+2022-01-02 15:34:06,871 | INFO | com.opera.mini.native has xmpp
+2022-01-02 15:34:06,912 | INFO | Iteration: 12 downloadedApps: 12 appsWithPush: 12 withCapillary: 0 withXmpp: 6
+2022-01-02 15:34:14,719 | INFO | Iteration: 13 downloadedApps: 13 appsWithPush: 12 withCapillary: 0 withXmpp: 6
+2022-01-02 15:34:25,294 | INFO | com.whatsapp.w4b has xmpp
+2022-01-02 15:34:25,427 | INFO | Iteration: 14 downloadedApps: 14 appsWithPush: 13 withCapillary: 0 withXmpp: 7
+2022-01-02 15:34:31,600 | INFO | Iteration: 15 downloadedApps: 15 appsWithPush: 14 withCapillary: 0 withXmpp: 7
+2022-01-02 15:34:53,547 | INFO | Iteration: 16 downloadedApps: 16 appsWithPush: 15 withCapillary: 0 withXmpp: 7
+2022-01-02 15:35:02,974 | INFO | Iteration: 17 downloadedApps: 17 appsWithPush: 16 withCapillary: 0 withXmpp: 7
+2022-01-02 15:35:08,885 | INFO | Iteration: 18 downloadedApps: 18 appsWithPush: 17 withCapillary: 0 withXmpp: 7
+2022-01-02 15:35:12,624 | INFO | Iteration: 19 downloadedApps: 19 appsWithPush: 18 withCapillary: 0 withXmpp: 7
+2022-01-02 15:35:17,379 | INFO | Iteration: 20 downloadedApps: 20 appsWithPush: 18 withCapillary: 0 withXmpp: 7
+2022-01-02 15:35:37,318 | INFO | com.sec.android.app.sbrowser has xmpp
+2022-01-02 15:35:37,395 | INFO | Iteration: 21 downloadedApps: 21 appsWithPush: 19 withCapillary: 0 withXmpp: 8
+2022-01-02 15:35:50,908 | INFO | org.mozilla.firefox has xmpp
+2022-01-02 15:35:50,969 | INFO | Iteration: 22 downloadedApps: 22 appsWithPush: 20 withCapillary: 0 withXmpp: 9
+2022-01-02 15:36:05,276 | INFO | com.opera.browser has xmpp
+2022-01-02 15:36:05,339 | INFO | Iteration: 23 downloadedApps: 23 appsWithPush: 21 withCapillary: 0 withXmpp: 10
+2022-01-02 15:36:25,790 | INFO | Iteration: 24 downloadedApps: 24 appsWithPush: 22 withCapillary: 0 withXmpp: 10
+2022-01-02 15:36:56,601 | INFO | com.kakao.talk has xmpp
+2022-01-02 15:36:56,818 | INFO | Iteration: 25 downloadedApps: 25 appsWithPush: 23 withCapillary: 0 withXmpp: 11
+2022-01-02 15:37:03,663 | INFO | com.jb.gosms has xmpp
+2022-01-02 15:37:03,726 | INFO | Iteration: 26 downloadedApps: 26 appsWithPush: 24 withCapillary: 0 withXmpp: 12
+2022-01-02 15:37:09,548 | INFO | Iteration: 27 downloadedApps: 27 appsWithPush: 25 withCapillary: 0 withXmpp: 12
+2022-01-02 15:37:32,415 | INFO | kik.android has xmpp
+2022-01-02 15:37:32,549 | INFO | Iteration: 28 downloadedApps: 28 appsWithPush: 26 withCapillary: 0 withXmpp: 13
+2022-01-02 15:37:37,672 | INFO | Iteration: 29 downloadedApps: 29 appsWithPush: 27 withCapillary: 0 withXmpp: 13
+2022-01-02 15:37:47,760 | INFO | org.thoughtcrime.securesms has xmpp
+2022-01-02 15:37:47,818 | INFO | Iteration: 30 downloadedApps: 30 appsWithPush: 28 withCapillary: 0 withXmpp: 14
+2022-01-02 15:37:57,955 | INFO | Iteration: 31 downloadedApps: 31 appsWithPush: 29 withCapillary: 0 withXmpp: 14
+2022-01-02 15:38:11,085 | INFO | Iteration: 32 downloadedApps: 32 appsWithPush: 30 withCapillary: 0 withXmpp: 14
+2022-01-02 15:38:11,703 | ERROR | Failed to download app.source.getcontact
+2022-01-02 15:38:24,888 | INFO | ru.mail.mailapp has xmpp
+2022-01-02 15:38:24,990 | INFO | Iteration: 34 downloadedApps: 33 appsWithPush: 31 withCapillary: 0 withXmpp: 15
+2022-01-02 15:38:25,623 | ERROR | Failed to download com.imo.android.imoimbeta
+2022-01-02 15:38:26,251 | ERROR | Failed to download com.jio.join
+2022-01-02 15:38:27,787 | INFO | Iteration: 37 downloadedApps: 34 appsWithPush: 32 withCapillary: 0 withXmpp: 15
+2022-01-02 15:38:36,138 | INFO | com.turkcell.bip has capillary
+2022-01-02 15:38:36,259 | INFO | com.turkcell.bip has xmpp
+2022-01-02 15:38:36,298 | INFO | Iteration: 38 downloadedApps: 35 appsWithPush: 33 withCapillary: 1 withXmpp: 16
+2022-01-02 15:38:36,882 | ERROR | Failed to download com.psiphon3
+2022-01-02 15:38:37,531 | ERROR | Failed to download com.enflick.android.TextNow
+2022-01-02 15:38:38,148 | ERROR | Failed to download com.michatapp.im
+2022-01-02 15:38:44,929 | INFO | Iteration: 42 downloadedApps: 36 appsWithPush: 34 withCapillary: 1 withXmpp: 16
+2022-01-02 15:38:47,233 | INFO | Iteration: 43 downloadedApps: 37 appsWithPush: 35 withCapillary: 1 withXmpp: 16
+2022-01-02 15:38:55,750 | INFO | com.callapp.contacts has xmpp
+2022-01-02 15:38:55,802 | INFO | Iteration: 44 downloadedApps: 38 appsWithPush: 36 withCapillary: 1 withXmpp: 17
+2022-01-02 15:39:18,028 | INFO | im.thebot.messenger has xmpp
+2022-01-02 15:39:18,164 | INFO | Iteration: 45 downloadedApps: 39 appsWithPush: 37 withCapillary: 1 withXmpp: 18
+2022-01-02 15:39:24,649 | INFO | Iteration: 46 downloadedApps: 40 appsWithPush: 38 withCapillary: 1 withXmpp: 18
+2022-01-02 15:39:31,852 | INFO | Iteration: 47 downloadedApps: 41 appsWithPush: 39 withCapillary: 1 withXmpp: 18
+2022-01-02 15:39:41,049 | INFO | com.icq.mobile.client has xmpp
+2022-01-02 15:39:41,088 | INFO | Iteration: 48 downloadedApps: 42 appsWithPush: 40 withCapillary: 1 withXmpp: 19
+2022-01-02 15:39:44,845 | INFO | com.google.android.contacts has xmpp
+2022-01-02 15:39:44,891 | INFO | Iteration: 49 downloadedApps: 43 appsWithPush: 41 withCapillary: 1 withXmpp: 20
+2022-01-02 15:39:49,788 | INFO | Iteration: 50 downloadedApps: 44 appsWithPush: 42 withCapillary: 1 withXmpp: 20
+2022-01-02 15:39:52,058 | INFO | Iteration: 51 downloadedApps: 45 appsWithPush: 43 withCapillary: 1 withXmpp: 20
+2022-01-02 15:40:18,424 | INFO | com.verizon.messaging.vzmsgs has xmpp
+2022-01-02 15:40:18,605 | INFO | Iteration: 52 downloadedApps: 46 appsWithPush: 44 withCapillary: 1 withXmpp: 21
+2022-01-02 15:40:19,208 | ERROR | Failed to download com.mcent.browser
+2022-01-02 15:40:31,502 | INFO | Iteration: 54 downloadedApps: 47 appsWithPush: 45 withCapillary: 1 withXmpp: 21
+2022-01-02 15:40:35,016 | INFO | Iteration: 55 downloadedApps: 48 appsWithPush: 45 withCapillary: 1 withXmpp: 21
+2022-01-02 15:40:40,489 | INFO | Iteration: 56 downloadedApps: 49 appsWithPush: 46 withCapillary: 1 withXmpp: 21
+2022-01-02 15:41:08,470 | INFO | com.brave.browser has xmpp
+2022-01-02 15:41:08,544 | INFO | Iteration: 57 downloadedApps: 50 appsWithPush: 47 withCapillary: 1 withXmpp: 22
+2022-01-02 15:41:25,444 | INFO | Iteration: 58 downloadedApps: 51 appsWithPush: 47 withCapillary: 1 withXmpp: 22
+2022-01-02 15:41:31,819 | INFO | com.psiphon3.subscription has xmpp
+2022-01-02 15:41:31,858 | INFO | Iteration: 59 downloadedApps: 52 appsWithPush: 48 withCapillary: 1 withXmpp: 23
+2022-01-02 15:41:32,580 | ERROR | Failed to download ru.mail
+2022-01-02 15:41:37,632 | INFO | com.services.movistar.ar has xmpp
+2022-01-02 15:41:37,686 | INFO | Iteration: 61 downloadedApps: 53 appsWithPush: 49 withCapillary: 1 withXmpp: 24
+2022-01-02 15:41:44,222 | INFO | Iteration: 62 downloadedApps: 54 appsWithPush: 50 withCapillary: 1 withXmpp: 24
+2022-01-02 15:41:47,662 | INFO | Iteration: 63 downloadedApps: 55 appsWithPush: 51 withCapillary: 1 withXmpp: 24
+2022-01-02 15:41:54,384 | INFO | Iteration: 64 downloadedApps: 56 appsWithPush: 52 withCapillary: 1 withXmpp: 24
+2022-01-02 15:42:05,027 | INFO | Iteration: 65 downloadedApps: 57 appsWithPush: 53 withCapillary: 1 withXmpp: 24
+2022-01-02 15:42:09,827 | INFO | Iteration: 66 downloadedApps: 58 appsWithPush: 54 withCapillary: 1 withXmpp: 24
+2022-01-02 15:42:10,213 | ERROR | Failed to download com.asus.contacts
+2022-01-02 15:42:16,103 | INFO | de.gmx.mobile.android.mail has xmpp
+2022-01-02 15:42:16,144 | INFO | Iteration: 68 downloadedApps: 59 appsWithPush: 55 withCapillary: 1 withXmpp: 25
+2022-01-02 15:42:21,836 | INFO | Iteration: 69 downloadedApps: 60 appsWithPush: 56 withCapillary: 1 withXmpp: 25
+2022-01-02 15:42:22,424 | ERROR | Failed to download com.jiochat.jiochatapp
+2022-01-02 15:42:32,252 | INFO | Iteration: 71 downloadedApps: 61 appsWithPush: 57 withCapillary: 1 withXmpp: 25
+2022-01-02 15:42:39,285 | INFO | Iteration: 72 downloadedApps: 62 appsWithPush: 58 withCapillary: 1 withXmpp: 25
+2022-01-02 15:42:42,594 | INFO | Iteration: 73 downloadedApps: 63 appsWithPush: 59 withCapillary: 1 withXmpp: 25
+2022-01-02 15:42:54,233 | INFO | com.my.mail has xmpp
+2022-01-02 15:42:54,319 | INFO | Iteration: 74 downloadedApps: 64 appsWithPush: 60 withCapillary: 1 withXmpp: 26
+2022-01-02 15:42:59,155 | INFO | Iteration: 75 downloadedApps: 65 appsWithPush: 61 withCapillary: 1 withXmpp: 26
+2022-01-02 15:43:04,177 | INFO | Iteration: 76 downloadedApps: 66 appsWithPush: 61 withCapillary: 1 withXmpp: 26
+2022-01-02 15:43:22,817 | INFO | com.microsoft.emmx has xmpp
+2022-01-02 15:43:22,922 | INFO | Iteration: 77 downloadedApps: 67 appsWithPush: 62 withCapillary: 1 withXmpp: 27
+2022-01-02 15:43:56,218 | INFO | de.web.mobile.android.mail has xmpp
+2022-01-02 15:43:56,266 | INFO | Iteration: 78 downloadedApps: 68 appsWithPush: 63 withCapillary: 1 withXmpp: 28
+2022-01-02 15:44:01,149 | INFO | Iteration: 79 downloadedApps: 69 appsWithPush: 64 withCapillary: 1 withXmpp: 28
+2022-01-02 15:44:10,384 | INFO | ru.yandex.mail has xmpp
+2022-01-02 15:44:10,435 | INFO | Iteration: 80 downloadedApps: 70 appsWithPush: 65 withCapillary: 1 withXmpp: 29
+2022-01-02 15:44:15,578 | INFO | Iteration: 81 downloadedApps: 71 appsWithPush: 66 withCapillary: 1 withXmpp: 29
+2022-01-02 15:44:24,317 | INFO | com.ucturbo has xmpp
+2022-01-02 15:44:24,358 | INFO | Iteration: 82 downloadedApps: 72 appsWithPush: 67 withCapillary: 1 withXmpp: 30
+2022-01-02 15:44:30,066 | INFO | Iteration: 83 downloadedApps: 73 appsWithPush: 68 withCapillary: 1 withXmpp: 30
+2022-01-02 15:44:39,368 | INFO | Iteration: 84 downloadedApps: 74 appsWithPush: 69 withCapillary: 1 withXmpp: 30
+2022-01-02 15:44:43,007 | INFO | Iteration: 85 downloadedApps: 75 appsWithPush: 70 withCapillary: 1 withXmpp: 30
+2022-01-02 15:44:53,309 | INFO | me.talkyou.app.im has xmpp
+2022-01-02 15:44:53,393 | INFO | Iteration: 86 downloadedApps: 76 appsWithPush: 71 withCapillary: 1 withXmpp: 31
+2022-01-02 15:44:54,523 | INFO | Iteration: 87 downloadedApps: 77 appsWithPush: 71 withCapillary: 1 withXmpp: 31
+2022-01-02 15:45:00,340 | INFO | Iteration: 88 downloadedApps: 78 appsWithPush: 72 withCapillary: 1 withXmpp: 31
+2022-01-02 15:45:07,784 | INFO | Iteration: 89 downloadedApps: 79 appsWithPush: 73 withCapillary: 1 withXmpp: 31
+2022-01-02 15:45:14,918 | INFO | Iteration: 90 downloadedApps: 80 appsWithPush: 73 withCapillary: 1 withXmpp: 31
+2022-01-02 15:45:47,223 | INFO | Iteration: 91 downloadedApps: 81 appsWithPush: 74 withCapillary: 1 withXmpp: 31
+2022-01-02 15:45:49,749 | INFO | Iteration: 92 downloadedApps: 82 appsWithPush: 74 withCapillary: 1 withXmpp: 31
+2022-01-02 15:45:56,809 | INFO | Iteration: 93 downloadedApps: 83 appsWithPush: 75 withCapillary: 1 withXmpp: 31
+2022-01-02 15:46:05,421 | INFO | Iteration: 94 downloadedApps: 84 appsWithPush: 76 withCapillary: 1 withXmpp: 31
+2022-01-02 15:46:13,207 | INFO | Iteration: 95 downloadedApps: 85 appsWithPush: 77 withCapillary: 1 withXmpp: 31
+2022-01-02 15:46:16,374 | INFO | Iteration: 96 downloadedApps: 86 appsWithPush: 78 withCapillary: 1 withXmpp: 31
+2022-01-02 15:46:20,755 | INFO | Iteration: 97 downloadedApps: 87 appsWithPush: 79 withCapillary: 1 withXmpp: 31
+2022-01-02 15:46:28,618 | INFO | com.juphoon.justalk has xmpp
+2022-01-02 15:46:28,694 | INFO | Iteration: 98 downloadedApps: 88 appsWithPush: 80 withCapillary: 1 withXmpp: 32
+2022-01-02 15:46:41,189 | INFO | Iteration: 99 downloadedApps: 89 appsWithPush: 81 withCapillary: 1 withXmpp: 32
+2022-01-02 15:46:41,824 | ERROR | Failed to download com.movistar.android.mimovistar.es
+2022-01-02 15:46:56,142 | INFO | com.opera.browser.beta has xmpp
+2022-01-02 15:46:56,220 | INFO | Iteration: 101 downloadedApps: 90 appsWithPush: 82 withCapillary: 1 withXmpp: 33
+2022-01-02 15:47:03,067 | INFO | Iteration: 102 downloadedApps: 91 appsWithPush: 83 withCapillary: 1 withXmpp: 33
+2022-01-02 15:47:04,687 | INFO | Iteration: 103 downloadedApps: 92 appsWithPush: 84 withCapillary: 1 withXmpp: 33
+2022-01-02 15:47:09,015 | INFO | Iteration: 104 downloadedApps: 93 appsWithPush: 85 withCapillary: 1 withXmpp: 33
+2022-01-02 15:47:13,517 | INFO | Iteration: 105 downloadedApps: 94 appsWithPush: 86 withCapillary: 1 withXmpp: 33
+2022-01-02 15:47:26,996 | INFO | org.mozilla.firefox_beta has xmpp
+2022-01-02 15:47:27,058 | INFO | Iteration: 106 downloadedApps: 95 appsWithPush: 87 withCapillary: 1 withXmpp: 34
+2022-01-02 15:47:44,451 | INFO | com.skt.prod.dialer has xmpp
+2022-01-02 15:47:44,538 | INFO | Iteration: 107 downloadedApps: 96 appsWithPush: 88 withCapillary: 1 withXmpp: 35
+2022-01-02 15:47:52,312 | INFO | Iteration: 108 downloadedApps: 97 appsWithPush: 89 withCapillary: 1 withXmpp: 35
+2022-01-02 15:47:59,113 | INFO | com.syncme.syncmeapp has xmpp
+2022-01-02 15:47:59,162 | INFO | Iteration: 109 downloadedApps: 98 appsWithPush: 90 withCapillary: 1 withXmpp: 36
+2022-01-02 15:48:08,914 | INFO | Iteration: 110 downloadedApps: 99 appsWithPush: 91 withCapillary: 1 withXmpp: 36
+2022-01-02 15:48:26,268 | INFO | mm.cws.telenor.app has xmpp
+2022-01-02 15:48:26,359 | INFO | Iteration: 111 downloadedApps: 100 appsWithPush: 92 withCapillary: 1 withXmpp: 37
+2022-01-02 15:48:39,103 | INFO | Iteration: 112 downloadedApps: 101 appsWithPush: 92 withCapillary: 1 withXmpp: 37
+2022-01-02 15:48:58,420 | INFO | com.mytel.myid has xmpp
+2022-01-02 15:48:58,549 | INFO | Iteration: 113 downloadedApps: 102 appsWithPush: 93 withCapillary: 1 withXmpp: 38
+2022-01-02 15:49:01,797 | INFO | com.majedev.superbeam has xmpp
+2022-01-02 15:49:01,819 | INFO | Iteration: 114 downloadedApps: 103 appsWithPush: 94 withCapillary: 1 withXmpp: 39
+2022-01-02 15:49:25,512 | INFO | Iteration: 115 downloadedApps: 104 appsWithPush: 95 withCapillary: 1 withXmpp: 39
+2022-01-02 15:49:30,472 | INFO | com.tuenti.messenger has xmpp
+2022-01-02 15:49:30,555 | INFO | Iteration: 116 downloadedApps: 105 appsWithPush: 96 withCapillary: 1 withXmpp: 40
+2022-01-02 15:49:33,997 | INFO | Iteration: 117 downloadedApps: 106 appsWithPush: 97 withCapillary: 1 withXmpp: 40
+2022-01-02 15:49:38,934 | INFO | com.contapps.android has xmpp
+2022-01-02 15:49:38,973 | INFO | Iteration: 118 downloadedApps: 107 appsWithPush: 98 withCapillary: 1 withXmpp: 41
+2022-01-02 15:49:52,010 | INFO | Iteration: 119 downloadedApps: 108 appsWithPush: 99 withCapillary: 1 withXmpp: 41
+2022-01-02 15:49:55,421 | INFO | Iteration: 120 downloadedApps: 109 appsWithPush: 100 withCapillary: 1 withXmpp: 41
+2022-01-02 15:50:00,122 | INFO | Iteration: 121 downloadedApps: 110 appsWithPush: 101 withCapillary: 1 withXmpp: 41
+2022-01-02 15:50:09,361 | INFO | Iteration: 122 downloadedApps: 111 appsWithPush: 102 withCapillary: 1 withXmpp: 41
+2022-01-02 15:50:14,214 | INFO | Iteration: 123 downloadedApps: 112 appsWithPush: 103 withCapillary: 1 withXmpp: 41
+2022-01-02 15:50:19,123 | INFO | Iteration: 124 downloadedApps: 113 appsWithPush: 104 withCapillary: 1 withXmpp: 41
+2022-01-02 15:50:28,989 | INFO | com.omesti.myumobile has xmpp
+2022-01-02 15:50:29,023 | INFO | Iteration: 125 downloadedApps: 114 appsWithPush: 105 withCapillary: 1 withXmpp: 42
+2022-01-02 15:50:36,642 | INFO | net.omobio.dialogsc has xmpp
+2022-01-02 15:50:36,705 | INFO | Iteration: 126 downloadedApps: 115 appsWithPush: 106 withCapillary: 1 withXmpp: 43
+2022-01-02 15:50:40,773 | INFO | Iteration: 127 downloadedApps: 116 appsWithPush: 107 withCapillary: 1 withXmpp: 43
+2022-01-02 15:50:43,126 | INFO | Iteration: 128 downloadedApps: 117 appsWithPush: 108 withCapillary: 1 withXmpp: 43
+2022-01-02 15:50:47,263 | INFO | Iteration: 129 downloadedApps: 118 appsWithPush: 108 withCapillary: 1 withXmpp: 43
+2022-01-02 15:50:47,898 | ERROR | Failed to download com.viettel.mocha.app
+2022-01-02 15:50:48,506 | ERROR | Failed to download com.kaspersky.who_calls
+2022-01-02 15:50:50,566 | INFO | Iteration: 132 downloadedApps: 119 appsWithPush: 109 withCapillary: 1 withXmpp: 43
+2022-01-02 15:51:39,551 | INFO | Iteration: 133 downloadedApps: 120 appsWithPush: 110 withCapillary: 1 withXmpp: 43
+2022-01-02 15:51:40,135 | ERROR | Failed to download com.mentisco.freewificonnect
+2022-01-02 15:51:44,403 | INFO | Iteration: 135 downloadedApps: 121 appsWithPush: 111 withCapillary: 1 withXmpp: 43
+2022-01-02 15:51:56,411 | INFO | com.calea.echo has xmpp
+2022-01-02 15:51:56,513 | INFO | Iteration: 136 downloadedApps: 122 appsWithPush: 112 withCapillary: 1 withXmpp: 44
+2022-01-02 15:52:00,633 | INFO | Iteration: 137 downloadedApps: 123 appsWithPush: 113 withCapillary: 1 withXmpp: 44
+2022-01-02 15:52:21,511 | INFO | org.adblockplus.browser has xmpp
+2022-01-02 15:52:21,584 | INFO | Iteration: 138 downloadedApps: 124 appsWithPush: 114 withCapillary: 1 withXmpp: 45
+2022-01-02 15:52:27,249 | INFO | com.talkatone.android has xmpp
+2022-01-02 15:52:27,279 | INFO | Iteration: 139 downloadedApps: 125 appsWithPush: 115 withCapillary: 1 withXmpp: 46
+2022-01-02 15:52:32,037 | INFO | Iteration: 140 downloadedApps: 126 appsWithPush: 116 withCapillary: 1 withXmpp: 46
+2022-01-02 15:52:40,583 | INFO | Iteration: 141 downloadedApps: 127 appsWithPush: 117 withCapillary: 1 withXmpp: 46
+2022-01-02 15:52:41,184 | ERROR | Failed to download com.facebook.talk
+2022-01-02 15:52:46,947 | INFO | Iteration: 143 downloadedApps: 128 appsWithPush: 118 withCapillary: 1 withXmpp: 46
+2022-01-02 15:52:51,363 | INFO | Iteration: 144 downloadedApps: 129 appsWithPush: 119 withCapillary: 1 withXmpp: 46
+2022-01-02 15:52:52,989 | INFO | Iteration: 145 downloadedApps: 130 appsWithPush: 120 withCapillary: 1 withXmpp: 46
+2022-01-02 15:52:55,954 | INFO | Iteration: 146 downloadedApps: 131 appsWithPush: 121 withCapillary: 1 withXmpp: 46
+2022-01-02 15:53:07,637 | INFO | Iteration: 147 downloadedApps: 132 appsWithPush: 122 withCapillary: 1 withXmpp: 46
+2022-01-02 15:53:15,105 | INFO | Iteration: 148 downloadedApps: 133 appsWithPush: 123 withCapillary: 1 withXmpp: 46
+2022-01-02 15:53:17,055 | INFO | Iteration: 149 downloadedApps: 134 appsWithPush: 124 withCapillary: 1 withXmpp: 46
+2022-01-02 15:53:27,993 | INFO | Iteration: 150 downloadedApps: 135 appsWithPush: 125 withCapillary: 1 withXmpp: 46
+2022-01-02 15:53:28,573 | ERROR | Failed to download com.catbag.lovemessages
+2022-01-02 15:53:35,626 | INFO | Iteration: 152 downloadedApps: 136 appsWithPush: 126 withCapillary: 1 withXmpp: 46
+2022-01-02 15:53:37,779 | INFO | Iteration: 153 downloadedApps: 137 appsWithPush: 127 withCapillary: 1 withXmpp: 46
+2022-01-02 15:53:43,623 | INFO | com.simpler.dialer has xmpp
+2022-01-02 15:53:43,661 | INFO | Iteration: 154 downloadedApps: 138 appsWithPush: 128 withCapillary: 1 withXmpp: 47
+2022-01-02 15:54:04,385 | INFO | Iteration: 155 downloadedApps: 139 appsWithPush: 128 withCapillary: 1 withXmpp: 47
+2022-01-02 15:54:08,683 | INFO | Iteration: 156 downloadedApps: 140 appsWithPush: 128 withCapillary: 1 withXmpp: 47
+2022-01-02 15:54:09,293 | ERROR | Failed to download com.vzw.ecid
+2022-01-02 15:54:12,110 | INFO | Iteration: 158 downloadedApps: 141 appsWithPush: 129 withCapillary: 1 withXmpp: 47
+2022-01-02 15:54:15,164 | INFO | Iteration: 159 downloadedApps: 142 appsWithPush: 130 withCapillary: 1 withXmpp: 47
+2022-01-02 15:54:29,696 | INFO | org.torproject.torbrowser has xmpp
+2022-01-02 15:54:29,760 | INFO | Iteration: 160 downloadedApps: 143 appsWithPush: 131 withCapillary: 1 withXmpp: 48
+2022-01-02 15:54:30,374 | ERROR | Failed to download es.vodafone.mobile.mivodafone
+2022-01-02 15:54:30,971 | ERROR | Failed to download com.michatapp.im.lite
+2022-01-02 15:54:34,959 | INFO | com.bf.browser has xmpp
+2022-01-02 15:54:34,976 | INFO | Iteration: 163 downloadedApps: 144 appsWithPush: 132 withCapillary: 1 withXmpp: 49
+2022-01-02 15:54:38,791 | INFO | Iteration: 164 downloadedApps: 145 appsWithPush: 133 withCapillary: 1 withXmpp: 49
+2022-01-02 15:55:05,252 | INFO | com.chrome.dev has xmpp
+2022-01-02 15:55:05,321 | INFO | Iteration: 165 downloadedApps: 146 appsWithPush: 134 withCapillary: 1 withXmpp: 50
+2022-01-02 15:55:08,816 | INFO | Iteration: 166 downloadedApps: 147 appsWithPush: 135 withCapillary: 1 withXmpp: 50
+2022-01-02 15:55:09,397 | ERROR | Failed to download com.imo.android.imous
+2022-01-02 15:55:22,748 | INFO | org.vidogram.messenger has xmpp
+2022-01-02 15:55:22,852 | INFO | Iteration: 168 downloadedApps: 148 appsWithPush: 136 withCapillary: 1 withXmpp: 51
+2022-01-02 15:55:28,053 | INFO | Iteration: 169 downloadedApps: 149 appsWithPush: 137 withCapillary: 1 withXmpp: 51
+2022-01-02 15:55:28,619 | ERROR | Failed to download com.att.miatt
+2022-01-02 15:55:33,067 | INFO | Iteration: 171 downloadedApps: 150 appsWithPush: 138 withCapillary: 1 withXmpp: 51
+2022-01-02 15:55:42,837 | INFO | Iteration: 172 downloadedApps: 151 appsWithPush: 139 withCapillary: 1 withXmpp: 51
+2022-01-02 15:55:43,574 | ERROR | Failed to download com.enflick.android.tn2ndLine
+2022-01-02 15:55:52,365 | INFO | Iteration: 174 downloadedApps: 152 appsWithPush: 139 withCapillary: 1 withXmpp: 51
+2022-01-02 15:55:57,087 | INFO | Iteration: 175 downloadedApps: 153 appsWithPush: 140 withCapillary: 1 withXmpp: 51
+2022-01-02 15:56:08,328 | INFO | Iteration: 176 downloadedApps: 154 appsWithPush: 141 withCapillary: 1 withXmpp: 51
+2022-01-02 15:56:32,327 | INFO | Iteration: 177 downloadedApps: 155 appsWithPush: 142 withCapillary: 1 withXmpp: 51
+2022-01-02 15:56:51,205 | INFO | com.ringapp has capillary
+2022-01-02 15:56:51,806 | INFO | Iteration: 178 downloadedApps: 156 appsWithPush: 143 withCapillary: 2 withXmpp: 51
+2022-01-02 15:56:55,328 | INFO | Iteration: 179 downloadedApps: 157 appsWithPush: 144 withCapillary: 2 withXmpp: 51
+2022-01-02 15:57:00,636 | INFO | Iteration: 180 downloadedApps: 158 appsWithPush: 145 withCapillary: 2 withXmpp: 51
+2022-01-02 15:57:01,247 | ERROR | Failed to download com.movistarmx.mx.app
+2022-01-02 15:57:06,353 | INFO | Iteration: 182 downloadedApps: 159 appsWithPush: 146 withCapillary: 2 withXmpp: 51
+2022-01-02 15:57:06,956 | ERROR | Failed to download za.co.vodacom.android.app
+2022-01-02 15:57:10,406 | INFO | Iteration: 184 downloadedApps: 160 appsWithPush: 147 withCapillary: 2 withXmpp: 51
+2022-01-02 15:57:12,547 | INFO | Iteration: 185 downloadedApps: 161 appsWithPush: 148 withCapillary: 2 withXmpp: 51
+2022-01-02 15:57:20,348 | INFO | Iteration: 186 downloadedApps: 162 appsWithPush: 149 withCapillary: 2 withXmpp: 51
+2022-01-02 15:57:25,913 | INFO | com.simpler.contacts has xmpp
+2022-01-02 15:57:25,951 | INFO | Iteration: 187 downloadedApps: 163 appsWithPush: 150 withCapillary: 2 withXmpp: 52
+2022-01-02 15:57:26,563 | ERROR | Failed to download jp.co.yahoo.android.ybrowser
+2022-01-02 15:57:34,362 | INFO | com.fulldive.mobile has xmpp
+2022-01-02 15:57:34,426 | INFO | Iteration: 189 downloadedApps: 164 appsWithPush: 151 withCapillary: 2 withXmpp: 53
+2022-01-02 15:57:46,205 | INFO | Iteration: 190 downloadedApps: 165 appsWithPush: 152 withCapillary: 2 withXmpp: 53
+2022-01-02 15:57:57,482 | INFO | Iteration: 191 downloadedApps: 166 appsWithPush: 153 withCapillary: 2 withXmpp: 53
+2022-01-02 15:58:13,075 | INFO | Iteration: 192 downloadedApps: 167 appsWithPush: 154 withCapillary: 2 withXmpp: 53
+2022-01-02 15:58:13,506 | ERROR | Failed to download com.google.android.gm.lite
+2022-01-02 15:58:14,087 | ERROR | Failed to download com.studiokuma.callfilter
+2022-01-02 15:58:14,635 | ERROR | Failed to download com.youmail.android.vvm
+2022-01-02 15:58:20,917 | INFO | Iteration: 196 downloadedApps: 168 appsWithPush: 155 withCapillary: 2 withXmpp: 53
+2022-01-02 15:58:33,644 | INFO | Iteration: 197 downloadedApps: 169 appsWithPush: 156 withCapillary: 2 withXmpp: 53
+2022-01-02 15:58:35,849 | INFO | Iteration: 198 downloadedApps: 170 appsWithPush: 156 withCapillary: 2 withXmpp: 53
+2022-01-02 15:58:40,622 | INFO | Iteration: 199 downloadedApps: 171 appsWithPush: 157 withCapillary: 2 withXmpp: 53
+2022-01-02 15:58:45,641 | INFO | Iteration: 200 downloadedApps: 172 appsWithPush: 158 withCapillary: 2 withXmpp: 53
+2022-01-02 15:59:02,637 | INFO | Iteration: 201 downloadedApps: 173 appsWithPush: 159 withCapillary: 2 withXmpp: 53
+2022-01-02 15:59:05,073 | INFO | Iteration: 202 downloadedApps: 174 appsWithPush: 160 withCapillary: 2 withXmpp: 53
+2022-01-02 15:59:08,777 | INFO | Iteration: 203 downloadedApps: 175 appsWithPush: 161 withCapillary: 2 withXmpp: 53
+2022-01-02 15:59:11,951 | INFO | Iteration: 204 downloadedApps: 176 appsWithPush: 162 withCapillary: 2 withXmpp: 53
+2022-01-02 15:59:19,547 | INFO | Iteration: 205 downloadedApps: 177 appsWithPush: 163 withCapillary: 2 withXmpp: 53
+2022-01-02 15:59:20,114 | ERROR | Failed to download com.esealed.dalily
+2022-01-02 15:59:31,395 | INFO | com.matchtech.cafe has xmpp
+2022-01-02 15:59:31,485 | INFO | Iteration: 207 downloadedApps: 178 appsWithPush: 164 withCapillary: 2 withXmpp: 54
+2022-01-02 15:59:36,147 | INFO | Iteration: 208 downloadedApps: 179 appsWithPush: 165 withCapillary: 2 withXmpp: 54
+2022-01-02 15:59:50,585 | INFO | com.ayoba.ayoba has xmpp
+2022-01-02 15:59:50,625 | INFO | Iteration: 209 downloadedApps: 180 appsWithPush: 166 withCapillary: 2 withXmpp: 55
+2022-01-02 15:59:56,787 | INFO | com.mail.mobile.android.mail has xmpp
+2022-01-02 15:59:56,831 | INFO | Iteration: 210 downloadedApps: 181 appsWithPush: 167 withCapillary: 2 withXmpp: 56
+2022-01-02 16:00:02,853 | INFO | lv.indycall.client has xmpp
+2022-01-02 16:00:02,878 | INFO | Iteration: 211 downloadedApps: 182 appsWithPush: 168 withCapillary: 2 withXmpp: 57
+2022-01-02 16:00:05,301 | INFO | de.resolution.yf_android has xmpp
+2022-01-02 16:00:05,316 | INFO | Iteration: 212 downloadedApps: 183 appsWithPush: 169 withCapillary: 2 withXmpp: 58
+2022-01-02 16:00:20,962 | INFO | com.turkcell.yaani has xmpp
+2022-01-02 16:00:21,027 | INFO | Iteration: 213 downloadedApps: 184 appsWithPush: 170 withCapillary: 2 withXmpp: 59
+2022-01-02 16:00:27,894 | INFO | Iteration: 214 downloadedApps: 185 appsWithPush: 171 withCapillary: 2 withXmpp: 59
+2022-01-02 16:00:32,597 | INFO | Iteration: 215 downloadedApps: 186 appsWithPush: 172 withCapillary: 2 withXmpp: 59
+2022-01-02 16:00:36,669 | INFO | Iteration: 216 downloadedApps: 187 appsWithPush: 173 withCapillary: 2 withXmpp: 59
+2022-01-02 16:00:54,938 | INFO | it.italiaonline.mail has xmpp
+2022-01-02 16:00:55,113 | INFO | Iteration: 217 downloadedApps: 188 appsWithPush: 174 withCapillary: 2 withXmpp: 60
+2022-01-02 16:00:58,369 | INFO | org.litewhite.callblocker has xmpp
+2022-01-02 16:00:58,397 | INFO | Iteration: 218 downloadedApps: 189 appsWithPush: 175 withCapillary: 2 withXmpp: 61
+2022-01-02 16:01:01,556 | INFO | Iteration: 219 downloadedApps: 190 appsWithPush: 176 withCapillary: 2 withXmpp: 61
+2022-01-02 16:01:02,162 | ERROR | Failed to download com.utternik.utternik
+2022-01-02 16:01:03,319 | INFO | Iteration: 221 downloadedApps: 191 appsWithPush: 176 withCapillary: 2 withXmpp: 61
+2022-01-02 16:01:08,804 | INFO | Iteration: 222 downloadedApps: 192 appsWithPush: 177 withCapillary: 2 withXmpp: 61
+2022-01-02 16:01:16,688 | INFO | Iteration: 223 downloadedApps: 193 appsWithPush: 178 withCapillary: 2 withXmpp: 61
+2022-01-02 16:01:22,179 | INFO | Iteration: 224 downloadedApps: 194 appsWithPush: 179 withCapillary: 2 withXmpp: 61
+2022-01-02 16:01:31,120 | INFO | Iteration: 225 downloadedApps: 195 appsWithPush: 180 withCapillary: 2 withXmpp: 61
+2022-01-02 16:01:36,771 | INFO | com.isharing.isharing has xmpp
+2022-01-02 16:01:36,794 | INFO | Iteration: 226 downloadedApps: 196 appsWithPush: 181 withCapillary: 2 withXmpp: 62
+2022-01-02 16:01:41,217 | INFO | it.pagopa.io.app has xmpp
+2022-01-02 16:01:41,255 | INFO | Iteration: 227 downloadedApps: 197 appsWithPush: 182 withCapillary: 2 withXmpp: 63
+2022-01-02 16:01:48,022 | INFO | nu.bi.moya has xmpp
+2022-01-02 16:01:48,088 | INFO | Iteration: 228 downloadedApps: 198 appsWithPush: 183 withCapillary: 2 withXmpp: 64
+2022-01-02 16:01:48,705 | ERROR | Failed to download com.robokiller.app
+2022-01-02 16:01:56,421 | INFO | Iteration: 230 downloadedApps: 199 appsWithPush: 184 withCapillary: 2 withXmpp: 64
+2022-01-02 16:02:16,049 | INFO | Iteration: 231 downloadedApps: 200 appsWithPush: 185 withCapillary: 2 withXmpp: 64
+2022-01-02 16:02:19,729 | INFO | Iteration: 232 downloadedApps: 201 appsWithPush: 186 withCapillary: 2 withXmpp: 64
+2022-01-02 16:02:23,888 | INFO | Iteration: 233 downloadedApps: 202 appsWithPush: 187 withCapillary: 2 withXmpp: 64
+2022-01-02 16:02:29,445 | INFO | Iteration: 234 downloadedApps: 203 appsWithPush: 188 withCapillary: 2 withXmpp: 64
+2022-01-02 16:02:49,356 | INFO | com.sec.android.app.sbrowser.beta has xmpp
+2022-01-02 16:02:49,452 | INFO | Iteration: 235 downloadedApps: 204 appsWithPush: 189 withCapillary: 2 withXmpp: 65
+2022-01-02 16:02:50,078 | ERROR | Failed to download com.nexon.nxplay
+2022-01-02 16:02:58,003 | INFO | com.brilliant.connect.com.bd has xmpp
+2022-01-02 16:02:58,088 | INFO | Iteration: 237 downloadedApps: 205 appsWithPush: 190 withCapillary: 2 withXmpp: 66
+2022-01-02 16:03:07,383 | INFO | cz.seznam.sbrowser has capillary
+2022-01-02 16:03:07,634 | INFO | Iteration: 238 downloadedApps: 206 appsWithPush: 191 withCapillary: 3 withXmpp: 66
+2022-01-02 16:03:12,160 | INFO | Iteration: 239 downloadedApps: 207 appsWithPush: 192 withCapillary: 3 withXmpp: 66
+2022-01-02 16:03:17,057 | INFO | com.banana.studio.sms has xmpp
+2022-01-02 16:03:17,091 | INFO | Iteration: 240 downloadedApps: 208 appsWithPush: 193 withCapillary: 3 withXmpp: 67
+2022-01-02 16:03:22,124 | INFO | Iteration: 241 downloadedApps: 209 appsWithPush: 194 withCapillary: 3 withXmpp: 67
+2022-01-02 16:03:38,824 | INFO | Iteration: 242 downloadedApps: 210 appsWithPush: 195 withCapillary: 3 withXmpp: 67
+2022-01-02 16:03:46,020 | INFO | Iteration: 243 downloadedApps: 211 appsWithPush: 196 withCapillary: 3 withXmpp: 67
+2022-01-02 16:03:49,635 | INFO | Iteration: 244 downloadedApps: 212 appsWithPush: 197 withCapillary: 3 withXmpp: 67
+2022-01-02 16:03:59,509 | INFO | Iteration: 245 downloadedApps: 213 appsWithPush: 198 withCapillary: 3 withXmpp: 67
+2022-01-02 16:04:05,467 | INFO | Iteration: 246 downloadedApps: 214 appsWithPush: 198 withCapillary: 3 withXmpp: 67
+2022-01-02 16:04:07,451 | INFO | Iteration: 247 downloadedApps: 215 appsWithPush: 199 withCapillary: 3 withXmpp: 67
+2022-01-02 16:04:08,185 | ERROR | Failed to download call.free.international.phone.call
+2022-01-02 16:04:08,755 | ERROR | Failed to download com.att.callprotect
+2022-01-02 16:04:11,050 | INFO | v.d.d.answercall has xmpp
+2022-01-02 16:04:11,072 | INFO | Iteration: 250 downloadedApps: 216 appsWithPush: 200 withCapillary: 3 withXmpp: 68
+2022-01-02 16:04:17,543 | INFO | Iteration: 251 downloadedApps: 217 appsWithPush: 201 withCapillary: 3 withXmpp: 68
+2022-01-02 16:04:18,156 | ERROR | Failed to download com.whitepages.search
+2022-01-02 16:04:26,971 | INFO | Iteration: 253 downloadedApps: 218 appsWithPush: 202 withCapillary: 3 withXmpp: 68
+2022-01-02 16:04:42,269 | INFO | park.outlook.sign.in.client has xmpp
+2022-01-02 16:04:42,409 | INFO | Iteration: 254 downloadedApps: 219 appsWithPush: 203 withCapillary: 3 withXmpp: 69
+2022-01-02 16:04:48,298 | INFO | Iteration: 255 downloadedApps: 220 appsWithPush: 204 withCapillary: 3 withXmpp: 69
+2022-01-02 16:05:20,744 | INFO | com.zoiper.android.app has xmpp
+2022-01-02 16:05:20,769 | INFO | Iteration: 256 downloadedApps: 221 appsWithPush: 205 withCapillary: 3 withXmpp: 70
+2022-01-02 16:05:21,207 | ERROR | Failed to download org.prowl.torque
+2022-01-02 16:05:36,120 | INFO | Iteration: 258 downloadedApps: 222 appsWithPush: 206 withCapillary: 3 withXmpp: 70
+2022-01-02 16:05:36,586 | ERROR | Failed to download ch.threema.app
+2022-01-02 16:05:45,219 | INFO | Iteration: 260 downloadedApps: 223 appsWithPush: 207 withCapillary: 3 withXmpp: 70
+2022-01-02 16:06:04,994 | INFO | Iteration: 261 downloadedApps: 224 appsWithPush: 208 withCapillary: 3 withXmpp: 70
+2022-01-02 16:06:05,585 | ERROR | Failed to download org.mozilla.focus
+2022-01-02 16:06:08,772 | INFO | org.whiteglow.antinuisance has xmpp
+2022-01-02 16:06:08,816 | INFO | Iteration: 263 downloadedApps: 225 appsWithPush: 209 withCapillary: 3 withXmpp: 71
+2022-01-02 16:06:11,198 | INFO | Iteration: 264 downloadedApps: 226 appsWithPush: 210 withCapillary: 3 withXmpp: 71
+2022-01-02 16:06:13,814 | INFO | Iteration: 265 downloadedApps: 227 appsWithPush: 211 withCapillary: 3 withXmpp: 71
+2022-01-02 16:06:18,966 | INFO | Iteration: 266 downloadedApps: 228 appsWithPush: 212 withCapillary: 3 withXmpp: 71
+2022-01-02 16:06:24,768 | INFO | Iteration: 267 downloadedApps: 229 appsWithPush: 213 withCapillary: 3 withXmpp: 71
+2022-01-02 16:06:29,903 | INFO | com.blizzard.messenger has xmpp
+2022-01-02 16:06:29,950 | INFO | Iteration: 268 downloadedApps: 230 appsWithPush: 214 withCapillary: 3 withXmpp: 72
+2022-01-02 16:06:31,802 | INFO | Iteration: 269 downloadedApps: 231 appsWithPush: 215 withCapillary: 3 withXmpp: 72
+2022-01-02 16:06:36,428 | INFO | Iteration: 270 downloadedApps: 232 appsWithPush: 216 withCapillary: 3 withXmpp: 72
+2022-01-02 16:06:37,023 | ERROR | Failed to download com.jio.web
+2022-01-02 16:06:39,602 | INFO | Iteration: 272 downloadedApps: 233 appsWithPush: 217 withCapillary: 3 withXmpp: 72
+2022-01-02 16:06:46,300 | INFO | Iteration: 273 downloadedApps: 234 appsWithPush: 217 withCapillary: 3 withXmpp: 72
+2022-01-02 16:06:46,944 | ERROR | Failed to download jp.co.yahoo.android.ymail
+2022-01-02 16:06:47,551 | ERROR | Failed to download com.orange.bluu.jazztel
+2022-01-02 16:06:47,996 | ERROR | Failed to download pro.cryptotab.android
+2022-01-02 16:06:52,746 | INFO | Iteration: 277 downloadedApps: 235 appsWithPush: 218 withCapillary: 3 withXmpp: 72
+2022-01-02 16:06:53,338 | ERROR | Failed to download com.telenordigital.contacts
+2022-01-02 16:06:57,280 | INFO | Iteration: 279 downloadedApps: 236 appsWithPush: 219 withCapillary: 3 withXmpp: 72
+2022-01-02 16:07:05,304 | INFO | Iteration: 280 downloadedApps: 237 appsWithPush: 220 withCapillary: 3 withXmpp: 72
+2022-01-02 16:07:10,470 | INFO | com.ciamedia.caller.id has xmpp
+2022-01-02 16:07:10,502 | INFO | Iteration: 281 downloadedApps: 238 appsWithPush: 221 withCapillary: 3 withXmpp: 73
+2022-01-02 16:07:16,902 | INFO | Iteration: 282 downloadedApps: 239 appsWithPush: 222 withCapillary: 3 withXmpp: 73
+2022-01-02 16:07:18,227 | INFO | Iteration: 283 downloadedApps: 240 appsWithPush: 222 withCapillary: 3 withXmpp: 73
+2022-01-02 16:07:23,304 | INFO | Iteration: 284 downloadedApps: 241 appsWithPush: 223 withCapillary: 3 withXmpp: 73
+2022-01-02 16:07:29,227 | INFO | Iteration: 285 downloadedApps: 242 appsWithPush: 224 withCapillary: 3 withXmpp: 73
+2022-01-02 16:07:32,729 | INFO | Iteration: 286 downloadedApps: 243 appsWithPush: 225 withCapillary: 3 withXmpp: 73
+2022-01-02 16:07:37,218 | INFO | Iteration: 287 downloadedApps: 244 appsWithPush: 226 withCapillary: 3 withXmpp: 73
+2022-01-02 16:07:42,054 | INFO | Iteration: 288 downloadedApps: 245 appsWithPush: 227 withCapillary: 3 withXmpp: 73
+2022-01-02 16:07:44,241 | INFO | Iteration: 289 downloadedApps: 246 appsWithPush: 228 withCapillary: 3 withXmpp: 73
+2022-01-02 16:07:50,057 | INFO | Iteration: 290 downloadedApps: 247 appsWithPush: 229 withCapillary: 3 withXmpp: 73
+2022-01-02 16:07:53,139 | INFO | Iteration: 291 downloadedApps: 248 appsWithPush: 230 withCapillary: 3 withXmpp: 73
+2022-01-02 16:07:57,051 | INFO | Iteration: 292 downloadedApps: 249 appsWithPush: 231 withCapillary: 3 withXmpp: 73
+2022-01-02 16:08:08,456 | INFO | com.giffgaffmobile.controller has xmpp
+2022-01-02 16:08:08,509 | INFO | Iteration: 293 downloadedApps: 250 appsWithPush: 232 withCapillary: 3 withXmpp: 74
+2022-01-02 16:08:12,903 | INFO | Iteration: 294 downloadedApps: 251 appsWithPush: 233 withCapillary: 3 withXmpp: 74
+2022-01-02 16:08:16,842 | INFO | Iteration: 295 downloadedApps: 252 appsWithPush: 234 withCapillary: 3 withXmpp: 74
+2022-01-02 16:08:36,512 | INFO | com.kiwibrowser.browser has xmpp
+2022-01-02 16:08:36,589 | INFO | Iteration: 296 downloadedApps: 253 appsWithPush: 235 withCapillary: 3 withXmpp: 75
+2022-01-02 16:08:41,544 | INFO | com.sonelli.juicessh has xmpp
+2022-01-02 16:08:41,568 | INFO | Iteration: 297 downloadedApps: 254 appsWithPush: 236 withCapillary: 3 withXmpp: 76
+2022-01-02 16:08:45,498 | INFO | Iteration: 298 downloadedApps: 255 appsWithPush: 237 withCapillary: 3 withXmpp: 76
+2022-01-02 16:08:45,613 | ERROR | Failed to download com.validio.kontaktkarte.dialer
+2022-01-02 16:08:51,680 | INFO | Iteration: 300 downloadedApps: 256 appsWithPush: 238 withCapillary: 3 withXmpp: 76
+2022-01-02 16:08:53,879 | INFO | Iteration: 301 downloadedApps: 257 appsWithPush: 238 withCapillary: 3 withXmpp: 76
+2022-01-02 16:08:54,477 | ERROR | Failed to download com.voxofon
+2022-01-02 16:08:58,671 | INFO | com.jb.gosms.pctheme.newmessengerversion2017 has xmpp
+2022-01-02 16:08:58,695 | INFO | Iteration: 303 downloadedApps: 258 appsWithPush: 239 withCapillary: 3 withXmpp: 77
+2022-01-02 16:08:59,279 | ERROR | Failed to download com.dish.mydish
+2022-01-02 16:09:06,566 | INFO | com.enterkomug.justlo has xmpp
+2022-01-02 16:09:06,648 | INFO | Iteration: 305 downloadedApps: 259 appsWithPush: 240 withCapillary: 3 withXmpp: 78
+2022-01-02 16:09:11,456 | INFO | Iteration: 306 downloadedApps: 260 appsWithPush: 241 withCapillary: 3 withXmpp: 78
+2022-01-02 16:09:17,546 | INFO | Iteration: 307 downloadedApps: 261 appsWithPush: 242 withCapillary: 3 withXmpp: 78
+2022-01-02 16:09:22,242 | INFO | Iteration: 308 downloadedApps: 262 appsWithPush: 243 withCapillary: 3 withXmpp: 78
+2022-01-02 16:09:26,844 | INFO | com.promessage.message has xmpp
+2022-01-02 16:09:26,873 | INFO | Iteration: 309 downloadedApps: 263 appsWithPush: 244 withCapillary: 3 withXmpp: 79
+2022-01-02 16:09:30,413 | INFO | Iteration: 310 downloadedApps: 264 appsWithPush: 245 withCapillary: 3 withXmpp: 79
+2022-01-02 16:09:36,974 | INFO | Iteration: 311 downloadedApps: 265 appsWithPush: 246 withCapillary: 3 withXmpp: 79
+2022-01-02 16:09:41,692 | INFO | Iteration: 312 downloadedApps: 266 appsWithPush: 247 withCapillary: 3 withXmpp: 79
+2022-01-02 16:09:47,311 | INFO | Iteration: 313 downloadedApps: 267 appsWithPush: 248 withCapillary: 3 withXmpp: 79
+2022-01-02 16:09:49,961 | INFO | Iteration: 314 downloadedApps: 268 appsWithPush: 248 withCapillary: 3 withXmpp: 79
+2022-01-02 16:09:55,135 | INFO | de.eue.mobile.android.mail has xmpp
+2022-01-02 16:09:55,196 | INFO | Iteration: 315 downloadedApps: 269 appsWithPush: 249 withCapillary: 3 withXmpp: 80
+2022-01-02 16:09:58,852 | INFO | pl.wp.wppoczta has xmpp
+2022-01-02 16:09:58,873 | INFO | Iteration: 316 downloadedApps: 270 appsWithPush: 250 withCapillary: 3 withXmpp: 81
+2022-01-02 16:10:05,067 | INFO | Iteration: 317 downloadedApps: 271 appsWithPush: 251 withCapillary: 3 withXmpp: 81
+2022-01-02 16:10:16,299 | INFO | Iteration: 318 downloadedApps: 272 appsWithPush: 252 withCapillary: 3 withXmpp: 81
+2022-01-02 16:10:16,900 | ERROR | Failed to download com.myvodafone.android
+2022-01-02 16:10:17,504 | ERROR | Failed to download com.juvomobileinc.tigoshop.sv
+2022-01-02 16:10:18,083 | ERROR | Failed to download com.comcast.hsf
+2022-01-02 16:10:20,111 | INFO | Iteration: 322 downloadedApps: 273 appsWithPush: 253 withCapillary: 3 withXmpp: 81
+2022-01-02 16:10:20,217 | ERROR | Failed to download com.rozgeramiti.org
+2022-01-02 16:10:41,852 | INFO | Iteration: 324 downloadedApps: 274 appsWithPush: 254 withCapillary: 3 withXmpp: 81
+2022-01-02 16:10:49,678 | INFO | com.handcent.app.nextsms has xmpp
+2022-01-02 16:10:49,753 | INFO | Iteration: 325 downloadedApps: 275 appsWithPush: 255 withCapillary: 3 withXmpp: 82
+2022-01-02 16:10:57,665 | INFO | org.jitsi.meet has capillary
+2022-01-02 16:10:57,905 | INFO | org.jitsi.meet has xmpp
+2022-01-02 16:10:57,943 | INFO | Iteration: 326 downloadedApps: 276 appsWithPush: 256 withCapillary: 4 withXmpp: 83
+2022-01-02 16:11:00,257 | INFO | Iteration: 327 downloadedApps: 277 appsWithPush: 257 withCapillary: 4 withXmpp: 83
+2022-01-02 16:11:00,908 | ERROR | Failed to download com.orange.vvm
+2022-01-02 16:11:07,071 | INFO | sms.app.messages.app.message.box.message.me has xmpp
+2022-01-02 16:11:07,154 | INFO | Iteration: 329 downloadedApps: 278 appsWithPush: 258 withCapillary: 4 withXmpp: 84
+2022-01-02 16:11:10,764 | INFO | Iteration: 330 downloadedApps: 279 appsWithPush: 259 withCapillary: 4 withXmpp: 84
+2022-01-02 16:11:19,955 | INFO | Iteration: 331 downloadedApps: 280 appsWithPush: 260 withCapillary: 4 withXmpp: 84
+2022-01-02 16:12:22,089 | ERROR | Failed to download bolo.codeplay.com.bolo
+2022-01-02 16:12:34,165 | INFO | Iteration: 333 downloadedApps: 281 appsWithPush: 261 withCapillary: 4 withXmpp: 84
+2022-01-02 16:12:37,538 | INFO | Iteration: 334 downloadedApps: 282 appsWithPush: 262 withCapillary: 4 withXmpp: 84
+2022-01-02 16:12:40,121 | INFO | Iteration: 335 downloadedApps: 283 appsWithPush: 263 withCapillary: 4 withXmpp: 84
+2022-01-02 16:12:42,246 | INFO | Iteration: 336 downloadedApps: 284 appsWithPush: 264 withCapillary: 4 withXmpp: 84
+2022-01-02 16:13:44,632 | INFO | com.rediff.mail.and has xmpp
+2022-01-02 16:13:44,648 | INFO | Iteration: 337 downloadedApps: 285 appsWithPush: 265 withCapillary: 4 withXmpp: 85
+2022-01-02 16:13:45,295 | ERROR | Failed to download share.sharekaro.pro
+2022-01-02 16:13:54,127 | INFO | Iteration: 339 downloadedApps: 286 appsWithPush: 266 withCapillary: 4 withXmpp: 85
+2022-01-02 16:13:57,868 | INFO | Iteration: 340 downloadedApps: 287 appsWithPush: 267 withCapillary: 4 withXmpp: 85
+2022-01-02 16:14:07,962 | INFO | com.beint.zangi has xmpp
+2022-01-02 16:14:08,030 | INFO | Iteration: 341 downloadedApps: 288 appsWithPush: 268 withCapillary: 4 withXmpp: 86
+2022-01-02 16:14:18,521 | INFO | Iteration: 342 downloadedApps: 289 appsWithPush: 269 withCapillary: 4 withXmpp: 86
+2022-01-02 16:14:49,087 | INFO | Iteration: 343 downloadedApps: 290 appsWithPush: 270 withCapillary: 4 withXmpp: 86
+2022-01-02 16:14:49,685 | ERROR | Failed to download com.microsoft.android.smsorganizer
+2022-01-02 16:15:02,922 | INFO | com.hushed.release has xmpp
+2022-01-02 16:15:02,982 | INFO | Iteration: 345 downloadedApps: 291 appsWithPush: 271 withCapillary: 4 withXmpp: 87
+2022-01-02 16:15:06,912 | INFO | Iteration: 346 downloadedApps: 292 appsWithPush: 272 withCapillary: 4 withXmpp: 87
+2022-01-02 16:15:14,139 | INFO | Iteration: 347 downloadedApps: 293 appsWithPush: 273 withCapillary: 4 withXmpp: 87
+2022-01-02 16:15:21,705 | INFO | com.safeum.android has xmpp
+2022-01-02 16:15:21,764 | INFO | Iteration: 348 downloadedApps: 294 appsWithPush: 274 withCapillary: 4 withXmpp: 88
+2022-01-02 16:15:32,543 | INFO | com.nymgo.android has xmpp
+2022-01-02 16:15:32,591 | INFO | Iteration: 349 downloadedApps: 295 appsWithPush: 275 withCapillary: 4 withXmpp: 89
+2022-01-02 16:15:34,465 | INFO | Iteration: 350 downloadedApps: 296 appsWithPush: 276 withCapillary: 4 withXmpp: 89
+2022-01-02 16:15:35,122 | ERROR | Failed to download jp.co.rakuten.broadband.sim
+2022-01-02 16:15:54,923 | INFO | jp.co.rakuten.mobile.rcs has xmpp
+2022-01-02 16:15:55,023 | INFO | Iteration: 352 downloadedApps: 297 appsWithPush: 277 withCapillary: 4 withXmpp: 90
+2022-01-02 16:15:59,865 | INFO | Iteration: 353 downloadedApps: 298 appsWithPush: 278 withCapillary: 4 withXmpp: 90
+2022-01-02 16:16:00,287 | ERROR | Failed to download com.teamspeak.ts3client
+2022-01-02 16:16:00,888 | ERROR | Failed to download com.att.miunefonmx
+2022-01-02 16:16:08,714 | INFO | Iteration: 356 downloadedApps: 299 appsWithPush: 279 withCapillary: 4 withXmpp: 90
+2022-01-02 16:16:21,891 | INFO | Iteration: 357 downloadedApps: 300 appsWithPush: 280 withCapillary: 4 withXmpp: 90
+2022-01-02 16:16:24,330 | INFO | Iteration: 358 downloadedApps: 301 appsWithPush: 281 withCapillary: 4 withXmpp: 90
+2022-01-02 16:16:30,659 | INFO | Iteration: 359 downloadedApps: 302 appsWithPush: 282 withCapillary: 4 withXmpp: 90
+2022-01-02 16:16:34,999 | INFO | Iteration: 360 downloadedApps: 303 appsWithPush: 283 withCapillary: 4 withXmpp: 90
+2022-01-02 16:16:35,130 | ERROR | Failed to download com.syntomo.email
+2022-01-02 16:16:38,917 | INFO | pl.wp.pocztao2 has xmpp
+2022-01-02 16:16:38,938 | INFO | Iteration: 362 downloadedApps: 304 appsWithPush: 284 withCapillary: 4 withXmpp: 91
+2022-01-02 16:16:51,758 | INFO | Iteration: 363 downloadedApps: 305 appsWithPush: 285 withCapillary: 4 withXmpp: 91
+2022-01-02 16:16:53,335 | INFO | Iteration: 364 downloadedApps: 306 appsWithPush: 286 withCapillary: 4 withXmpp: 91
+2022-01-02 16:17:01,035 | INFO | Iteration: 365 downloadedApps: 307 appsWithPush: 287 withCapillary: 4 withXmpp: 91
+2022-01-02 16:17:01,668 | ERROR | Failed to download com.adhoclabs.burner
+2022-01-02 16:17:07,691 | INFO | ch.protonmail.android has xmpp
+2022-01-02 16:17:07,722 | INFO | Iteration: 367 downloadedApps: 308 appsWithPush: 288 withCapillary: 4 withXmpp: 92
+2022-01-02 16:17:13,555 | INFO | Iteration: 368 downloadedApps: 309 appsWithPush: 289 withCapillary: 4 withXmpp: 92
+2022-01-02 16:17:21,486 | INFO | io.miltec.vodi has xmpp
+2022-01-02 16:17:21,550 | INFO | Iteration: 369 downloadedApps: 310 appsWithPush: 290 withCapillary: 4 withXmpp: 93
+2022-01-02 16:17:23,676 | INFO | Iteration: 370 downloadedApps: 311 appsWithPush: 290 withCapillary: 4 withXmpp: 93
+2022-01-02 16:17:36,161 | INFO | com.melonsapp.privacymessenger has xmpp
+2022-01-02 16:17:36,270 | INFO | Iteration: 371 downloadedApps: 312 appsWithPush: 291 withCapillary: 4 withXmpp: 94
+2022-01-02 16:17:44,021 | INFO | Iteration: 372 downloadedApps: 313 appsWithPush: 292 withCapillary: 4 withXmpp: 94
+2022-01-02 16:17:45,763 | INFO | Iteration: 373 downloadedApps: 314 appsWithPush: 293 withCapillary: 4 withXmpp: 94
+2022-01-02 16:17:49,454 | INFO | Iteration: 374 downloadedApps: 315 appsWithPush: 294 withCapillary: 4 withXmpp: 94
+2022-01-02 16:17:51,714 | INFO | Iteration: 375 downloadedApps: 316 appsWithPush: 295 withCapillary: 4 withXmpp: 94
+2022-01-02 16:17:55,223 | INFO | Iteration: 376 downloadedApps: 317 appsWithPush: 296 withCapillary: 4 withXmpp: 94
+2022-01-02 16:17:59,664 | INFO | Iteration: 377 downloadedApps: 318 appsWithPush: 297 withCapillary: 4 withXmpp: 94
+2022-01-02 16:18:03,796 | INFO | Iteration: 378 downloadedApps: 319 appsWithPush: 298 withCapillary: 4 withXmpp: 94
+2022-01-02 16:18:08,028 | INFO | com.beint.pinngle has xmpp
+2022-01-02 16:18:08,065 | INFO | Iteration: 379 downloadedApps: 320 appsWithPush: 299 withCapillary: 4 withXmpp: 95
+2022-01-02 16:18:13,593 | INFO | Iteration: 380 downloadedApps: 321 appsWithPush: 300 withCapillary: 4 withXmpp: 95
+2022-01-02 16:18:56,965 | INFO | com.opera.gx has xmpp
+2022-01-02 16:18:56,988 | INFO | Iteration: 381 downloadedApps: 322 appsWithPush: 301 withCapillary: 4 withXmpp: 96
+2022-01-02 16:19:02,395 | INFO | Iteration: 382 downloadedApps: 323 appsWithPush: 302 withCapillary: 4 withXmpp: 96
+2022-01-02 16:19:03,038 | ERROR | Failed to download com.telefonica.movistar
+2022-01-02 16:19:06,006 | INFO | Iteration: 384 downloadedApps: 324 appsWithPush: 302 withCapillary: 4 withXmpp: 96
+2022-01-02 16:19:21,533 | INFO | sms.mms.messages.text.free has xmpp
+2022-01-02 16:19:21,564 | INFO | Iteration: 385 downloadedApps: 325 appsWithPush: 303 withCapillary: 4 withXmpp: 97
+2022-01-02 16:19:24,194 | INFO | Iteration: 386 downloadedApps: 326 appsWithPush: 304 withCapillary: 4 withXmpp: 97
+2022-01-02 16:19:29,564 | INFO | Iteration: 387 downloadedApps: 327 appsWithPush: 305 withCapillary: 4 withXmpp: 97
+2022-01-02 16:19:58,719 | INFO | Iteration: 388 downloadedApps: 328 appsWithPush: 306 withCapillary: 4 withXmpp: 97
+2022-01-02 16:20:01,585 | INFO | Iteration: 389 downloadedApps: 329 appsWithPush: 307 withCapillary: 4 withXmpp: 97
+2022-01-02 16:20:03,967 | INFO | Iteration: 390 downloadedApps: 330 appsWithPush: 308 withCapillary: 4 withXmpp: 97
+2022-01-02 16:20:12,439 | INFO | Iteration: 391 downloadedApps: 331 appsWithPush: 309 withCapillary: 4 withXmpp: 97
+2022-01-02 16:20:17,943 | INFO | Iteration: 392 downloadedApps: 332 appsWithPush: 310 withCapillary: 4 withXmpp: 97
+2022-01-02 16:20:18,491 | ERROR | Failed to download com.orange.phone
+2022-01-02 16:20:20,172 | INFO | Iteration: 394 downloadedApps: 333 appsWithPush: 310 withCapillary: 4 withXmpp: 97
+2022-01-02 16:20:26,684 | INFO | Iteration: 395 downloadedApps: 334 appsWithPush: 311 withCapillary: 4 withXmpp: 97
+2022-01-02 16:20:29,793 | INFO | Iteration: 396 downloadedApps: 335 appsWithPush: 312 withCapillary: 4 withXmpp: 97
+2022-01-02 16:20:35,709 | INFO | Iteration: 397 downloadedApps: 336 appsWithPush: 313 withCapillary: 4 withXmpp: 97
+2022-01-02 16:20:37,703 | INFO | Iteration: 398 downloadedApps: 337 appsWithPush: 314 withCapillary: 4 withXmpp: 97
+2022-01-02 16:20:42,160 | INFO | Iteration: 399 downloadedApps: 338 appsWithPush: 315 withCapillary: 4 withXmpp: 97
+2022-01-02 16:21:54,761 | INFO | com.cisco.im has xmpp
+2022-01-02 16:21:54,811 | INFO | Iteration: 400 downloadedApps: 339 appsWithPush: 316 withCapillary: 4 withXmpp: 98
+2022-01-02 16:21:58,194 | INFO | Iteration: 401 downloadedApps: 340 appsWithPush: 317 withCapillary: 4 withXmpp: 98
+2022-01-02 16:22:02,520 | INFO | com.maildroid has xmpp
+2022-01-02 16:22:02,580 | INFO | Iteration: 402 downloadedApps: 341 appsWithPush: 318 withCapillary: 4 withXmpp: 99
+2022-01-02 16:22:04,815 | INFO | Iteration: 403 downloadedApps: 342 appsWithPush: 319 withCapillary: 4 withXmpp: 99
+2022-01-02 16:22:07,320 | INFO | Iteration: 404 downloadedApps: 343 appsWithPush: 319 withCapillary: 4 withXmpp: 99
+2022-01-02 16:22:11,990 | INFO | Iteration: 405 downloadedApps: 344 appsWithPush: 320 withCapillary: 4 withXmpp: 99
+2022-01-02 16:22:16,416 | INFO | Iteration: 406 downloadedApps: 345 appsWithPush: 321 withCapillary: 4 withXmpp: 99
+2022-01-02 16:22:16,568 | ERROR | Failed to download com.bestfreewifi.wifihotspot1
+2022-01-02 16:22:17,164 | ERROR | Failed to download com.jb.gosms.theme.sweet
+2022-01-02 16:22:20,560 | INFO | Iteration: 409 downloadedApps: 346 appsWithPush: 322 withCapillary: 4 withXmpp: 99
+2022-01-02 16:22:21,164 | ERROR | Failed to download com.turkcell.sesplus
+2022-01-02 16:22:31,159 | INFO | Iteration: 411 downloadedApps: 347 appsWithPush: 323 withCapillary: 4 withXmpp: 99
+2022-01-02 16:22:37,772 | INFO | Iteration: 412 downloadedApps: 348 appsWithPush: 324 withCapillary: 4 withXmpp: 99
+2022-01-02 16:22:38,414 | ERROR | Failed to download in.gov.eci.garuda
+2022-01-02 16:22:41,476 | INFO | Iteration: 414 downloadedApps: 349 appsWithPush: 324 withCapillary: 4 withXmpp: 99
+2022-01-02 16:22:46,845 | INFO | com.omantel has xmpp
+2022-01-02 16:22:46,863 | INFO | Iteration: 415 downloadedApps: 350 appsWithPush: 325 withCapillary: 4 withXmpp: 100
+2022-01-02 16:22:49,553 | INFO | Iteration: 416 downloadedApps: 351 appsWithPush: 326 withCapillary: 4 withXmpp: 100
+2022-01-02 16:23:03,762 | INFO | Iteration: 417 downloadedApps: 352 appsWithPush: 327 withCapillary: 4 withXmpp: 100
+2022-01-02 16:23:22,852 | INFO | com.vivaldi.browser has xmpp
+2022-01-02 16:23:22,935 | INFO | Iteration: 418 downloadedApps: 353 appsWithPush: 328 withCapillary: 4 withXmpp: 101
+2022-01-02 16:23:25,335 | INFO | Iteration: 419 downloadedApps: 354 appsWithPush: 329 withCapillary: 4 withXmpp: 101
+2022-01-02 16:23:29,499 | INFO | Iteration: 420 downloadedApps: 355 appsWithPush: 329 withCapillary: 4 withXmpp: 101
+2022-01-02 16:23:33,741 | INFO | Iteration: 421 downloadedApps: 356 appsWithPush: 330 withCapillary: 4 withXmpp: 101
+2022-01-02 16:23:39,244 | INFO | Iteration: 422 downloadedApps: 357 appsWithPush: 331 withCapillary: 4 withXmpp: 101
+2022-01-02 16:23:43,361 | INFO | Iteration: 423 downloadedApps: 358 appsWithPush: 332 withCapillary: 4 withXmpp: 101
+2022-01-02 16:23:47,074 | INFO | Iteration: 424 downloadedApps: 359 appsWithPush: 333 withCapillary: 4 withXmpp: 101
+2022-01-02 16:23:52,018 | INFO | Iteration: 425 downloadedApps: 360 appsWithPush: 334 withCapillary: 4 withXmpp: 101
+2022-01-02 16:23:58,671 | INFO | Iteration: 426 downloadedApps: 361 appsWithPush: 335 withCapillary: 4 withXmpp: 101
+2022-01-02 16:24:13,473 | INFO | Iteration: 427 downloadedApps: 362 appsWithPush: 336 withCapillary: 4 withXmpp: 101
+2022-01-02 16:24:28,725 | INFO | bg.vivacom.mobile has xmpp
+2022-01-02 16:24:28,798 | INFO | Iteration: 428 downloadedApps: 363 appsWithPush: 337 withCapillary: 4 withXmpp: 102
+2022-01-02 16:24:32,020 | INFO | com.snrblabs.grooveip has xmpp
+2022-01-02 16:24:32,034 | INFO | Iteration: 429 downloadedApps: 364 appsWithPush: 338 withCapillary: 4 withXmpp: 103
+2022-01-02 16:24:34,241 | INFO | Iteration: 430 downloadedApps: 365 appsWithPush: 339 withCapillary: 4 withXmpp: 103
+2022-01-02 16:24:34,858 | ERROR | Failed to download jp.co.rakuten.denwa
+2022-01-02 16:24:41,895 | INFO | Iteration: 432 downloadedApps: 366 appsWithPush: 340 withCapillary: 4 withXmpp: 103
+2022-01-02 16:24:42,431 | ERROR | Failed to download com.mizmowireless.vvm
+2022-01-02 16:24:43,076 | ERROR | Failed to download jp.co.yahoo.android.ymobile.mail
+2022-01-02 16:24:45,323 | INFO | Iteration: 435 downloadedApps: 367 appsWithPush: 341 withCapillary: 4 withXmpp: 103
+2022-01-02 16:24:51,819 | INFO | Iteration: 436 downloadedApps: 368 appsWithPush: 342 withCapillary: 4 withXmpp: 103
+2022-01-02 16:25:28,340 | INFO | Iteration: 437 downloadedApps: 369 appsWithPush: 343 withCapillary: 4 withXmpp: 103
+2022-01-02 16:26:01,329 | INFO | Iteration: 438 downloadedApps: 370 appsWithPush: 344 withCapillary: 4 withXmpp: 103
+2022-01-02 16:26:07,123 | INFO | Iteration: 439 downloadedApps: 371 appsWithPush: 345 withCapillary: 4 withXmpp: 103
+2022-01-02 16:26:11,344 | INFO | Iteration: 440 downloadedApps: 372 appsWithPush: 346 withCapillary: 4 withXmpp: 103
+2022-01-02 16:26:32,301 | INFO | Iteration: 441 downloadedApps: 373 appsWithPush: 346 withCapillary: 4 withXmpp: 103
+2022-01-02 16:26:32,892 | ERROR | Failed to download com.rma.myspeed
+2022-01-02 16:26:36,812 | INFO | Iteration: 443 downloadedApps: 374 appsWithPush: 347 withCapillary: 4 withXmpp: 103
+2022-01-02 16:26:40,446 | INFO | Iteration: 444 downloadedApps: 375 appsWithPush: 348 withCapillary: 4 withXmpp: 103
+2022-01-02 16:26:41,077 | ERROR | Failed to download com.openvacs.android.oto
+2022-01-02 16:26:44,025 | INFO | Iteration: 446 downloadedApps: 376 appsWithPush: 349 withCapillary: 4 withXmpp: 103
+2022-01-02 16:26:44,623 | ERROR | Failed to download com.freedompop.ott
+2022-01-02 16:26:45,788 | INFO | Iteration: 448 downloadedApps: 377 appsWithPush: 349 withCapillary: 4 withXmpp: 103
+2022-01-02 16:26:54,071 | INFO | jp.wifishare.townwifi has xmpp
+2022-01-02 16:26:54,121 | INFO | Iteration: 449 downloadedApps: 378 appsWithPush: 350 withCapillary: 4 withXmpp: 104
+2022-01-02 16:26:59,958 | INFO | Iteration: 450 downloadedApps: 379 appsWithPush: 351 withCapillary: 4 withXmpp: 104
+2022-01-02 16:27:05,222 | INFO | Iteration: 451 downloadedApps: 380 appsWithPush: 352 withCapillary: 4 withXmpp: 104
+2022-01-02 16:27:08,636 | INFO | Iteration: 452 downloadedApps: 381 appsWithPush: 353 withCapillary: 4 withXmpp: 104
+2022-01-02 16:27:09,816 | INFO | Iteration: 453 downloadedApps: 382 appsWithPush: 353 withCapillary: 4 withXmpp: 104
+2022-01-02 16:27:10,407 | ERROR | Failed to download com.samsung.accessory
+2022-01-02 16:27:13,626 | INFO | Iteration: 455 downloadedApps: 383 appsWithPush: 354 withCapillary: 4 withXmpp: 104
+2022-01-02 16:27:14,993 | INFO | Iteration: 456 downloadedApps: 384 appsWithPush: 355 withCapillary: 4 withXmpp: 104
+2022-01-02 16:27:19,723 | INFO | truecaller.caller.callerid.name.phone.dialer has xmpp
+2022-01-02 16:27:19,773 | INFO | Iteration: 457 downloadedApps: 385 appsWithPush: 356 withCapillary: 4 withXmpp: 105
+2022-01-02 16:27:23,179 | INFO | Iteration: 458 downloadedApps: 386 appsWithPush: 357 withCapillary: 4 withXmpp: 105
+2022-01-02 16:27:27,828 | INFO | Iteration: 459 downloadedApps: 387 appsWithPush: 358 withCapillary: 4 withXmpp: 105
+2022-01-02 16:27:31,637 | INFO | Iteration: 460 downloadedApps: 388 appsWithPush: 359 withCapillary: 4 withXmpp: 105
+2022-01-02 16:27:35,370 | INFO | Iteration: 461 downloadedApps: 389 appsWithPush: 360 withCapillary: 4 withXmpp: 105
+2022-01-02 16:27:39,278 | INFO | Iteration: 462 downloadedApps: 390 appsWithPush: 361 withCapillary: 4 withXmpp: 105
+2022-01-02 16:27:43,313 | INFO | Iteration: 463 downloadedApps: 391 appsWithPush: 362 withCapillary: 4 withXmpp: 105
+2022-01-02 16:27:45,965 | INFO | Iteration: 464 downloadedApps: 392 appsWithPush: 363 withCapillary: 4 withXmpp: 105
+2022-01-02 16:27:49,680 | INFO | Iteration: 465 downloadedApps: 393 appsWithPush: 364 withCapillary: 4 withXmpp: 105
+2022-01-02 16:27:53,553 | INFO | com.androidworks.videocalling has xmpp
+2022-01-02 16:27:53,577 | INFO | Iteration: 466 downloadedApps: 394 appsWithPush: 365 withCapillary: 4 withXmpp: 106
+2022-01-02 16:27:54,148 | ERROR | Failed to download com.att.mobile.android.vvm
+2022-01-02 16:27:56,904 | INFO | Iteration: 468 downloadedApps: 395 appsWithPush: 366 withCapillary: 4 withXmpp: 106
+2022-01-02 16:28:03,645 | INFO | Iteration: 469 downloadedApps: 396 appsWithPush: 367 withCapillary: 4 withXmpp: 106
+2022-01-02 16:28:04,326 | ERROR | Failed to download com.sh.smart.caller
+2022-01-02 16:28:07,231 | INFO | Iteration: 471 downloadedApps: 397 appsWithPush: 368 withCapillary: 4 withXmpp: 106
+2022-01-02 16:28:07,360 | ERROR | Failed to download com.ktcccp.videofacetime
+2022-01-02 16:28:12,153 | INFO | live.hala has xmpp
+2022-01-02 16:28:12,183 | INFO | Iteration: 473 downloadedApps: 398 appsWithPush: 369 withCapillary: 4 withXmpp: 107
+2022-01-02 16:28:16,129 | INFO | Iteration: 474 downloadedApps: 399 appsWithPush: 370 withCapillary: 4 withXmpp: 107
+2022-01-02 16:28:16,749 | ERROR | Failed to download jp.softbank.mb.mail
+2022-01-02 16:28:19,671 | INFO | mobi.skred.app has xmpp
+2022-01-02 16:28:19,687 | INFO | Iteration: 476 downloadedApps: 400 appsWithPush: 371 withCapillary: 4 withXmpp: 108
+2022-01-02 16:28:41,512 | INFO | com.naver.whale has xmpp
+2022-01-02 16:28:41,620 | INFO | Iteration: 477 downloadedApps: 401 appsWithPush: 372 withCapillary: 4 withXmpp: 109
+2022-01-02 16:28:43,231 | INFO | Iteration: 478 downloadedApps: 402 appsWithPush: 373 withCapillary: 4 withXmpp: 109
+2022-01-02 16:28:50,172 | INFO | u.see.browser.for.uc.browser has xmpp
+2022-01-02 16:28:50,213 | INFO | Iteration: 479 downloadedApps: 403 appsWithPush: 374 withCapillary: 4 withXmpp: 110
+2022-01-02 16:28:52,042 | INFO | Iteration: 480 downloadedApps: 404 appsWithPush: 375 withCapillary: 4 withXmpp: 110
+2022-01-02 16:28:52,406 | ERROR | Failed to download com.motorola.slpc
+2022-01-02 16:28:56,041 | INFO | Iteration: 482 downloadedApps: 405 appsWithPush: 376 withCapillary: 4 withXmpp: 110
+2022-01-02 16:28:56,615 | ERROR | Failed to download u.browser.for.lite.uc.browser
+2022-01-02 16:28:59,280 | INFO | Iteration: 484 downloadedApps: 406 appsWithPush: 377 withCapillary: 4 withXmpp: 110
+2022-01-02 16:28:59,845 | ERROR | Failed to download com.kddi.android.cmail
+2022-01-02 16:29:00,461 | ERROR | Failed to download com.kddi.cs.app001
+2022-01-02 16:29:04,357 | INFO | Iteration: 487 downloadedApps: 407 appsWithPush: 378 withCapillary: 4 withXmpp: 110
+2022-01-02 16:29:04,754 | ERROR | Failed to download com.att.android.tablet.attmessages
+2022-01-02 16:29:08,691 | INFO | Iteration: 489 downloadedApps: 408 appsWithPush: 379 withCapillary: 4 withXmpp: 110
+2022-01-02 16:29:10,492 | INFO | Iteration: 490 downloadedApps: 409 appsWithPush: 380 withCapillary: 4 withXmpp: 110
+2022-01-02 16:29:18,563 | INFO | com.woow.talk has capillary
+2022-01-02 16:29:18,771 | INFO | Iteration: 491 downloadedApps: 410 appsWithPush: 381 withCapillary: 5 withXmpp: 110
+2022-01-02 16:29:19,215 | ERROR | Failed to download com.htc.vte
+2022-01-02 16:29:23,825 | INFO | Iteration: 493 downloadedApps: 411 appsWithPush: 382 withCapillary: 5 withXmpp: 110
+2022-01-02 16:29:24,372 | ERROR | Failed to download com.nttdocomo.android.msg
+2022-01-02 16:29:24,749 | ERROR | Failed to download com.oneplus.mms
+2022-01-02 16:29:25,121 | ERROR | Failed to download com.vinsmart.messaging
+2022-01-02 16:29:34,700 | INFO | Iteration: 497 downloadedApps: 412 appsWithPush: 383 withCapillary: 5 withXmpp: 110
+2022-01-02 16:29:35,117 | ERROR | Failed to download com.vinsmart.contacts
+2022-01-02 16:29:35,467 | ERROR | Failed to download com.htc.sense.mms
+2022-01-02 16:29:35,841 | ERROR | Failed to download com.cloudmosa.puffinTV
