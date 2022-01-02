@@ -47,7 +47,8 @@ file_handler.setFormatter(formatter)
 logger.addHandler(file_handler)
 logger.addHandler(stdout_handler)
 
-completeNumber = 0
+downloadedApps = 0
+appsWithPush = 0
 withCapillary = 0
 withMqtt = 0
 withXmpp = 0
@@ -71,6 +72,7 @@ with open(path, "r") as file:
             continue
 
         if(download['docId'] + '.apk' in os.listdir('tmp')):
+            downloadedApps+=1
             process = subprocess.Popen("unzip -o " +os.getcwd()+"/tmp/"+download['docId'] + '.apk'+" -d "+os.getcwd()+"/tmp/"+download['docId'], shell=True)
             out, err = process.communicate()
             process.wait()
@@ -90,7 +92,7 @@ with open(path, "r") as file:
                     pass
                 #Wenn NotificationCompat vorhanden ist, kann die App Push Notifications erstellen und zählt somit zu der gesamten Anzahl
                 if b'NotificationCompat' in out or b'matches' in out:
-                    completeNumber+=1
+                    appsWithPush+=1
                     process = subprocess.Popen("grep -rnw "+pathToUse+" -e 'Capillary' -e 'capillary'", shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
                     out, err = process.communicate()
                     out+=err
@@ -104,23 +106,9 @@ with open(path, "r") as file:
                     except OSError:
                         # can't kill a dead proc
                         pass
-                    if b'Capillary' in out or b'capillary' in out or b'mqtt' in out or b'MQTT' in out or b'matches' in out or b'xmpp' in out or b'XMPP' in out:
+                    if b'Capillary' in out or b'capillary' in out or b'matches' in out or b'xmpp' in out or b'XMPP' in out:
                         withCapillary+=1
                         logger.info(download['docId']+" has capillary")
-
-                ######
-                    process = subprocess.Popen("grep -rnw "+pathToUse+" -e 'mqtt' -e 'MQTT'", shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-                    process.wait()
-                    out, err = process.communicate()
-                    out+=err
-                    try:
-                        process.kill()
-                    except OSError:
-                        # can't kill a dead proc
-                        pass
-                    if b'Capillary' in out or b'capillary' in out or b'mqtt' in out or b'MQTT' in out or b'matches' in out or b'xmpp' in out or b'XMPP' in out:
-                        withMqtt+=1
-                        logger.info(download['docId']+" has mqtt")
 
                 ######
                     process = subprocess.Popen("grep -rnw "+pathToUse+" -e 'xmpp' -e 'XMPP'", shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
@@ -135,7 +123,7 @@ with open(path, "r") as file:
                     except OSError:
                         # can't kill a dead proc
                         pass
-                    if b'Capillary' in out or b'capillary' in out or b'mqtt' in out or b'MQTT' in out or b'matches' in out or b'xmpp' in out or b'XMPP' in out:
+                    if  b'matches' in out or b'xmpp' in out or b'XMPP' in out:
                         withXmpp+=1
                         logger.info(download['docId']+" has xmpp")
 
@@ -148,10 +136,9 @@ with open(path, "r") as file:
                 except OSError:
                     # can't kill a dead proc
                     pass
-                logger.info("Iteration: "+str(iteration)+" completeNumber: "+str(completeNumber)+" withCapillary: "+str(withCapillary)+ " withMqtt: "+str(withMqtt)+ " withXmpp: "+ str(withXmpp))
+                logger.info("Iteration: "+str(iteration)+" downloadedApps: "+str(downloadedApps)+" appsWithPush: "+str(appsWithPush)+" withCapillary: "+str(withCapillary)+  " withXmpp: "+ str(withXmpp))
         else:
             logger.error("Download failed for: "+download['docId'] + '.apk')
         
-
 
 
