@@ -158,22 +158,16 @@
 
 \section{Introduction}
 
-ACM's consolidated article template, introduced in 2017, provides a
-consistent \LaTeX\ style for use across ACM publications, and
-incorporates accessibility and metadata-extraction functionality
-necessary for future Digital Library endeavors. Numerous ACM and
-SIG-specific \LaTeX\ templates have been examined, and their unique
-features incorporated into this single new template.
+Push Notification ist ein unerlässlicher Teil der heutigen Apps. 
+Sei es Nutzer*innen über neue Nachrichten einer Chat App 
+zu benachrichtigen oder auf eine überfällige Periode hinzuweisen, 
+Ihre Benutzung ist vielfältig und birgt damit auch Risiken, da sie 
+private Daten beinhalten können.
 
-If you are new to publishing with ACM, this document is a valuable
-guide to the process of preparing your work for publication. If you
-have published with ACM before, this document provides insight and
-instruction into more recent changes to the article template.
-
-The ``\verb|acmart|'' document class can be used to prepare articles
-for any ACM publication --- conference or journal, and for any stage
-of publication, from review to final ``camera-ready'' copy, to the
-author's own version, with {\itshape very} few changes to the source.
+Im folgenden wird untersucht, ob von den Entwicklern
+sichergestellt wird, dass der Inhalt der
+Push Notifications nicht von unberechtigten Entitäten mitgelesen 
+werden kann.
 
 \section{Grundlagen von Push-Benachrichtigungen}
 TODO
@@ -185,7 +179,7 @@ Apps (mobil und webbasiert) in der Google Cloud Plattform zu entwickeln.
 Es bietet durch verschiedene Services, den Entwicklern die Möglichkeit 
 die App-Entwicklung zu beschleunigen und die Stabilität und Leistung 
 zu überwachen. Darunter auch die Push-Notifications, welche im Folgenden 
-genauer erläutert werden.
+genauer erläutert werden.\cite{cloudwuerdig}
 
 \subsection{Typischer Push-Notification-Flow}
 
@@ -214,11 +208,11 @@ vom Remote-Server an den Cloud-Messaging-Dienst der mobilen
 Plattform gesendet.
 Der Nachrichteninhalt wird dann vom Cloud-Messaging-Dienst an das 
 richtige Gerät und die mobile App gesendet und dann anschließend als 
-Benachrichtigung angezeigt.
+Benachrichtigung angezeigt.\cite{agarwal}
 
-\subsection{FCM für Android}
+\subsection{Firebase Cloud Messaging für Android}
 
-Um Firebase Cloud Messaging-basierte Push-Benachrichtigungen in einer 
+Um FCM-basierte Push-Benachrichtigungen in einer 
 Android-App zu implementieren, werden eine mobile App, eine Verbindung 
 zum FCM-Server und ein Push-Server eines Drittanbieters benötigt.
 Zuerst muss Firebase zu dem Android-App-Projekt hinzugefügt werden. 
@@ -231,7 +225,7 @@ mobilen App an den FCM-Server gesendet werden können.
 Hierfür wird oftmals der Google Play Store verwendet, der die 
 Einrichtung mit den Google Play-Diensten APK erfordert. Es können 
 aber auch Push-Benachrichtigungsserver eines Drittanbieters verwendet 
-werden.
+werden.\cite{firebase}
 
 \subsection{Push-Notifications für Apple}
 
@@ -245,7 +239,7 @@ welchem Push-Benachrichtigungen an die identifizierte Anwendung
 gesendet werden. Zum Schluss sendet der Server einer 
 Customer-Engagement-Plattform die Benachrichtigung an den APNs 
 und dann identifiziert der APNs das iOS-Gerät und die iOS-App, 
-an die die Benachrichtigung gesendet werden soll.
+an die die Benachrichtigung gesendet werden soll.\cite{apple}
 
 \subsection{Grundlagen zu unsicheren Push-Notifications}
 
@@ -254,13 +248,13 @@ die Übertragung der Push-Benachrichtigungen unsicher macht, da
 diese über Firebase unverschlüsselt übertragen werden und somit 
 von Firebase ausgelesen und ausgewertet werden können. Stattdessen 
 schlägt Firebase die Nutzung von Bibliotheken von Drittanbietern vor, 
-unter anderem Capillary.
+unter anderem Capillary.\cite{firebase2}
 Apple hingegen bietet das UNNotificationServiceExtension Objekt an, 
 womit verschlüsselte Push-Notifications von der App entschlüsselt 
 werden können. Dabei muss der versendete Notification Payload den 
 Json Key „mutable-content“ mit dem Wert 1 beinhalten, damit das 
 UNNotificationServiceExtension Objekt die verschlüsselte Notification 
-entschlüsselt, bevor sie im Gerät angezeigt wird.
+entschlüsselt, bevor dessen Inhalt im Gerät angezeigt wird.\cite{apple1}\cite{apple2}
 
 \section{Sichere Push-Notifications}
 
@@ -274,10 +268,10 @@ zwischen Entwickler und Messaging Dienst, sowie die Kommunikation
 zwischen Messaging Dienst und Endgerät durch TLS verschlüsselt [1][2], 
 jedoch wird der eigentliche Inhalt der Benachrichtigungen in Klartext 
 übermittelt [1][2]. So handelt es sich dabei nicht um eine 
-Ende-zu-Ende Verschlüsselung und der Inhalt der Nachricht kann von 
+Ende-zu-Ende Verschlüsselung zwischen App und Entwickler und der Inhalt der Nachricht kann von 
 beispielsweise Google mitgelesen werden.
 
-Bedenklich ist die Tatsache, dass alle Benachrichtigung recht einfach 
+Bedenklich ist die Tatsache, dass alle Benachrichtigung 
 einer Person zugeordnet werden können und die Anbieter dieser Messaging 
 Dienste meist US-amerikanische Firmen sind, welche beispielsweise 
 Daten an Behörden weiterreichen müssten, falls gefordert [3].
@@ -289,12 +283,12 @@ Ende-zu-Ende-Verschlüsselung kümmern.
 Dies kann besonders wichtig sein, wenn es sich um Benachrichtigungen 
 handelt, welche sensible Personen Informationen enthalten. Wenn es 
 sich um Benachrichtigungen von Instant Messaging Diensten handelt, 
-oder vielleicht sensiblere Daten von Banking Apps oder vergleichbarem, 
+oder sensiblere Daten von Banking Apps oder vergleichbarem, 
 ist eine Verschlüsselung der Inhalte besonders erstrebenswert.
 
 Eine solche Ende-zu-Ende-Verschlüsselung lässt sich über eine 
-asymmetrische Verschlüsselung recht gut realisieren, wobei das 
-Endgerät das Schlüsselpaar erzeugt und den Öffentlichen Schlüssel an 
+asymmetrische Verschlüsselung realisieren, wobei das 
+Endgerät das Schlüsselpaar erzeugt und den öffentlichen Schlüssel an 
 den Entwickler schickt und dabei den Messaging Dienst außen vor lässt. 
 Dabei muss man nicht die Funktionsweise des Messaging Dienstes 
 einschränken und kann vorhandene Technologien weiter nutzen.
@@ -302,31 +296,32 @@ einschränken und kann vorhandene Technologien weiter nutzen.
 
 
 \subsection{Beispiel eines sicheren Notification Flow}
+Nachfolgend wird das Beispiel eines sicheren Notification Flow erläutert.
 
 1. Der Anwender erzeugt auf seinem Endgerät automatisiert ein 
-Schlüsselpaar, bestehend aus einem Öffentlichen und einem Privaten 
+Schlüsselpaar, bestehend aus einem öffentlichen und einem privaten 
 Schlüssel.
 
-2. Der Öffentliche Schlüssel wird dem Entwickler nun über einen direkten 
+2. Der öffentliche Schlüssel wird dem Entwickler nun über einen direkten 
 Kommunikationsweg übermittelt.
 
 3. Der Entwickler speichert nun diesen Schlüssel und verknüpft ihn Lokal 
 mit dem Messaging Dienst Identifier für das spezifische Endgerät. 
-Nun ist er in der Lage mit dem Öffentlichen Schlüssel seine Ausgehende 
-Benachrichtigen zu verschlüsseln.
+Nun ist er in der Lage mit dem öffentlichen Schlüssel seine ausgehenden 
+Benachrichtigungen zu verschlüsseln.
 
-4. Die Verschlüsselte Benachrichtigung wird nun dem Messaging Dienst 
+4. Die verschlüsselte Benachrichtigung wird nun dem Messaging Dienst 
 übermittelt, welcher diese, für ihn unlesbare Nachricht, an das Endgerät 
 übermittelt.
 
 5. Das Endgerät kann bei Erhalt der Benachrichtigung, durch seinen lokal 
-gespeicherten Privaten Schlüssel den Inhalt entschlüsseln und die 
+gespeicherten privaten Schlüssel den Inhalt entschlüsseln und die 
 Benachrichtigung kann dem Nutzer angezeigt werden.
 
 \subsection{Umsetzung in Open Source Projekten}
 
 Capillary ist eine Bibliothek von Google, welche Drittanbieter, eine End-zu-End 
-Verschlüsselung über Firebase Cloud Messaging ermöglicht. Unter anderem 
+Verschlüsselung über Firebase Cloud Messaging ermöglicht \cite{capillary}. Unter anderem 
 bietet sie die Schlüsselgeneration als auch Registrierung der erstellten 
 asymmetrischen Schlüssel mit dem Developer Application Server, der die 
 Benachrichtigungen verschlüsselt über Firebase an die App mit Capillary 
@@ -335,31 +330,32 @@ der Notification clientseitig in der App als auch serverseitig an.
 
 Capillary bietet noch weitere Funktionen, wie zum Beispiel, dass ein gestohlenes 
 Endgerät die Möglichkeit der Entschlüsselung noch eingehender Benachrichtigungen 
-entzogen werden kann [2].
+entzogen werden kann.
 
 Die Popularität dieser Bibliothek scheint, gemessen anhand der ungefähr 
-450 Github Stars Stand Dezember 2021, recht eingeschränkt. Der letzte Commit 
-war im Dezember 2018, womit das Projekt recht verlassen ausschaut.
+450 Github Stars Stand Dezember 2021, eingeschränkt. Der letzte Commit 
+war im Dezember 2018, womit das Projekt verlassen ausschaut.
 
 Eine weitere Möglichkeit verschlüsselte Notifications zu senden, 
-besteht über das Extensible Messaging and Presence Protocol (XMPP). 
-XMPP selbst ist ein Standard der Internet Engineering Taswk Force (IETF), 
+besteht über das Extensible Messaging and Presence Protocol (XMPP).
+XMPP selbst ist ein Standard der Internet Engineering Task Force (IETF), 
 welcher Technologien wie instant messaging, Push Notifications, voice und 
-video calls über XML ermöglicht. Dieser Standard definiert zudem die 
+video calls über XML ermöglicht.\cite{xmpp}\cite{xmpp3}  Dieser Standard definiert zudem die 
 End-zu-End Verschlüsselung als auch Signierung von versendeten Objekten. 
-Dies kann verwendet werden, um Push Notifications zu verschlüsseln.
+Dies kann verwendet werden, um Push Notifications zu verschlüsseln.\cite{xmpp2}
 
 \section{Prototyp}
 
 Im Rahmen des Projektes sollte überprüft werden, wie oft unsichere Push 
 Notifications in Apps benutzt wurden. Hierfür wurden nur Android Apps 
-betrachtet. Das erste Analysekriterium achtet auf die Benutzung von 
+betrachtet. Zu den Analysekriterien gehört die Benutzung von 
 „NotificationCompat“ mit Hilfe von einem Stringabgleich, welche zu den 
-Android Schnittstellen gehört und das Senden von Push Nachrichten ermöglicht. 
-Wenn diese vorhanden ist, wird davon ausgegangen, dass eine App 
-Notifications abschicken kann und dann wird auf die nächsten beiden 
+Android Schnittstellen gehört und das Senden von Push Nachrichten ermöglicht, sowie auf "onMessageReceived", welche 
+benutzt wird, um Push Notification von Firebase zu empfangen. 
+Wenn diese vorhanden sind, wird davon ausgegangen, dass eine App 
+Notifications abschicken kann als auch von Firebase empfangen kann, dann wird auf die nächsten beiden 
 Analysekriterien geachtet.
-Die zweiten und dritten Analysekriterien untersuchen die Apps auch mit 
+Die dritten und vierten Analysekriterien untersuchen die Apps auch mit 
 einem Stringabgleich nach den beiden Strings „Capillary“ und „XMPP“. Ist 
 der String „Capillary“ vorhanden, so wird davon ausgegangen, dass die App 
 Capillary unterstützt, da diese Bibliothek zum Zweck der End-zu-End 
@@ -368,31 +364,32 @@ vorhanden, so kann nicht zwingend davon ausgegangen werden, dass eine
 End-zu-End Verschlüsselung unterstützt wird, da die Ende-zu-Ende 
 Verschlüsselung im Standard nur als optionales Feature definiert wurde.
 
-\subsection{TODO}
-Zum Herunterladen der Apps wurde das Fork vom Python Projekt GooglePlayAPI 
-von TheZ3ro benutzt, zudem musste das Requests Python Projekt auf die Version 
-2.20.0 herabgestuft werden, da eine höhere Version inkompatibel ist. 
+\subsection{Initialisierung}
+Zum Herunterladen der Apps wurde zunächst ein Google Account erstellt und dann
+das Fork vom Python Projekt GooglePlayAPI 
+von TheZ3ro \cite{googleplayapi} benutzt, zudem musste das Requests Python Projekt auf die Version 
+2.20.0 herabgestuft werden, da eine höhere Version inkompatibel ist \cite{googleplayapi1}. 
 Als weiteres wurde ein eigenes Python Skript geschrieben, welches die 
 GooglePlayAPI Bibliothek importiert und für den Login benutzt. Bei dem Login 
 wird ein neues Gerät mit der Sprachumgebung, die Zeitzone und einem 
 Gerätecodenamen mit dem benutzten Account initialisiert. Im Falle der Tests 
 waren dies die Werte en\_US für ein Gerät im US-Amerikanischen Raum, die 
 Zeitzone UTC und der Gerätecodename hero2lte, welches für das Samsung 
-Galaxy S7 Edge steht.
+Galaxy S7 Edge steht. Nach dem erfolgreichen Login wird von Google ein Token generiert, 
+welches von nun an anstelle des Logins zur Authentifizierung benutzt wird.
 
-\subsection{TODO}
-Nach dem erfolgreichen Login wird ein Logger für das LogFile als auch 
-entsprechende Counter für die Anzahl tatsächlich überprüfter Apps, da sich 
-manche Apps nicht herunterladen lassen und die Anzahl von Apps mit den 
-Strings „Capillary“ und „XMPP“.
+Nach dem Aufruf der Login Funktion des GooglePlayAPI Objekts, 
+wird ein Logger für das LogFile initialisiert. In das LogFile geschrieben, werden 
+entsprechende Counter für die Anzahl von Apps mit den 
+Strings „Capillary“, „XMPP“ und für die Anzahl tatsächlich überprüfter Apps, da sich 
+manche Apps nicht herunterladen lassen.
 Danach wird ein CSV Reader benutzt, um eine Datei auszulesen, die aus 
 Application IDs der zu testenden Apps getrennt mit Zeilenumbrüchen besteht. 
-Hierbei wurden mit einem Javascript Skript und nachträglicher manuellen 
-Anpassung aus der Seite „androidrank.org“ die Application IDs der Top 500 
-Apps der Bereiche „Health\_And\_Fitness“ und „Medical“ und in entsprechende 
-zwei Dateien zusammengefasst, welche dem Skript zugefügt wurden.
+Hierbei wurden aus der Seite „androidrank.org“ die Application IDs der Top 500 
+Apps der Bereiche „Health\_And\_Fitness“, „Medical“ und "Communication" in entsprechende 
+drei Dateien zusammengefasst, welche dem Skript zugefügt wurden \cite{androidrank}\cite{androidrank1}\cite{androidrank2}.
 
-\subsection{TODO}
+\subsection{Herunterladen und Analyse}
 Sobald die erste Application ID gelesen wurde, versucht das Skript die App 
 in einen temporären Ordner herunterzuladen. Schlägt dies fehl, wird die 
 nächste App iteriert. Wurde die App erfolgreich heruntergeladen, wird diese 
@@ -402,16 +399,29 @@ entpackten App mit dem grep Befehl nach den oben genannten Kriterien
 Application ID mit dem gefundenen Wert in die LogDatei geschrieben, falls 
 die App Capillary und/oder XMPP benutzt.
 
+\section{Ergebnisse}
 
+\subsection{Top 500 Communication Apps}
+Von 500 Apps wurden 412 heruntergeladen, 383 benutzen "NotificationCompat" als auch "onMessageReceived" 
+und sind somit in der Lage Push Notification abzuschicken sowie von Firebase zu empfangen. Davon benutzen 5 Apps Capillary, 110 Apps XMPP 
+und 2 Apps benutzen beides.
 
-%%
-%% The acknowledgments section is defined using the "acks" environment
-%% (and NOT an unnumbered section). This ensures the proper
-%% identification of the section in the article metadata, and the
-%% consistent spelling of the heading.
-\begin{acks}
-To Robert, for the bagels and explaining CMYK and color spaces.
-\end{acks}
+\subsection{Top 500 Health and Fitness Apps}
+Von 500 Apps wurden 452 heruntergeladen, 430 benutzen "NotificationCompat" als auch "onMessageReceived" 
+und sind somit in der Lage Push Notification abzuschicken sowie von Firebase zu empfangen. Davon benutzen 13 Apps Capillary, 
+35 Apps XMPP und 2 Apps benutzen beides.
+
+\subsection{Top 500 Medical Apps}
+Von 500 Apps wurden 358 heruntergeladen, 326 benutzen "NotificationCompat" als auch "onMessageReceived" 
+und sind somit in der Lage Push Notification abzuschicken sowie von Firebase zu empfangen. Davon benutzen 24 Apps Capillary, 
+47 Apps XMPP und 2 Apps benutzen beides.
+
+\subsection{Auswertung}
+Es fällt auf, dass Capillary im medizinischen Bereich mit 24 Apps am meisten vor kommt, während XMPP im Bereich
+der Kommunikation mit 110 Apps am meisten vor kommt. Generell sind die Zahlen niedrig.
+ Allerdings sind die Zahlen mit Vorsicht zu genießen, da die
+Analyse nicht auf obfsukierte Apps angepasst wurde, zudem wurde nicht überprüft, ob die Apps mit XMPP auch verschlüsselte 
+Push Notifications unterstützen und zuletzt können manche der Apps eigene End-to-End Push Notification Lösungen benutzen.
 
 %%
 %% The next two lines define the bibliography style to be used, and
@@ -419,39 +429,6 @@ To Robert, for the bagels and explaining CMYK and color spaces.
 \bibliographystyle{ACM-Reference-Format}
 \bibliography{sample-base}
 
-%%
-%% If your work has an appendix, this is the place to put it.
-\appendix
-
-\section{Research Methods}
-
-\subsection{Part One}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-malesuada, quam in pulvinar varius, metus nunc fermentum urna, id
-sollicitudin purus odio sit amet enim. Aliquam ullamcorper eu ipsum
-vel mollis. Curabitur quis dictum nisl. Phasellus vel semper risus, et
-lacinia dolor. Integer ultricies commodo sem nec semper.
-
-\subsection{Part Two}
-
-Etiam commodo feugiat nisl pulvinar pellentesque. Etiam auctor sodales
-ligula, non varius nibh pulvinar semper. Suspendisse nec lectus non
-ipsum convallis congue hendrerit vitae sapien. Donec at laoreet
-eros. Vivamus non purus placerat, scelerisque diam eu, cursus
-ante. Etiam aliquam tortor auctor efficitur mattis.
-
-\section{Online Resources}
-
-Nam id fermentum dui. Suspendisse sagittis tortor a nulla mollis, in
-pulvinar ex pretium. Sed interdum orci quis metus euismod, et sagittis
-enim maximus. Vestibulum gravida massa ut felis suscipit
-congue. Quisque mattis elit a risus ultrices commodo venenatis eget
-dui. Etiam sagittis eleifend elementum.
-
-Nam interdum magna at lectus dignissim, ac dignissim lorem
-rhoncus. Maecenas eu arcu ac neque placerat aliquam. Nunc pulvinar
-massa et mattis lacinia.
 
 \end{document}
 \endinput
