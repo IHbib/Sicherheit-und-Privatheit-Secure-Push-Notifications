@@ -127,7 +127,7 @@
 %% The abstract is a short summary of the work to be presented in the
 %% article.
 \begin{abstract}
-  TODO
+  In dieser wissenschaftlichen Arbeit wird untersucht, wie oft Push Notification von App Entwicklern benutzt wird.
 \end{abstract}
 
 %%
@@ -170,7 +170,6 @@ Push Notifications nicht von unberechtigten Entitäten mitgelesen
 werden kann.
 
 \section{Grundlagen von Push-Benachrichtigungen}
-TODO
 
 \subsection{Was ist Firebase?}
 
@@ -179,9 +178,16 @@ Apps (mobil und webbasiert) in der Google Cloud Plattform zu entwickeln.
 Es bietet durch verschiedene Services, den Entwicklern die Möglichkeit 
 die App-Entwicklung zu beschleunigen und die Stabilität und Leistung 
 zu überwachen. Darunter auch die Push-Notifications, welche im Folgenden 
-genauer erläutert werden.\cite{cloudwuerdig}
+genauer erläutert werden \cite{cloudwuerdig}.
 
 \subsection{Typischer Push-Notification-Flow}
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=\linewidth]{sample-flow}
+  \caption{Push Notification Flow von Anshika Agarwal (\url{https://medium.com/adobetech/securing-push-notifications-in-mobile-apps-a23b6c20139e}).}
+  \Description{Flussdiagramm eines typischen Push Notification Flows}
+\end{figure}
 
 Um die Funktionalität der Push-Benachrichtigungen herzustellen, 
 werden die SDK-APIs der mobilen Plattform z.B. Apple iOS oder Android, 
@@ -208,7 +214,7 @@ vom Remote-Server an den Cloud-Messaging-Dienst der mobilen
 Plattform gesendet.
 Der Nachrichteninhalt wird dann vom Cloud-Messaging-Dienst an das 
 richtige Gerät und die mobile App gesendet und dann anschließend als 
-Benachrichtigung angezeigt.\cite{agarwal}
+Benachrichtigung angezeigt \cite{agarwal}.
 
 \subsection{Firebase Cloud Messaging für Android}
 
@@ -225,7 +231,7 @@ mobilen App an den FCM-Server gesendet werden können.
 Hierfür wird oftmals der Google Play Store verwendet, der die 
 Einrichtung mit den Google Play-Diensten APK erfordert. Es können 
 aber auch Push-Benachrichtigungsserver eines Drittanbieters verwendet 
-werden.\cite{firebase}
+werden \cite{firebase}.
 
 \subsection{Push-Notifications für Apple}
 
@@ -239,7 +245,7 @@ welchem Push-Benachrichtigungen an die identifizierte Anwendung
 gesendet werden. Zum Schluss sendet der Server einer 
 Customer-Engagement-Plattform die Benachrichtigung an den APNs 
 und dann identifiziert der APNs das iOS-Gerät und die iOS-App, 
-an die die Benachrichtigung gesendet werden soll.\cite{apple}
+an die die Benachrichtigung gesendet werden soll \cite{apple}.
 
 \subsection{Grundlagen zu unsicheren Push-Notifications}
 
@@ -248,19 +254,24 @@ die Übertragung der Push-Benachrichtigungen unsicher macht, da
 diese über Firebase unverschlüsselt übertragen werden und somit 
 von Firebase ausgelesen und ausgewertet werden können. Stattdessen 
 schlägt Firebase die Nutzung von Bibliotheken von Drittanbietern vor, 
-unter anderem Capillary.\cite{firebase2}
+unter anderem Capillary \cite{firebase2}.
 Apple hingegen bietet das UNNotificationServiceExtension Objekt an, 
 womit verschlüsselte Push-Notifications von der App entschlüsselt 
 werden können. Dabei muss der versendete Notification Payload den 
 Json Key „mutable-content“ mit dem Wert 1 beinhalten, damit das 
 UNNotificationServiceExtension Objekt die verschlüsselte Notification 
-entschlüsselt, bevor dessen Inhalt im Gerät angezeigt wird.\cite{apple1}\cite{apple2}
+entschlüsselt, bevor dessen Inhalt im Gerät angezeigt wird \cite{apple1}\cite{apple2}.
 
 \section{Sichere Push-Notifications}
 
-TODO
-
 \subsection{Grundlagen von sicheren Push Notifications}
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=\linewidth]{sample-secureflow}
+  \caption{Sicherer Push Notification Flow von Anshika Agarwal (\url{https://medium.com/adobetech/securing-push-notifications-in-mobile-apps-a23b6c20139e}).}
+  \Description{Flussdiagramm eines sicheren Push Notification Flows}
+\end{figure}
 
 Wenn eine Benachrichtigung eines App-Anbieters über einen Messaging 
 Dienst wie FCM zum Endgerät gelangen soll, ist die Kommunikation 
@@ -340,17 +351,17 @@ Eine weitere Möglichkeit verschlüsselte Notifications zu senden,
 besteht über das Extensible Messaging and Presence Protocol (XMPP).
 XMPP selbst ist ein Standard der Internet Engineering Task Force (IETF), 
 welcher Technologien wie instant messaging, Push Notifications, voice und 
-video calls über XML ermöglicht.\cite{xmpp}\cite{xmpp3}  Dieser Standard definiert zudem die 
+video calls über XML ermöglicht \cite{xmpp}\cite{xmpp3}.  Dieser Standard definiert zudem die 
 End-zu-End Verschlüsselung als auch Signierung von versendeten Objekten. 
-Dies kann verwendet werden, um Push Notifications zu verschlüsseln.\cite{xmpp2}
+Dies kann verwendet werden, um Push Notifications zu verschlüsseln \cite{xmpp2}.
 
 \section{Prototyp}
 
 Im Rahmen des Projektes sollte überprüft werden, wie oft unsichere Push 
 Notifications in Apps benutzt wurden. Hierfür wurden nur Android Apps 
 betrachtet. Zu den Analysekriterien gehört die Benutzung von 
-„NotificationCompat“ mit Hilfe von einem Stringabgleich, welche zu den 
-Android Schnittstellen gehört und das Senden von Push Nachrichten ermöglicht, sowie auf "onMessageReceived", welche 
+"NotificationCompat" \cite{google} mit Hilfe von einem Stringabgleich, welche zu den 
+Android Schnittstellen gehört und das Senden von Push Nachrichten ermöglicht, sowie auf "onMessageReceived" \cite{firebase3}, welche 
 benutzt wird, um Push Notification von Firebase zu empfangen. 
 Wenn diese vorhanden sind, wird davon ausgegangen, dass eine App 
 Notifications abschicken kann als auch von Firebase empfangen kann, dann wird auf die nächsten beiden 
