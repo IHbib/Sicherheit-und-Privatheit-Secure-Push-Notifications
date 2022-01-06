@@ -161,12 +161,12 @@
 \section{Introduction}
 
 Push Notification ist ein unerlässlicher Teil der heutigen Apps. 
-Sei es Nutzer*innen über neue Nachrichten einer Chat App 
+Sei es Nutzer*innen über neue Nachrichten einer Chat-App 
 zu benachrichtigen oder auf eine überfällige Periode hinzuweisen, 
 Ihre Benutzung ist vielfältig und birgt damit auch Risiken, da sie 
 private Daten beinhalten können.
 
-Im folgenden wird untersucht, ob von den Entwicklern
+Im Folgenden wird untersucht, ob von den Entwicklern
 sichergestellt wird, dass der Inhalt der
 Push Notifications nicht von unberechtigten Entitäten mitgelesen 
 werden kann.
@@ -177,14 +177,14 @@ werden kann.
 
 Firebase ist eine Entwicklungsplattform, mit welcher es möglich ist 
 Apps (mobil und webbasiert) in der Google Cloud Plattform zu entwickeln.
-Es bietet durch verschiedene Services, den Entwicklern die Möglichkeit 
+Es bietet durch verschiedene Services, den Entwicklern die Möglichkeit, 
 die App-Entwicklung zu beschleunigen und die Stabilität und Leistung 
 zu überwachen. Darunter auch die Push-Notifications, welche im Folgenden 
 genauer erläutert werden \cite{cloudwuerdig}.
 
 \subsection{Typischer Push-Notification-Flow}
 
-\begin{figure}[h]
+\begin{figure}[H]
   \centering
   \includegraphics[width=\linewidth]{sample-flow}
   \caption{Push Notification Flow von Anshika Agarwal (\url{https://medium.com/adobetech/securing-push-notifications-in-mobile-apps-a23b6c20139e}).}
@@ -245,7 +245,7 @@ Zuerst fordert iOS ein Gerätetoken vom Apple Push Notification
 Service (APNs) an. Danach empfängt die iOS-App das Token, mit 
 welchem Push-Benachrichtigungen an die identifizierte Anwendung 
 gesendet werden. Zum Schluss sendet der Server einer 
-Customer-Engagement-Plattform die Benachrichtigung an den APNs 
+Customer-Engagement-Plattform, die Benachrichtigung an den APNs 
 und dann identifiziert der APNs das iOS-Gerät und die iOS-App, 
 an die die Benachrichtigung gesendet werden soll \cite{apple}.
 
@@ -376,7 +376,7 @@ dass Google Play hochgeladene Apps in bestimmte Kategorien unterteilt, sodass si
 eine bestimmte Anzahl an Apps je Kategorie zu analysieren und miteinander zu vergleichen. Wir haben uns für die Kategorien
 „Health\_And\_Fitness“, „Medical“ und „Communication“ entschieden, da Apps in diesen Bereichen oft mit privaten Daten 
 in Kontakt treten können. Danach stellte sich die Herausforderung wie man eine entsprechende Liste scrapen kann.
-Hierbei wurde zunächst versucht dies über den Browser zu realisieren, aber die Google Play Seite des Browser zeigt nur eine geringe Anzahl Apps
+Hierbei wurde zunächst versucht dies über den Browser zu realisieren, aber die Google Play Seite im Browser zeigt nur eine geringe Anzahl Apps
 pro Kategorie an. Daraufhin wurde versucht mittels Dekompilierung der Google Play App und Hooking mit Frida \cite{frida}
 an die Daten zu gelangen, was sich als komplex erwies. Während der Recherche trafen wir auf die Seite "androidrank.org", welche
 aktuelle Top 500 App Listen pro Kategorie anzeigt.
@@ -391,7 +391,7 @@ und dennoch eine erste grobe Momentaufnahme liefert.
 Im Rahmen des Projektes sollte überprüft werden, wie oft unsichere Push 
 Notifications in Apps benutzt wurden. Hierfür wurden nur Android Apps 
 betrachtet. Zu den Analysekriterien gehört die Benutzung von 
-"NotificationCompat" \cite{google} mit Hilfe von einem Stringabgleich, welche zu den 
+"NotificationCompat" \cite{google} mithilfe von einem Stringabgleich, welche zu den 
 Android Schnittstellen gehört und das Senden von Push Nachrichten ermöglicht, sowie auf "onMessageReceived" \cite{firebase3}, welche 
 benutzt wird, um Push Notification von Firebase zu empfangen. 
 Wenn diese vorhanden sind, wird davon ausgegangen, dass eine App 
