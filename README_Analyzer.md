@@ -1,5 +1,6 @@
 Dependencies:
 https://github.com/TheZ3ro/googleplay-api/tree/patch-1
+
 requests 2.20.0
 
 
