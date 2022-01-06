@@ -17,5 +17,9 @@ Either (token AND gsfId) or mail are REQUIRED:
             
 -m, --mail: mail for login
 
-Example:
+Filelist needs linebreak as seperator, example:
+com.testapp
+com.apptest
+
+Example command:
 python analyzer.py -f my/path/file.txt -l logfile.log -m myemail.gmail.com
