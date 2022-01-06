@@ -546,4 +546,3 @@
 2022-01-02 13:51:53,504 | INFO | Iteration: 498 downloadedApps: 451 appsWithPush: 429 withCapillary: 13 withXmpp: 35
 2022-01-02 13:51:59,617 | INFO | Iteration: 499 downloadedApps: 452 appsWithPush: 430 withCapillary: 13 withXmpp: 35
 2022-01-02 13:52:00,233 | ERROR | Failed to download com.aia.vitality.kr
-2022-01-02 13:52:02,649 | INFO | Iteration: 501 downloadedApps: 453 appsWithPush: 431 withCapillary: 13 withXmpp: 35
