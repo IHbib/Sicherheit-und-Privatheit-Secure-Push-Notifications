@@ -2,7 +2,7 @@
 %%% Do NOT edit. File created by BibTeX with style
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\begin{thebibliography}{0}
+\begin{thebibliography}{16}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -36,5 +36,198 @@
 \providecommand\bibinfo[2]{#2}
 \providecommand\natexlab[1]{#1}
 \providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[\protect\citeauthoryear{Agarwal}{Agarwal}{2021}]%
+        {agarwal}
+\bibfield{author}{\bibinfo{person}{Anshika Agarwal}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Securing Push Notifications in Mobile
+  Apps}}.
+\newblock
+\urldef\tempurl%
+\url{https://medium.com/adobetech/securing-push-notifications-in-mobile-apps-a23b6c20139e}
+\showURL{%
+Retrieved January 05, 2022 from \tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Androidrank}{Androidrank}{[n.d.]a}]%
+        {androidrank2}
+\bibfield{author}{\bibinfo{person}{Androidrank}.}
+  \bibinfo{year}{[n.d.]}\natexlab{a}.
+\newblock \bibinfo{booktitle}{\emph{List of Android Most Popular Google Play
+  Apps (Communication)}}.
+\newblock
+\urldef\tempurl%
+\url{https://www.androidrank.org/android-most-popular-google-play-apps?category=COMMUNICATION}
+\showURL{%
+Retrieved January 05, 2022 from \tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Androidrank}{Androidrank}{[n.d.]b}]%
+        {androidrank}
+\bibfield{author}{\bibinfo{person}{Androidrank}.}
+  \bibinfo{year}{[n.d.]}\natexlab{b}.
+\newblock \bibinfo{booktitle}{\emph{List of Android Most Popular Google Play
+  Apps (Health and Fitness)}}.
+\newblock
+\urldef\tempurl%
+\url{https://www.androidrank.org/android-most-popular-google-play-apps?category=HEALTH_AND_FITNESS}
+\showURL{%
+Retrieved January 05, 2022 from \tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Androidrank}{Androidrank}{[n.d.]c}]%
+        {androidrank1}
+\bibfield{author}{\bibinfo{person}{Androidrank}.}
+  \bibinfo{year}{[n.d.]}\natexlab{c}.
+\newblock \bibinfo{booktitle}{\emph{List of Android Most Popular Google Play
+  Apps (Medical)}}.
+\newblock
+\urldef\tempurl%
+\url{https://www.androidrank.org/android-most-popular-google-play-apps?category=MEDICAL}
+\showURL{%
+Retrieved January 05, 2022 from \tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Apple}{Apple}{[n.d.]a}]%
+        {apple2}
+\bibfield{author}{\bibinfo{person}{Apple}.} \bibinfo{year}{[n.d.]}\natexlab{a}.
+\newblock \bibinfo{booktitle}{\emph{Generating a Remote Notification}}.
+\newblock
+\urldef\tempurl%
+\url{https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/generating_a_remote_notification}
+\showURL{%
+Retrieved January 05, 2022 from \tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Apple}{Apple}{[n.d.]b}]%
+        {apple1}
+\bibfield{author}{\bibinfo{person}{Apple}.} \bibinfo{year}{[n.d.]}\natexlab{b}.
+\newblock \bibinfo{booktitle}{\emph{Modifying Content in Newly Delivered
+  Notifications}}.
+\newblock
+\urldef\tempurl%
+\url{https://developer.apple.com/documentation/usernotifications/modifying_content_in_newly_delivered_notifications}
+\showURL{%
+Retrieved January 05, 2022 from \tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Apple}{Apple}{2018}]%
+        {apple}
+\bibfield{author}{\bibinfo{person}{Apple}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{APNs Overview}}.
+\newblock
+\urldef\tempurl%
+\url{https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html#//apple_ref/doc/uid/TP40008194-CH8-SW1}
+\showURL{%
+Retrieved January 05, 2022 from \tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Firebase}{Firebase}{2021a}]%
+        {firebase2}
+\bibfield{author}{\bibinfo{person}{Firebase}.}
+  \bibinfo{year}{2021}\natexlab{a}.
+\newblock \bibinfo{booktitle}{\emph{About FCM messages}}.
+\newblock
+\urldef\tempurl%
+\url{https://firebase.google.com/docs/cloud-messaging/concept-options?hl=en}
+\showURL{%
+Retrieved January 05, 2022 from \tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Firebase}{Firebase}{2021b}]%
+        {firebase}
+\bibfield{author}{\bibinfo{person}{Firebase}.}
+  \bibinfo{year}{2021}\natexlab{b}.
+\newblock \bibinfo{booktitle}{\emph{Überblick über die FCM-Architektur}}.
+\newblock
+\urldef\tempurl%
+\url{https://firebase.google.com/docs/cloud-messaging/fcm-architecture}
+\showURL{%
+Retrieved January 05, 2022 from \tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Google}{Google}{2018}]%
+        {capillary}
+\bibfield{author}{\bibinfo{person}{Google}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Capillary}}.
+\newblock
+\urldef\tempurl%
+\url{https://github.com/google/capillary}
+\showURL{%
+Retrieved January 05, 2022 from \tempurl}
+
+
+\bibitem[\protect\citeauthoryear{nosnikta10}{nosnikta10}{2021}]%
+        {googleplayapi1}
+\bibfield{author}{\bibinfo{person}{nosnikta10}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{I am getting Bad authnetication error}}.
+\newblock
+\urldef\tempurl%
+\url{https://github.com/NoMore201/googleplay-api/issues/140#issuecomment-808863067}
+\showURL{%
+Retrieved January 05, 2022 from \tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Saint-Andre}{Saint-Andre}{2004}]%
+        {xmpp2}
+\bibfield{author}{\bibinfo{person}{P. Saint-Andre}.}
+  \bibinfo{year}{2004}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{End-to-End Signing and Object Encryption
+  for the Extensible Messaging and Presence Protocol (XMPP)}}.
+\newblock
+\urldef\tempurl%
+\url{https://xmpp.org/rfcs/rfc3923.html}
+\showURL{%
+Retrieved January 05, 2022 from \tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Smith and Stout}{Smith and Stout}{2020}]%
+        {xmpp3}
+\bibfield{author}{\bibinfo{person}{Kevin Smith} {and} \bibinfo{person}{Lance
+  Stout}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{XEP-0357: Push Notifications}}.
+\newblock
+\urldef\tempurl%
+\url{https://xmpp.org/extensions/xep-0357.html}
+\showURL{%
+Retrieved January 05, 2022 from \tempurl}
+
+
+\bibitem[\protect\citeauthoryear{TheZ3ro}{TheZ3ro}{2021}]%
+        {googleplayapi}
+\bibfield{author}{\bibinfo{person}{TheZ3ro}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{googleplay-api}}.
+\newblock
+\urldef\tempurl%
+\url{https://github.com/TheZ3ro/googleplay-api/tree/patch-1}
+\showURL{%
+Retrieved January 05, 2022 from \tempurl}
+
+
+\bibitem[\protect\citeauthoryear{von Cloudwuerdig)}{von Cloudwuerdig)}{2020}]%
+        {cloudwuerdig}
+\bibfield{author}{\bibinfo{person}{Marius (Team Cloud~Infrastruktur von
+  Cloudwuerdig)}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{SCHNELLER UND BESSERE APPS ENTWICKELN MIT
+  FIREBASE}}.
+\newblock
+\urldef\tempurl%
+\url{https://cloudwuerdig.com/schneller-und-bessere-apps-entwickeln-mit-firebase/}
+\showURL{%
+Retrieved January 05, 2022 from \tempurl}
+
+
+\bibitem[\protect\citeauthoryear{XMPP}{XMPP}{[n.d.]}]%
+        {xmpp}
+\bibfield{author}{\bibinfo{person}{XMPP}.} \bibinfo{year}{[n.d.]}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{An Overview of XMPP}}.
+\newblock
+\urldef\tempurl%
+\url{https://xmpp.org/about/technology-overview/}
+\showURL{%
+Retrieved January 05, 2022 from \tempurl}
+
 
 \end{thebibliography}
