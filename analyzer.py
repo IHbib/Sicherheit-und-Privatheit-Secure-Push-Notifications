@@ -3,7 +3,7 @@ from getpass import getpass
 import csv, os, subprocess, logging, sys, getopt, tempfile, shutil
 
 argumentList = sys.argv[1:]
-options = "f:l:L:m:T:t:g:h"
+options = "f:l:L:m:d:T:t:g:h"
 long_options = ["filename", "logname", "Locale", "mail", "token", "help", "device", "Timezone", "gsfID"]
 logname = ""
 path = ""
@@ -25,9 +25,9 @@ def printHelp():
 
             Either (token AND gsfId) or mail are REQUIRED:
             -t, --token: set token to use instead of login
-            -g, --gsfID
+            -g, --gsfID: set gsfID to use instead of login
             
-            -u, --mail: mail for login
+            -m, --mail: mail for login
     """)
 
 try:
@@ -57,7 +57,7 @@ try:
         elif currentArgument in ("-d", "--device"):
             device = currentValue
         elif currentArgument in ("-g", "--gsfID"):
-            gsfID = currentValue
+            gsfID = int(currentValue)
 
 except getopt.error as err:
     # output error, and return with an error code
