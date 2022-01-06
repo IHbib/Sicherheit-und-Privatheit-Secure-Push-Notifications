@@ -127,7 +127,9 @@
 %% The abstract is a short summary of the work to be presented in the
 %% article.
 \begin{abstract}
-  In dieser wissenschaftlichen Arbeit wird untersucht, wie oft Push Notification von App Entwicklern benutzt wird.
+  In dieser wissenschaftlichen Arbeit wurde untersucht, wie oft Push Notification von App Entwicklern benutzt wird.
+  Dabei kam heraus, dass sichere Push Notification im medizinischen Bereich am meisten benutzt wurden, aber
+  die Anzahl im Vergleich zur Gesamtanzahl überprüfter Apps dennoch ernüchternd ist.
 \end{abstract}
 
 %%
@@ -250,6 +252,13 @@ an die die Benachrichtigung gesendet werden soll \cite{apple}.
 \section{Sichere Push-Notifications}
 
 \subsection{Grundlagen von sicheren Push Notifications}
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=\linewidth]{sample-secureflow}
+  \caption{Sicherer Push Notification Flow von Anshika Agarwal (\url{https://medium.com/adobetech/securing-push-notifications-in-mobile-apps-a23b6c20139e}).}
+  \Description{Flussdiagramm eines sicheren Push Notification Flows}
+\end{figure}
 
 Wenn eine Benachrichtigung eines App-Anbieters über einen Messaging 
 Dienst wie FCM zum Endgerät gelangen soll, ist die Kommunikation 
@@ -408,17 +417,38 @@ die App Capillary und/oder XMPP benutzt.
 \section{Ergebnisse}
 
 \subsection{Top 500 Communication Apps}
-Von 500 Apps wurden 412 heruntergeladen, 383 benutzen "NotificationCompat" als auch "onMessageReceived" 
-und sind somit in der Lage Push Notification abzuschicken sowie von Firebase zu empfangen. Davon benutzen 5 Apps Capillary, 110 Apps XMPP 
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\linewidth]{sample-auswertung1}
+  \caption{Top 500 Communication Apps.}
+  \Description{Graph Auswertung der Top 500 Communication Apps}
+\end{figure}
+Von 500 Apps wurden 413 heruntergeladen, 393 benutzen "NotificationCompat" oder "onMessageReceived" 
+und sind somit in der Lage Push Notification abzuschicken sowie von Firebase zu empfangen. Davon benutzen 5 Apps Capillary, 115 Apps XMPP 
 und 2 Apps benutzen beides.
 
 \subsection{Top 500 Health and Fitness Apps}
-Von 500 Apps wurden 452 heruntergeladen, 430 benutzen "NotificationCompat" als auch "onMessageReceived" 
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\linewidth]{sample-auswertung2}
+  \caption{Top 500 Health and Fitness Apps.}
+  \Description{Graph Auswertung der Top 500 Health and Fitness Apps}
+\end{figure}
+Von 500 Apps wurden 452 heruntergeladen, 430 benutzen "NotificationCompat" oder "onMessageReceived" 
 und sind somit in der Lage Push Notification abzuschicken sowie von Firebase zu empfangen. Davon benutzen 13 Apps Capillary, 
 35 Apps XMPP und 2 Apps benutzen beides.
 
 \subsection{Top 500 Medical Apps}
-Von 500 Apps wurden 358 heruntergeladen, 326 benutzen "NotificationCompat" als auch "onMessageReceived" 
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\linewidth]{sample-auswertung3}
+  \caption{Top 500 Medical Apps.}
+  \Description{Graph Auswertung der Top 500 Medical Apps}
+\end{figure}
+
+Von 500 Apps wurden 358 heruntergeladen, 326 benutzen "NotificationCompat" oder "onMessageReceived" 
 und sind somit in der Lage Push Notification abzuschicken sowie von Firebase zu empfangen. Davon benutzen 24 Apps Capillary, 
 47 Apps XMPP und 2 Apps benutzen beides.
 
