@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.1.4)  6 JAN 2022 17:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.1.4)  6 JAN 2022 17:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -829,6 +829,9 @@ Overfull \hbox (11.63297pt too wide) in paragraph at lines 267--273
 \T1/LinuxLibertineT-TLF/m/n/9 (-20) jekt an, womit ver-schlüs-selte Push-Notifications von der App entschlüs-
  []
 
+
+Underfull \vbox (badness 3623) has occurred while \output is active []
+
 <sample-secureflow.png, id=134, 1603.9925pt x 809.0225pt>
 File: sample-secureflow.png Graphic file (type png)
 <use sample-secureflow.png>
@@ -849,20 +852,17 @@ Overfull \hbox (4.57645pt too wide) in paragraph at lines 347--354
  []
 
 
-Package natbib Warning: Citation `frida' on page 3 undefined on input line 380.
-
-
 Overfull \hbox (2.49806pt too wide) in paragraph at lines 374--383
 \T1/LinuxLibertineT-TLF/m/n/9 (-20) ^^RHealth_And_Fitness^^P, ^^RMed-i-cal^^P und ^^RCom-mu-ni-ca-tion^^P entschieden,
  []
 
 [3.3]
-<sample-auswertung1.png, id=179, 361.788pt x 217.467pt>
+<sample-auswertung1.png, id=181, 361.788pt x 217.467pt>
 File: sample-auswertung1.png Graphic file (type png)
 <use sample-auswertung1.png>
 Package pdftex.def Info: sample-auswertung1.png  used on input line 450.
 (pdftex.def)             Requested size: 241.14749pt x 144.95218pt.
-<sample-auswertung2.png, id=180, 362.007pt x 217.467pt>
+<sample-auswertung2.png, id=182, 362.007pt x 217.467pt>
 File: sample-auswertung2.png Graphic file (type png)
 <use sample-auswertung2.png>
 Package pdftex.def Info: sample-auswertung2.png  used on input line 461.
@@ -870,7 +870,7 @@ Package pdftex.def Info: sample-auswertung2.png  used on input line 461.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<sample-auswertung3.png, id=181, 362.007pt x 217.467pt>
+<sample-auswertung3.png, id=183, 362.007pt x 217.467pt>
 File: sample-auswertung3.png Graphic file (type png)
 <use sample-auswertung3.png>
 Package pdftex.def Info: sample-auswertung3.png  used on input line 473.
@@ -896,39 +896,41 @@ LaTeX Info: Redefining \tempurl on input line 167.
 LaTeX Info: Redefining \tempurl on input line 178.
 LaTeX Info: Redefining \tempurl on input line 189.
 LaTeX Info: Redefining \tempurl on input line 201.
-LaTeX Info: Redefining \tempurl on input line 214.
-LaTeX Info: Redefining \tempurl on input line 225.
+LaTeX Info: Redefining \tempurl on input line 213.
+LaTeX Info: Redefining \tempurl on input line 226.
 LaTeX Info: Redefining \tempurl on input line 237.
-LaTeX Info: Redefining \tempurl on input line 248.
-LaTeX Info: Redefining \tempurl on input line 261.
-LaTeX Info: Redefining \tempurl on input line 272.
+LaTeX Info: Redefining \tempurl on input line 249.
+LaTeX Info: Redefining \tempurl on input line 260.
+LaTeX Info: Redefining \tempurl on input line 273.
+LaTeX Info: Redefining \tempurl on input line 284.
+
+Underfull \vbox (badness 1137) has occurred while \output is active []
+
 )
-
-Package natbib Warning: There were undefined citations.
-
 
 Class acmart Warning: ACM reference format is mandatory for papers over one page.
 
 
-Overfull \vbox (1.252pt too high) has occurred while \output is active []
+Package balance Warning: You have called \balance in second column
+(balance)                Columns might not be balanced.
 
- [5.5] (./sample-sigconf.aux)
+[5.5] (./sample-sigconf.aux)
 Package rerunfilecheck Info: File `sample-sigconf.out' has not changed.
 (rerunfilecheck)             Checksum: 9967DEDFB1F9696730EF398611E46548;4525.
  ) 
 Here is how much of TeX's memory you used:
- 20107 strings out of 478355
- 322212 string characters out of 5854687
- 665910 words of memory out of 5000000
- 37338 multiletter control sequences out of 15000+600000
- 513628 words of font info for 280 fonts, out of 8000000 for 9000
+ 20119 strings out of 478355
+ 322456 string characters out of 5854687
+ 656944 words of memory out of 5000000
+ 37341 multiletter control sequences out of 15000+600000
+ 514434 words of font info for 285 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
  84i,12n,131p,1105b,610s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/libertine/lbtn_7grukw.enc}{/usr/share/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}{/usr/share/texmf-dist/fonts/enc/dvips/libertine/lbtn_naooyc.enc}{/usr/share/texmf-dist/fonts/enc/dvips/libertine/lbtn_nh77jq.enc}{/usr/share/texmf-dist/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}</usr/share/texmf-dist/fonts/type1/public/libertine/LinBiolinumT.pfb></usr/share/texmf-dist/fonts/type1/public/libertine/LinBiolinumTB.pfb></usr/share/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb></usr/share/texmf-dist/fonts/type1/public/libertine/LinLibertineTB.pfb></usr/share/texmf-dist/fonts/type1/public/libertine/LinLibertineTI.pfb></usr/share/texmf-dist/fonts/type1/public/newtx/txsys.pfb>
-Output written on sample-sigconf.pdf (5 pages, 773279 bytes).
+Output written on sample-sigconf.pdf (5 pages, 773733 bytes).
 PDF statistics:
- 289 PDF objects out of 1000 (max. 8388607)
- 251 compressed objects within 3 object streams
- 59 named destinations out of 1000 (max. 500000)
+ 292 PDF objects out of 1000 (max. 8388607)
+ 254 compressed objects within 3 object streams
+ 60 named destinations out of 1000 (max. 500000)
  55526 words of extra memory for PDF output out of 61914 (max. 10000000)
 

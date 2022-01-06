@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex sample-sigconf"] 1641486465 "sample-sigconf.aux" "sample-sigconf.bbl" "sample-sigconf" 1641486467
+["bibtex sample-sigconf"] 1641487072 "sample-sigconf.aux" "sample-sigconf.bbl" "sample-sigconf" 1641487074
   "./ACM-Reference-Format.bst" 1641469522 84856 cdf46f74ac483d72585084276eb3e09d ""
-  "sample-base.bib" 1641485916 5799 d4ecd3d252d2f9f11456dac652a8da04 ""
-  "sample-sigconf.aux" 1641486467 6543 8b83df48f9f7302d477790d168f9333b "pdflatex"
+  "sample-base.bib" 1641487041 6032 45a5ec4f66e8ca3971cbd5159ea7ef42 ""
+  "sample-sigconf.aux" 1641487074 6593 a003c37977d2b3be310659a7aecabe8c "pdflatex"
   (generated)
   "sample-sigconf.bbl"
   "sample-sigconf.blg"
-["pdflatex"] 1641486465 "/home/user/Git/Sicherheit-und-Privatheit-Secure-Push-Notifications/spet-acmart/acmart-example/sample-sigconf.tex" "sample-sigconf.pdf" "sample-sigconf" 1641486467
-  "/home/user/Git/Sicherheit-und-Privatheit-Secure-Push-Notifications/spet-acmart/acmart-example/sample-sigconf.tex" 1641486462 24958 37f8fdb01ae2ff0f8dd91ce98fbc4768 ""
+["pdflatex"] 1641487072 "/home/user/Git/Sicherheit-und-Privatheit-Secure-Push-Notifications/spet-acmart/acmart-example/sample-sigconf.tex" "sample-sigconf.pdf" "sample-sigconf" 1641487074
+  "/home/user/Git/Sicherheit-und-Privatheit-Secure-Push-Notifications/spet-acmart/acmart-example/sample-sigconf.tex" 1641486938 24957 f7a9caaf8a54077712ad77f8e90e2c0e ""
   "/usr/share/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc" 1640612286 2921 8ca0eb0831f9bc5da080d3697cfe67bf ""
   "/usr/share/texmf-dist/fonts/enc/dvips/libertine/lbtn_76gpa5.enc" 1640612286 2933 9ad527ce78d7c5fa0a642dead095f172 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/libertine/lbtn_7grukw.enc" 1640612286 2934 a4a9158faed2e9e89c771b4e3b7fc12f ""
@@ -181,10 +181,10 @@
   "sample-auswertung3.png" 1641485916 25637 d29a41225c735222777a2f07ca9289b0 ""
   "sample-flow.png" 1641469522 130088 2edd6baa627baf8a686f1a17a71c3902 ""
   "sample-secureflow.png" 1641469522 197213 c042413e5702cf1c73d4af55375897cb ""
-  "sample-sigconf.aux" 1641486467 6543 8b83df48f9f7302d477790d168f9333b "pdflatex"
-  "sample-sigconf.bbl" 1641486465 9936 bbb8aa8d986843f4ed87b60aa7a34004 "bibtex sample-sigconf"
-  "sample-sigconf.out" 1641486467 4525 9967dedfb1f9696730ef398611e46548 "pdflatex"
-  "sample-sigconf.tex" 1641486462 24958 37f8fdb01ae2ff0f8dd91ce98fbc4768 ""
+  "sample-sigconf.aux" 1641487074 6593 a003c37977d2b3be310659a7aecabe8c "pdflatex"
+  "sample-sigconf.bbl" 1641487072 10330 f5706784d4c0fe61575e41cdf1d59284 "bibtex sample-sigconf"
+  "sample-sigconf.out" 1641487074 4525 9967dedfb1f9696730ef398611e46548 "pdflatex"
+  "sample-sigconf.tex" 1641486938 24957 f7a9caaf8a54077712ad77f8e90e2c0e ""
   (generated)
   "sample-sigconf.aux"
   "sample-sigconf.log"

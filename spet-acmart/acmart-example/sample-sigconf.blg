@@ -6,7 +6,6 @@ Reallocated singl_function (elt_size=8) to 100 items from 50.
 Reallocated singl_function (elt_size=8) to 100 items from 50.
 Reallocated wiz_functions (elt_size=8) to 6000 items from 3000.
 Database file #1: sample-base.bib
-Warning--I didn't find a database entry for "frida"
 Reallocated singl_function (elt_size=8) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=8) to 20 items from 10.
 Reallocated global_strs (elt_size=200001) to 20 items from 10.
@@ -31,6 +30,8 @@ Warning--empty organization in capillary
 Warning--empty organization in google
 Warning--empty organization in google2
 Warning--empty organization in googleplayapi1
+Warning--empty year in frida
+Warning--empty organization in frida
 Warning--empty organization in xmpp2
 Warning--empty organization in jadx
 Warning--empty organization in xmpp3
@@ -38,45 +39,45 @@ Warning--empty organization in googleplayapi
 Warning--empty organization in cloudwuerdig
 Warning--empty year in xmpp
 Warning--empty organization in xmpp
-You've used 20 entries,
+You've used 21 entries,
             5901 wiz_defined-function locations,
-            1403 strings with 17178 characters,
-and the built_in function-call counts, 14068 in all, are:
-= -- 1451
-> -- 408
+            1406 strings with 17293 characters,
+and the built_in function-call counts, 14726 in all, are:
+= -- 1513
+> -- 428
 < -- 0
-+ -- 115
-- -- 163
-* -- 944
-:= -- 1668
-add.period$ -- 80
-call.type$ -- 20
-change.case$ -- 101
-chr.to.int$ -- 15
-cite$ -- 46
-duplicate$ -- 1240
-empty$ -- 888
-format.name$ -- 167
-if$ -- 2885
++ -- 120
+- -- 171
+* -- 990
+:= -- 1751
+add.period$ -- 84
+call.type$ -- 21
+change.case$ -- 106
+chr.to.int$ -- 16
+cite$ -- 49
+duplicate$ -- 1295
+empty$ -- 929
+format.name$ -- 175
+if$ -- 3023
 int.to.chr$ -- 7
 int.to.str$ -- 1
 missing$ -- 0
-newline$ -- 260
-num.names$ -- 155
-pop$ -- 443
+newline$ -- 271
+num.names$ -- 163
+pop$ -- 476
 preamble$ -- 1
-purify$ -- 238
+purify$ -- 246
 quote$ -- 0
-skip$ -- 561
+skip$ -- 583
 stack$ -- 0
-substring$ -- 921
-swap$ -- 140
+substring$ -- 952
+swap$ -- 147
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 570
-warning$ -- 26
-while$ -- 155
+type$ -- 600
+warning$ -- 28
+while$ -- 163
 width$ -- 0
-write$ -- 399
-(There were 27 warnings)
+write$ -- 417
+(There were 28 warnings)

@@ -2,7 +2,7 @@
 %%% Do NOT edit. File created by BibTeX with style
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\begin{thebibliography}{20}
+\begin{thebibliography}{21}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -201,6 +201,18 @@ Retrieved January 06, 2022 from \tempurl}
 \url{https://github.com/NoMore201/googleplay-api/issues/140#issuecomment-808863067}
 \showURL{%
 Retrieved January 05, 2022 from \tempurl}
+
+
+\bibitem[\protect\citeauthoryear{oleavr}{oleavr}{[n.d.]}]%
+        {frida}
+\bibfield{author}{\bibinfo{person}{oleavr}.} \bibinfo{year}{[n.d.]}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Dynamic instrumentation toolkit for
+  developers, reverse-engineers, and security researchers.}}
+\newblock
+\urldef\tempurl%
+\url{https://frida.re/}
+\showURL{%
+Retrieved January 06, 2022 from \tempurl}
 
 
 \bibitem[\protect\citeauthoryear{Saint-Andre}{Saint-Andre}{2004}]%
