@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex sample-sigconf"] 1641480757 "sample-sigconf.aux" "sample-sigconf.bbl" "sample-sigconf" 1641480761
+["bibtex sample-sigconf"] 1641485044 "sample-sigconf.aux" "sample-sigconf.bbl" "sample-sigconf" 1641485048
   "./ACM-Reference-Format.bst" 1641447906 84856 cdf46f74ac483d72585084276eb3e09d ""
-  "sample-base.bib" 1641447906 5572 28b563c41b32d3c6608482895705d845 ""
-  "sample-sigconf.aux" 1641480760 6221 895d15e41f1208b92ea9ce720974c991 "pdflatex"
+  "sample-base.bib" 1641483745 5799 d4ecd3d252d2f9f11456dac652a8da04 ""
+  "sample-sigconf.aux" 1641485047 6543 67d09dcd48563a67b58e0b2ec07d1d60 "pdflatex"
   (generated)
   "sample-sigconf.bbl"
   "sample-sigconf.blg"
-["pdflatex"] 1641480757 "c:/Users/Issam/Downloads/Sicherheit-und-Privatheit-Secure-Push-Notifications-main (2)/Sicherheit-und-Privatheit-Secure-Push-Notifications-main/spet-acmart/acmart-example/sample-sigconf.tex" "sample-sigconf.pdf" "sample-sigconf" 1641480761
+["pdflatex"] 1641485045 "c:/Users/Issam/Downloads/Sicherheit-und-Privatheit-Secure-Push-Notifications-main (2)/Sicherheit-und-Privatheit-Secure-Push-Notifications-main/spet-acmart/acmart-example/sample-sigconf.tex" "sample-sigconf.pdf" "sample-sigconf" 1641485048
   "C:/Users/Issam/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1641467476 174148 0b0a66bfa1110e8703563d898e224b16 ""
   "C:/Users/Issam/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1641416362 9769966 9da2e8171d6a343e11b46039b930247d ""
   "C:/Users/Issam/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_25tcsq.enc" 1497086288 2921 8ca0eb0831f9bc5da080d3697cfe67bf ""
@@ -174,16 +174,16 @@
   "C:/Users/Issam/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1623002090 4902 efb3d66683a2da2a232f71e3a571a899 ""
   "C:/Users/Issam/AppData/Local/Programs/MiKTeX/tex/latex/xstring/xstring.sty" 1626881362 123 a302f2c651a95033260db60e51527ae8 ""
   "acmart.cls" 1641447906 96943 22aab88eb4450dc97aba90abe39b216c ""
-  "c:/Users/Issam/Downloads/Sicherheit-und-Privatheit-Secure-Push-Notifications-main (2)/Sicherheit-und-Privatheit-Secure-Push-Notifications-main/spet-acmart/acmart-example/sample-sigconf.tex" 1641480716 21414 5ec3fec136b7b7383011b98b61cbd3ff ""
+  "c:/Users/Issam/Downloads/Sicherheit-und-Privatheit-Secure-Push-Notifications-main (2)/Sicherheit-und-Privatheit-Secure-Push-Notifications-main/spet-acmart/acmart-example/sample-sigconf.tex" 1641485040 24725 b14eebbcea0d709660fa4546dd95f1a5 ""
   "sample-auswertung1.png" 1641473334 27331 5d1a887f8341dddefe592ed5cc7206c6 ""
   "sample-auswertung2.png" 1641473467 27557 b95a06001410766b073e88b6bfe67ba2 ""
   "sample-auswertung3.png" 1641473587 26929 3910082420fc9f5e4cbb62333179f1f6 ""
   "sample-flow.png" 1641468289 130088 5bd8b2485932291d1a89f054796f5621 ""
   "sample-secureflow.png" 1641468794 197213 88b38cfdb43a1a1b39e49ff3b70fe2c1 ""
-  "sample-sigconf.aux" 1641480760 6221 895d15e41f1208b92ea9ce720974c991 "pdflatex"
-  "sample-sigconf.bbl" 1641480757 9889 e9cdcbe64e7c03a0addcd402af23b849 "bibtex sample-sigconf"
-  "sample-sigconf.out" 1641480760 3882 9b41d7aa47b14ad52f4defa11cc9d240 "pdflatex"
-  "sample-sigconf.tex" 1641480716 21414 5ec3fec136b7b7383011b98b61cbd3ff ""
+  "sample-sigconf.aux" 1641485047 6543 67d09dcd48563a67b58e0b2ec07d1d60 "pdflatex"
+  "sample-sigconf.bbl" 1641485045 10213 bbb8aa8d986843f4ed87b60aa7a34004 "bibtex sample-sigconf"
+  "sample-sigconf.out" 1641485047 4525 9967dedfb1f9696730ef398611e46548 "pdflatex"
+  "sample-sigconf.tex" 1641485040 24725 b14eebbcea0d709660fa4546dd95f1a5 ""
   (generated)
   "sample-sigconf.aux"
   "sample-sigconf.log"

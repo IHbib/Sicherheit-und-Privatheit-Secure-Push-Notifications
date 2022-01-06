@@ -253,13 +253,6 @@ an die die Benachrichtigung gesendet werden soll \cite{apple}.
 
 \subsection{Grundlagen von sicheren Push Notifications}
 
-\begin{figure}[h]
-  \centering
-  \includegraphics[width=\linewidth]{sample-secureflow}
-  \caption{Sicherer Push Notification Flow von Anshika Agarwal (\url{https://medium.com/adobetech/securing-push-notifications-in-mobile-apps-a23b6c20139e}).}
-  \Description{Flussdiagramm eines sicheren Push Notification Flows}
-\end{figure}
-
 Wenn eine Benachrichtigung eines App-Anbieters über einen Messaging 
 Dienst wie FCM zum Endgerät gelangen soll, ist die Kommunikation 
 zwischen Entwickler und Messaging Dienst, sowie die Kommunikation 
@@ -361,6 +354,40 @@ Dies kann verwendet werden, um Push Notifications zu verschlüsseln \cite{xmpp2}
 
 \section{Prototyp}
 
+\subsection{Herausforderung}
+Der erste Ansatz war die Push Notifications auf der Netzwerkebene zu analysieren,
+aber durch die Tatsache, dass die Pakete TLS verschlüsselt sind, wie wir in unserer späteren
+Recherche herausgefunden haben, kamen wir auf die Idee, uns die Apps direkt anzuschauen. Zunächst
+war die Herausforderung, die aktuelle Version einer App aus einer sicheren Quelle herunterzuladen.
+Dazu diente das Fork vom Python Projekt GooglePlayAPI von TheZ3ro \cite{googleplayapi}.
+Danach ergab sich die Frage, wie man generell eine App in APK-Form analysieren kann.
+Der für uns logische Schritt war demnach die App mit Jadx \cite{jadx} zu dekompilieren und darauf Stringabgleiche
+durchzuführen. In den ersten Testläufen innerhalb einer virtuellen Machine wurden Performane-Einbußen festgestellt,
+da Jadx für das Dekompilieren einer einzelnen App mehrere Minuten brauchen könnte, was bei einer Liste von vielen hunderten
+Apps viele Stunden in Anspruch nehmen könnte, sodass sich die weitere Frage ergab, wie man den ganzen Prozess effizienter gestalten kann
+und warum man überhaupt eine App dekompiliert. Als Antwort auf die zweite Frage stellten wir fest, dass das Dekompilieren
+einer App dazu gedacht ist, den Code Flow dieser App in menschlich-lesbarer Form darzustellen, allerdings 
+benötigt unser Analyse-Skript keinen menschlich-lesbaren Code, sondern führt Stringabgleiche mit statischen Werten durch,
+die sich auch in der Rohform einer entpackten App finden lassen, wodurch der Prozess effizienter wird, da das 
+Entpacken weniger Zeit in Anspruch nimmt als das Dekompilieren und somit die Antwort auf die erste Frage ist.
+
+Zudem stellte sich die Frage was analysiert werden sollte. Dabei konnten wir herausfinden,
+dass Google Play hochgeladene Apps in bestimmte Kategorien unterteilt, sodass sich für uns die Idee ergab,
+eine bestimmte Anzahl an Apps je Kategorie zu analysieren und miteinander zu vergleichen. Wir haben uns für die Kategorien
+„Health\_And\_Fitness“, „Medical“ und „Communication“ entschieden, da Apps in diesen Bereichen oft mit privaten Daten 
+in Kontakt treten können. Danach stellte sich die Herausforderung wie man eine entsprechende Liste scrapen kann.
+Hierbei wurde zunächst versucht dies über den Browser zu realisieren, aber die Google Play Seite des Browser zeigt nur eine geringe Anzahl Apps
+pro Kategorie an. Daraufhin wurde versucht mittels Dekompilierung der Google Play App und Hooking mit Frida \cite{frida}
+an die Daten zu gelangen, was sich als komplex erwies. Während der Recherche trafen wir auf die Seite "androidrank.org", welche
+aktuelle Top 500 App Listen pro Kategorie anzeigt.
+
+\subsection{Problematik der Analyse}
+Eine Ende-zu-Ende Verschlüsselung kann von einem Entwickler unterschiedlich implementiert werden,
+sodass eine automatische Überprüfung kompliziert wäre, da manche Apps zum Beispiel obfuskiert werden können.
+Unsere Suche bezieht sich jedoch nur auf den Stringabgleich der Bibliotheksnamen, was die Analyse vereinfacht
+und dennoch eine erste grobe Momentaufnahme liefert.
+
+\subsection{Umsetzung}
 Im Rahmen des Projektes sollte überprüft werden, wie oft unsichere Push 
 Notifications in Apps benutzt wurden. Hierfür wurden nur Android Apps 
 betrachtet. Zu den Analysekriterien gehört die Benutzung von 
@@ -401,7 +428,7 @@ manche Apps nicht herunterladen lassen.
 Danach wird ein CSV Reader benutzt, um eine Datei auszulesen, die aus 
 Application IDs der zu testenden Apps getrennt mit Zeilenumbrüchen besteht. 
 Hierbei wurden aus der Seite „androidrank.org“ die Application IDs der Top 500 
-Apps der Bereiche „Health\_And\_Fitness“, „Medical“ und "Communication" in entsprechende 
+Apps der Bereiche „Health\_And\_Fitness“, „Medical“ und „Communication“ in entsprechende 
 drei Dateien zusammengefasst, welche dem Skript zugefügt wurden \cite{androidrank}\cite{androidrank1}\cite{androidrank2}.
 
 \subsection{Herunterladen und Analyse}
@@ -435,7 +462,7 @@ und 2 Apps benutzen beides.
   \caption{Top 500 Health and Fitness Apps.}
   \Description{Graph Auswertung der Top 500 Health and Fitness Apps}
 \end{figure}
-Von 500 Apps wurden 452 heruntergeladen, 430 benutzen "NotificationCompat" oder "onMessageReceived" 
+Von 500 Apps wurden 453 heruntergeladen, 435 benutzen "NotificationCompat" oder "onMessageReceived" 
 und sind somit in der Lage Push Notification abzuschicken sowie von Firebase zu empfangen. Davon benutzen 13 Apps Capillary, 
 35 Apps XMPP und 2 Apps benutzen beides.
 
@@ -458,6 +485,12 @@ der Kommunikation mit 110 Apps am meisten vor kommt. Generell sind die Zahlen ni
  Allerdings sind die Zahlen mit Vorsicht zu genießen, da die
 Analyse nicht auf obfsukierte Apps angepasst wurde, zudem wurde nicht überprüft, ob die Apps mit XMPP auch verschlüsselte 
 Push Notifications unterstützen und zuletzt können manche der Apps eigene End-to-End Push Notification Lösungen benutzen.
+
+\subsection{Ausbaufähigkeit}
+Die Analysemethodik kann weiterhin ausgebaut werden, indem Lösungen für die oben genannten Probleme gefunden werden.
+Eine mögliche Lösung wäre einen Smali Parser zu entwickeln, der Zusammenhänge zwischen Android Schnittstellen ausfindig macht
+und somit eine mögliche Verschlüsselung von Push Notification anzeigen kann. Eine weitere mögliche Lösung könnte durch SSL Interception
+realisiert werden, indem der Verkehr zwischen der App und dem Push Notification Cloud Service analysiert wird.
 
 %%
 %% The next two lines define the bibliography style to be used, and

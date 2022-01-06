@@ -8,6 +8,7 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'wiz_functions' (item size: 4) to 6000 items.
 Database file #1: sample-base.bib
+Warning--I didn't find a database entry for "frida"
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'glb_str_end' (item size: 4) to 20 items.
 Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
@@ -33,50 +34,51 @@ Warning--empty organization in google
 Warning--empty organization in google2
 Warning--empty organization in googleplayapi1
 Warning--empty organization in xmpp2
+Warning--empty organization in jadx
 Warning--empty organization in xmpp3
 Warning--empty organization in googleplayapi
 Warning--empty organization in cloudwuerdig
 Warning--empty year in xmpp
 Warning--empty organization in xmpp
-You've used 19 entries,
+You've used 20 entries,
             5901 wiz_defined-function locations,
-            1399 strings with 17133 characters,
-and the built_in function-call counts, 13340 in all, are:
-= -- 1372
-> -- 388
+            1403 strings with 17178 characters,
+and the built_in function-call counts, 14068 in all, are:
+= -- 1451
+> -- 408
 < -- 0
-+ -- 110
-- -- 155
-* -- 897
-:= -- 1585
-add.period$ -- 76
-call.type$ -- 19
-change.case$ -- 96
-chr.to.int$ -- 14
-cite$ -- 44
-duplicate$ -- 1173
-empty$ -- 841
-format.name$ -- 159
-if$ -- 2735
++ -- 115
+- -- 163
+* -- 944
+:= -- 1668
+add.period$ -- 80
+call.type$ -- 20
+change.case$ -- 101
+chr.to.int$ -- 15
+cite$ -- 46
+duplicate$ -- 1240
+empty$ -- 888
+format.name$ -- 167
+if$ -- 2885
 int.to.chr$ -- 7
 int.to.str$ -- 1
 missing$ -- 0
-newline$ -- 249
-num.names$ -- 147
-pop$ -- 425
+newline$ -- 260
+num.names$ -- 155
+pop$ -- 443
 preamble$ -- 1
-purify$ -- 224
+purify$ -- 238
 quote$ -- 0
-skip$ -- 529
+skip$ -- 561
 stack$ -- 0
-substring$ -- 867
-swap$ -- 133
+substring$ -- 921
+swap$ -- 140
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 540
-warning$ -- 25
-while$ -- 147
+type$ -- 570
+warning$ -- 26
+while$ -- 155
 width$ -- 0
-write$ -- 381
-(There were 25 warnings)
+write$ -- 399
+(There were 27 warnings)

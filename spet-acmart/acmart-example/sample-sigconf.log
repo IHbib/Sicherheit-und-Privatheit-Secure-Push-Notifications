@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12.10) (preloaded format=pdflatex 2022.1.5)  6 JAN 2022 15:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12.10) (preloaded format=pdflatex 2022.1.5)  6 JAN 2022 17:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -804,7 +804,7 @@ Overfull \hbox (1.35893pt too wide) in paragraph at lines 169--173
 \T1/LinuxLibertineT-TLF/m/n/9 (-20) wird, dass der In-halt der Push No-ti-fi-ca-tions nicht von un-berechtigten
  []
 
-<sample-flow.png, id=87, 1603.9925pt x 660.4675pt>
+<sample-flow.png, id=103, 1603.9925pt x 660.4675pt>
 File: sample-flow.png Graphic file (type png)
 <use sample-flow.png>
 Package pdftex.def Info: sample-flow.png  used on input line 189.
@@ -828,57 +828,59 @@ Underfull \vbox (badness 7981) has occurred while \output is active []
  [1.1{C:/Users/Issam/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
  <./sample-flow.png>]
-<sample-secureflow.png, id=113, 1603.9925pt x 809.0225pt>
-File: sample-secureflow.png Graphic file (type png)
-<use sample-secureflow.png>
-Package pdftex.def Info: sample-secureflow.png  used on input line 258.
-(pdftex.def)             Requested size: 241.14749pt x 121.61972pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 259--259
-\T1/LinuxLibertineT-TLF/b/n/9 (+20) Agar-wal ([]$https : / / medium . com / adobetech / securing -[] push -[]
- []
-
-
-Overfull \hbox (11.63297pt too wide) in paragraph at lines 274--280
+Overfull \hbox (11.63297pt too wide) in paragraph at lines 267--273
 \T1/LinuxLibertineT-TLF/m/n/9 (-20) jekt an, womit ver-schlüs-selte Push-Notifications von der App entschlüs-
  []
 
+<sample-secureflow.png, id=134, 1603.9925pt x 809.0225pt>
 File: sample-secureflow.png Graphic file (type png)
 <use sample-secureflow.png>
-Package pdftex.def Info: sample-secureflow.png  used on input line 309.
+Package pdftex.def Info: sample-secureflow.png  used on input line 302.
 (pdftex.def)             Requested size: 241.14749pt x 121.61972pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--310
+Underfull \hbox (badness 10000) in paragraph at lines 303--303
 \T1/LinuxLibertineT-TLF/b/n/9 (+20) Agar-wal ([]$https : / / medium . com / adobetech / securing -[] push -[]
  []
 
-LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 345.
-LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 345.
-[2.2 <./sample-secureflow.png>]
-Overfull \hbox (4.57645pt too wide) in paragraph at lines 354--361
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (4.57645pt too wide) in paragraph at lines 347--354
 \T1/LinuxLibertineT-TLF/m/n/9 (-20) besteht über das Ex-ten-si-ble Mes-sag-ing and Pres-ence Pro-to-col (XMPP).
  []
 
-<sample-auswertung1.png, id=151, 361.788pt x 217.467pt>
+LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
+(Font)              scaled to size 9.0pt on input line 354.
+LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
+(Font)              scaled to size 7.0pt on input line 354.
+[2.2 <./sample-secureflow.png>]
+
+Package natbib Warning: Citation `frida' on page 3 undefined on input line 380.
+
+
+Overfull \hbox (2.49806pt too wide) in paragraph at lines 374--383
+\T1/LinuxLibertineT-TLF/m/n/9 (-20) Health_And_Fitness, Med-i-cal und Com-mu-ni-ca-tion entschieden,
+ []
+
+
+Underfull \vbox (badness 3623) has occurred while \output is active []
+
+ [3.3]
+<sample-auswertung1.png, id=180, 361.788pt x 217.467pt>
 File: sample-auswertung1.png Graphic file (type png)
 <use sample-auswertung1.png>
-Package pdftex.def Info: sample-auswertung1.png  used on input line 423.
+Package pdftex.def Info: sample-auswertung1.png  used on input line 450.
 (pdftex.def)             Requested size: 241.14749pt x 144.95218pt.
-<sample-auswertung2.png, id=152, 361.788pt x 217.467pt>
+<sample-auswertung2.png, id=181, 361.788pt x 217.467pt>
 File: sample-auswertung2.png Graphic file (type png)
 <use sample-auswertung2.png>
-Package pdftex.def Info: sample-auswertung2.png  used on input line 434.
+Package pdftex.def Info: sample-auswertung2.png  used on input line 461.
 (pdftex.def)             Requested size: 241.14749pt x 144.95218pt.
-
-Underfull \vbox (badness 5203) has occurred while \output is active []
-
- [3.3 <./sample-auswertung1.png>]
-<sample-auswertung3.png, id=169, 361.788pt x 217.467pt>
+<sample-auswertung3.png, id=182, 361.788pt x 217.467pt>
 File: sample-auswertung3.png Graphic file (type png)
 <use sample-auswertung3.png>
-Package pdftex.def Info: sample-auswertung3.png  used on input line 446.
+Package pdftex.def Info: sample-auswertung3.png  used on input line 473.
 (pdftex.def)             Requested size: 241.14749pt x 144.95218pt.
  (sample-sigconf.bbl
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
@@ -888,6 +890,7 @@ LaTeX Info: Redefining \tempurl on input line 74.
 LaTeX Info: Redefining \tempurl on input line 87.
 LaTeX Info: Redefining \tempurl on input line 98.
 LaTeX Info: Redefining \tempurl on input line 110.
+ [4.4 <./sample-auswertung1.png> <./sample-auswertung2.png> <./sample-auswertung3.png>]
 LaTeX Info: Redefining \tempurl on input line 121.
 
 Underfull \hbox (badness 10000) in paragraph at lines 117--124
@@ -902,34 +905,37 @@ LaTeX Info: Redefining \tempurl on input line 178.
 LaTeX Info: Redefining \tempurl on input line 189.
 LaTeX Info: Redefining \tempurl on input line 201.
 LaTeX Info: Redefining \tempurl on input line 214.
-LaTeX Info: Redefining \tempurl on input line 226.
+LaTeX Info: Redefining \tempurl on input line 225.
 LaTeX Info: Redefining \tempurl on input line 237.
-LaTeX Info: Redefining \tempurl on input line 250.
+LaTeX Info: Redefining \tempurl on input line 248.
 LaTeX Info: Redefining \tempurl on input line 261.
+LaTeX Info: Redefining \tempurl on input line 272.
 )
+
+Package natbib Warning: There were undefined citations.
+
 
 Class acmart Warning: ACM reference format is mandatory for papers over one page.
 
 
-Package balance Warning: You have called \balance in second column
-(balance)                Columns might not be balanced.
+Overfull \vbox (1.152pt too high) has occurred while \output is active []
 
-[4.4 <./sample-auswertung2.png> <./sample-auswertung3.png>] (sample-sigconf.aux)
+ [5.5] (sample-sigconf.aux)
 Package rerunfilecheck Info: File `sample-sigconf.out' has not changed.
-(rerunfilecheck)             Checksum: 9B41D7AA47B14AD52F4DEFA11CC9D240;3882.
+(rerunfilecheck)             Checksum: 9967DEDFB1F9696730EF398611E46548;4525.
  ) 
 Here is how much of TeX's memory you used:
- 20077 strings out of 478659
- 329417 string characters out of 2845921
- 658475 words of memory out of 3000000
- 37304 multiletter control sequences out of 15000+600000
- 512327 words of font info for 271 fonts, out of 8000000 for 9000
+ 20102 strings out of 478659
+ 329898 string characters out of 2845921
+ 652507 words of memory out of 3000000
+ 37311 multiletter control sequences out of 15000+600000
+ 513628 words of font info for 280 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 84i,12n,131p,1183b,614s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 84i,11n,131p,1183b,613s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/Issam/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_7grukw.enc}{C:/Users/Issam/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}{C:/Users/Issam/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_naooyc.enc}{C:/Users/Issam/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_nh77jq.enc}{C:/Users/Issam/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}<C:/Users/Issam/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinBiolinumT.pfb><C:/Users/Issam/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinBiolinumTB.pfb><C:/Users/Issam/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinLibertineT.pfb><C:/Users/Issam/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinLibertineTB.pfb><C:/Users/Issam/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinLibertineTI.pfb><C:/Users/Issam/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txsys.pfb>
-Output written on sample-sigconf.pdf (4 pages, 800458 bytes).
+Output written on sample-sigconf.pdf (5 pages, 808858 bytes).
 PDF statistics:
- 263 PDF objects out of 1000 (max. 8388607)
- 54 named destinations out of 1000 (max. 500000)
- 55494 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 285 PDF objects out of 1000 (max. 8388607)
+ 59 named destinations out of 1000 (max. 500000)
+ 55526 words of extra memory for PDF output out of 61914 (max. 10000000)
 
