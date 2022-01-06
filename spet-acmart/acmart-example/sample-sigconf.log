@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.1.4)  5 JAN 2022 20:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.1.4)  6 JAN 2022 15:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -794,84 +794,111 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 9.0pt on input line 157.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 7.3pt on input line 162.
-LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 173.
- (/usr/share/texmf-dist/tex/latex/inconsolata/t1zi4.fd
-File: t1zi4.fd 2018/01/14 T1/zi4 (Inconsolata)
-)
-LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 9.0pt on input line 173.
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `zi4' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
-(Font)              scaled to size 9.0pt on input line 176.
 
-Underfull \vbox (badness 3713) has occurred while \output is active []
-
- [1.1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
-
-]
-Overfull \hbox (3.59787pt too wide) in paragraph at lines 340--343
-\T1/LinuxLibertineT-TLF/m/n/9 (-20) unge-fähr 450 Github Stars Stand Dezem-ber 2021, recht eingeschränkt.
+Overfull \hbox (10.90443pt too wide) in paragraph at lines 167--171
+[]\T1/LinuxLibertineT-TLF/m/n/9 (-20) Im fol-gen-den wird un-ter-sucht, ob von den En-twick-lern sichergestellt
  []
 
 
-Overfull \hbox (4.57645pt too wide) in paragraph at lines 344--351
-\T1/LinuxLibertineT-TLF/m/n/9 (-20) besteht über das Ex-ten-si-ble Mes-sag-ing and Pres-ence Pro-to-col (XMPP).
+Overfull \hbox (1.35893pt too wide) in paragraph at lines 167--171
+\T1/LinuxLibertineT-TLF/m/n/9 (-20) wird, dass der In-halt der Push No-ti-fi-ca-tions nicht von un-berechtigten
+ []
+
+<sample-flow.png, id=88, 1603.9925pt x 660.4675pt>
+File: sample-flow.png Graphic file (type png)
+<use sample-flow.png>
+Package pdftex.def Info: sample-flow.png  used on input line 187.
+(pdftex.def)             Requested size: 241.14749pt x 99.28755pt.
+
+Underfull \hbox (badness 4739) in paragraph at lines 188--188
+[]\T1/LinuxLibertineT-TLF/b/n/9 (+20) Figure 1: |Push No-ti-fi-ca-tion Flow von An-shika Agar-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 188--188
+\T1/LinuxLibertineT-TLF/b/n/9 (+20) wal ([]$https : / / medium . com / adobetech / securing -[] push -[]
+ []
+
+[1.1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+ <./sample-flow.png>]
+Overfull \hbox (11.63297pt too wide) in paragraph at lines 265--271
+\T1/LinuxLibertineT-TLF/m/n/9 (-20) jekt an, womit ver-schlüs-selte Push-Notifications von der App entschlüs-
+ []
+
+<sample-secureflow.png, id=119, 1603.9925pt x 809.0225pt>
+File: sample-secureflow.png Graphic file (type png)
+<use sample-secureflow.png>
+Package pdftex.def Info: sample-secureflow.png  used on input line 300.
+(pdftex.def)             Requested size: 241.14749pt x 121.61972pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 301--301
+\T1/LinuxLibertineT-TLF/b/n/9 (+20) Agar-wal ([]$https : / / medium . com / adobetech / securing -[] push -[]
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 382.
-LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 382.
- [2.2]
-Overfull \hbox (3.45842pt too wide) in paragraph at lines 384--394
-\T1/LinuxLibertineT-TLF/m/n/9 (-20) nachträglicher manuellen An-pas-sung aus der Seite ^^Ran-droidrank.org^^P
+
+Overfull \hbox (4.57645pt too wide) in paragraph at lines 345--352
+\T1/LinuxLibertineT-TLF/m/n/9 (-20) besteht über das Ex-ten-si-ble Mes-sag-ing and Pres-ence Pro-to-col (XMPP).
  []
 
+LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
+(Font)              scaled to size 9.0pt on input line 352.
+LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
+(Font)              scaled to size 7.0pt on input line 352.
+[2.2 <./sample-secureflow.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Overfull \hbox (15.73608pt too wide) in paragraph at lines 384--394
-\T1/LinuxLibertineT-TLF/m/n/9 (-20) die Ap-pli-ca-tion IDs der Top 500 Apps der Bere-iche ^^RHealth_And_Fitness^^P
+ (./sample-sigconf.bbl
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
+(Font)              scaled to size 7.0pt on input line 45.
+LaTeX Info: Redefining \tempurl on input line 61.
+LaTeX Info: Redefining \tempurl on input line 74.
+LaTeX Info: Redefining \tempurl on input line 87.
+LaTeX Info: Redefining \tempurl on input line 98.
+LaTeX Info: Redefining \tempurl on input line 110.
+ [3.3]
+LaTeX Info: Redefining \tempurl on input line 121.
+
+Underfull \hbox (badness 10000) in paragraph at lines 117--124
+\T1/LinuxLibertineT-TLF/m/n/7 (+20) apple . com / library / archive / documentation / NetworkingInternet / Conceptual /
  []
 
-Processing 'acks' comment.
-\openout3 = `comment.cut'.
-
- Comment 'acks' writing to comment.cut. Straight input of comment.cut. (./comment.cut) (./sample-sigconf.bbl
-
-Package natbib Warning: Empty `thebibliography' environment on input line 40.
-
+LaTeX Info: Redefining \tempurl on input line 133.
+LaTeX Info: Redefining \tempurl on input line 145.
+LaTeX Info: Redefining \tempurl on input line 156.
+LaTeX Info: Redefining \tempurl on input line 167.
+LaTeX Info: Redefining \tempurl on input line 178.
+LaTeX Info: Redefining \tempurl on input line 189.
+LaTeX Info: Redefining \tempurl on input line 201.
+LaTeX Info: Redefining \tempurl on input line 214.
+LaTeX Info: Redefining \tempurl on input line 226.
+LaTeX Info: Redefining \tempurl on input line 237.
+LaTeX Info: Redefining \tempurl on input line 250.
+LaTeX Info: Redefining \tempurl on input line 261.
 )
 
 Class acmart Warning: ACM reference format is mandatory for papers over one page.
 
-
-Package balance Warning: You have called \balance in second column
-(balance)                Columns might not be balanced.
-
-[3.3] (./sample-sigconf.aux)
+[4.4] (./sample-sigconf.aux)
 Package rerunfilecheck Info: File `sample-sigconf.out' has not changed.
-(rerunfilecheck)             Checksum: 369D3CB9C5C5A030FEB84F63B59B2561;3763.
+(rerunfilecheck)             Checksum: 9B97EF18BE17C54DB76864EF612F8290;3881.
  ) 
 Here is how much of TeX's memory you used:
- 19912 strings out of 478355
- 317975 string characters out of 5854687
- 654166 words of memory out of 5000000
- 37239 multiletter control sequences out of 15000+600000
- 510619 words of font info for 228 fonts, out of 8000000 for 9000
+ 20045 strings out of 478355
+ 320775 string characters out of 5854687
+ 653880 words of memory out of 5000000
+ 37301 multiletter control sequences out of 15000+600000
+ 512054 words of font info for 269 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 84i,11n,131p,1105b,533s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}{/usr/share/texmf-dist/fonts/enc/dvips/libertine/lbtn_7grukw.enc}{/usr/share/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-4.enc}{/usr/share/texmf-dist/fonts/enc/dvips/libertine/lbtn_naooyc.enc}{/usr/share/texmf-dist/fonts/enc/dvips/libertine/lbtn_nh77jq.enc}{/usr/share/texmf-dist/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}</usr/share/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb></usr/share/texmf-dist/fonts/type1/public/libertine/LinBiolinumT.pfb></usr/share/texmf-dist/fonts/type1/public/libertine/LinBiolinumTB.pfb></usr/share/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb></usr/share/texmf-dist/fonts/type1/public/libertine/LinLibertineTB.pfb></usr/share/texmf-dist/fonts/type1/public/libertine/LinLibertineTI.pfb></usr/share/texmf-dist/fonts/type1/public/newtx/txsys.pfb>
-Output written on sample-sigconf.pdf (3 pages, 358523 bytes).
+ 84i,11n,131p,1105b,613s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf-dist/fonts/enc/dvips/libertine/lbtn_7grukw.enc}{/usr/share/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}{/usr/share/texmf-dist/fonts/enc/dvips/libertine/lbtn_naooyc.enc}{/usr/share/texmf-dist/fonts/enc/dvips/libertine/lbtn_nh77jq.enc}{/usr/share/texmf-dist/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}</usr/share/texmf-dist/fonts/type1/public/libertine/LinBiolinumT.pfb></usr/share/texmf-dist/fonts/type1/public/libertine/LinBiolinumTB.pfb></usr/share/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb></usr/share/texmf-dist/fonts/type1/public/libertine/LinLibertineTB.pfb></usr/share/texmf-dist/fonts/type1/public/libertine/LinLibertineTI.pfb></usr/share/texmf-dist/fonts/type1/public/newtx/txsys.pfb>
+Output written on sample-sigconf.pdf (4 pages, 651130 bytes).
 PDF statistics:
- 168 PDF objects out of 1000 (max. 8388607)
- 144 compressed objects within 2 object streams
- 31 named destinations out of 1000 (max. 500000)
- 58045 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 254 PDF objects out of 1000 (max. 8388607)
+ 223 compressed objects within 3 object streams
+ 50 named destinations out of 1000 (max. 500000)
+ 55479 words of extra memory for PDF output out of 61914 (max. 10000000)
 

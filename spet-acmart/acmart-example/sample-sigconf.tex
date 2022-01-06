@@ -247,14 +247,21 @@ Customer-Engagement-Plattform die Benachrichtigung an den APNs
 und dann identifiziert der APNs das iOS-Gerät und die iOS-App, 
 an die die Benachrichtigung gesendet werden soll \cite{apple}.
 
-\subsection{Grundlagen zu unsicheren Push-Notifications}
+\section{Sichere Push-Notifications}
 
-Firebase selbst bietet keine End-zu-End Verschlüsselung an, was 
-die Übertragung der Push-Benachrichtigungen unsicher macht, da 
-diese über Firebase unverschlüsselt übertragen werden und somit 
-von Firebase ausgelesen und ausgewertet werden können. Stattdessen 
-schlägt Firebase die Nutzung von Bibliotheken von Drittanbietern vor, 
-unter anderem Capillary \cite{firebase2}.
+\subsection{Grundlagen von sicheren Push Notifications}
+
+Wenn eine Benachrichtigung eines App-Anbieters über einen Messaging 
+Dienst wie FCM zum Endgerät gelangen soll, ist die Kommunikation 
+zwischen Entwickler und Messaging Dienst, sowie die Kommunikation 
+zwischen Messaging Dienst und Endgerät durch TLS verschlüsselt, 
+jedoch wird der eigentliche Inhalt der Benachrichtigungen in Klartext 
+übermittelt \cite{capillary}. So handelt es sich dabei nicht um eine 
+Ende-zu-Ende Verschlüsselung zwischen App und Entwickler und der Inhalt der Nachricht kann von 
+beispielsweise Google mitgelesen werden.
+Google selbst empfiehlt die Nutzung von Bibliotheken von Drittanbietern, 
+unter anderem das hauseigene Capillary \cite{firebase2}.
+
 Apple hingegen bietet das UNNotificationServiceExtension Objekt an, 
 womit verschlüsselte Push-Notifications von der App entschlüsselt 
 werden können. Dabei muss der versendete Notification Payload den 
@@ -262,30 +269,10 @@ Json Key „mutable-content“ mit dem Wert 1 beinhalten, damit das
 UNNotificationServiceExtension Objekt die verschlüsselte Notification 
 entschlüsselt, bevor dessen Inhalt im Gerät angezeigt wird \cite{apple1}\cite{apple2}.
 
-\section{Sichere Push-Notifications}
-
-\subsection{Grundlagen von sicheren Push Notifications}
-
-\begin{figure}[h]
-  \centering
-  \includegraphics[width=\linewidth]{sample-secureflow}
-  \caption{Sicherer Push Notification Flow von Anshika Agarwal (\url{https://medium.com/adobetech/securing-push-notifications-in-mobile-apps-a23b6c20139e}).}
-  \Description{Flussdiagramm eines sicheren Push Notification Flows}
-\end{figure}
-
-Wenn eine Benachrichtigung eines App-Anbieters über einen Messaging 
-Dienst wie FCM zum Endgerät gelangen soll, ist die Kommunikation 
-zwischen Entwickler und Messaging Dienst, sowie die Kommunikation 
-zwischen Messaging Dienst und Endgerät durch TLS verschlüsselt [1][2], 
-jedoch wird der eigentliche Inhalt der Benachrichtigungen in Klartext 
-übermittelt [1][2]. So handelt es sich dabei nicht um eine 
-Ende-zu-Ende Verschlüsselung zwischen App und Entwickler und der Inhalt der Nachricht kann von 
-beispielsweise Google mitgelesen werden.
-
 Bedenklich ist die Tatsache, dass alle Benachrichtigung 
 einer Person zugeordnet werden können und die Anbieter dieser Messaging 
 Dienste meist US-amerikanische Firmen sind, welche beispielsweise 
-Daten an Behörden weiterreichen müssten, falls gefordert [3].
+Daten an Behörden weiterreichen müssten, falls gefordert \cite{google2}.
 
 Um den Inhalt von Push-Benachrichtigungen vor den Messaging Diensten 
 zu schützen, muss der App-Anbieter sich also selbst um eine 
@@ -307,7 +294,15 @@ einschränken und kann vorhandene Technologien weiter nutzen.
 
 
 \subsection{Beispiel eines sicheren Notification Flow}
-Nachfolgend wird das Beispiel eines sicheren Notification Flow erläutert.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\linewidth]{sample-secureflow}
+  \caption{Sicherer Push Notification Flow von Anshika Agarwal (\url{https://medium.com/adobetech/securing-push-notifications-in-mobile-apps-a23b6c20139e}).}
+  \Description{Flussdiagramm eines sicheren Push Notification Flows}
+\end{figure}
+
+Nachfolgend wird das Beispiel eines sicheren Notification Flow erläutert \cite{agarwal}.
 
 1. Der Anwender erzeugt auf seinem Endgerät automatisiert ein 
 Schlüsselpaar, bestehend aus einem öffentlichen und einem privaten 

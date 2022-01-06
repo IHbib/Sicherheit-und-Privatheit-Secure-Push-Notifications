@@ -2,7 +2,7 @@
 %%% Do NOT edit. File created by BibTeX with style
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\begin{thebibliography}{16}
+\begin{thebibliography}{19}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -147,6 +147,17 @@ Retrieved January 05, 2022 from \tempurl}
 Retrieved January 05, 2022 from \tempurl}
 
 
+\bibitem[\protect\citeauthoryear{Firebase}{Firebase}{2022}]%
+        {firebase3}
+\bibfield{author}{\bibinfo{person}{Firebase}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Receive messages in an Android app}}.
+\newblock
+\urldef\tempurl%
+\url{https://firebase.google.com/docs/cloud-messaging/android/receive}
+\showURL{%
+Retrieved January 06, 2022 from \tempurl}
+
+
 \bibitem[\protect\citeauthoryear{Google}{Google}{2018}]%
         {capillary}
 \bibfield{author}{\bibinfo{person}{Google}.} \bibinfo{year}{2018}\natexlab{}.
@@ -156,6 +167,28 @@ Retrieved January 05, 2022 from \tempurl}
 \url{https://github.com/google/capillary}
 \showURL{%
 Retrieved January 05, 2022 from \tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Google}{Google}{2022a}]%
+        {google}
+\bibfield{author}{\bibinfo{person}{Google}.} \bibinfo{year}{2022}\natexlab{a}.
+\newblock \bibinfo{booktitle}{\emph{Create a Notification}}.
+\newblock
+\urldef\tempurl%
+\url{https://developer.android.com/training/notify-user/build-notification}
+\showURL{%
+Retrieved January 06, 2022 from \tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Google}{Google}{2022b}]%
+        {google2}
+\bibfield{author}{\bibinfo{person}{Google}.} \bibinfo{year}{2022}\natexlab{b}.
+\newblock \bibinfo{booktitle}{\emph{Transparency report}}.
+\newblock
+\urldef\tempurl%
+\url{https://transparencyreport.google.com/user-data/us-national-security?hl=de}
+\showURL{%
+Retrieved January 06, 2022 from \tempurl}
 
 
 \bibitem[\protect\citeauthoryear{nosnikta10}{nosnikta10}{2021}]%
